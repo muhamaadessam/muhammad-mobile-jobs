@@ -2,116 +2,116 @@ import CopyButton from "./CopyButton";
 
 const jobs = [
   {
-    company: "Diyar United Company",
-    role: "Flutter Developer — Remote",
-    location: "الرياض، السعودية",
-    mode: "عن بعد · دوام كامل",
-    age: "التقديم يغلق 16 يوليو 2026",
+    company: "Jolie Egypt / Meenda",
+    role: "Flutter Mobile Developer",
+    location: "الشيخ زايد، الجيزة",
+    mode: "عن بُعد · دوام كامل",
+    age: "منشور من 6 أيام",
     salary: "غير معلن",
     match: "تطابق قوي",
     matchClass: "strong",
-    why: "الدور طالب Flutter/Dart وREST APIs وFirebase وState Management وHive/SQLite وCI/CD، وهي نقاط قوية في خبرتك.",
-    note: "مطلوب 4+ سنوات؛ قدم لو هتبيع خبرتك الإنتاجية بوضوح، واسأل عن الراتب من أول تواصل.",
-    href: "https://www.bayt.com/en/saudi-arabia/jobs/flutter-developer-remote-5456198/",
-    coverLetter: `Dear Diyar United Company Hiring Team,
+    why: "الدور طالب 2+ سنة Flutter وBLoC/Cubit وREST/GraphQL وHive/SQLite وFirebase وCI/CD؛ ده أقرب وصف مباشر لخبرتك الحالية.",
+    note: "الراتب مخفي. اسأل عن الرينج قبل أي مرحلة طويلة وتأكد إن خبرتك في GraphQL كافية.",
+    href: "https://wuzzuf.net/jobs/p/f2qyxeh9duti-flutter-mobile-developer-jolie-egypt-giza-egypt",
+    coverLetter: `Dear Jolie Egypt Hiring Team,
 
-I am writing to apply for the Flutter Developer - Remote position. I am a Flutter Developer with more than 3 years of production experience building mobile applications with Flutter and Dart, including REST API integration, Firebase services, state management with Bloc/Cubit, local storage using Hive/SQLite, and CI/CD workflows.
+I am applying for the Flutter Mobile Developer position for Meenda. I have more than three years of production experience building Flutter applications for Android, iOS, and Windows using Dart, BLoC/Cubit, Clean Architecture, REST APIs, Firebase, and local storage with Hive and SQLite.
 
-In my recent work, I have delivered cross-platform applications with clean architecture, maintainable code, and attention to performance, deployment, and real user needs. Your role strongly matches my experience in scalable mobile development, API integrations, Firebase, Git, and app release workflows.
+My experience also includes multilingual interfaces, real-time features, testing, performance work, and release automation with GitHub Actions and Fastlane. I am comfortable owning features from API integration through testing and deployment, and I can contribute effectively in a remote product team.
 
-I would be glad to discuss how I can contribute to your digital solutions team. I am also open to remote work and regional opportunities.
+I would be glad to discuss how my experience can support Meenda's mobile launch.
 
 Best regards,
 Muhammad Essam`,
   },
   {
-    company: "SEVEN",
-    role: "Senior Full-Stack Developer — Flutter + Zoho CRM",
-    location: "دبي، الإمارات",
-    mode: "دوام كامل",
-    age: "منذ 3 أيام على LinkedIn",
+    company: "Tawfeer",
+    role: "Flutter Mobile Developer",
+    location: "المعادي، القاهرة",
+    mode: "Hybrid · دوام كامل",
+    age: "منشور من حوالي شهر",
     salary: "غير معلن",
-    match: "تطابق جيد",
-    matchClass: "good",
-    why: "فيه Flutter واضح، لكنه Full-stack ومعاه Zoho CRM؛ مناسب لو مهام الموبايل جزء أساسي من الدور.",
-    note: "قبل التقديم اسأل هل Flutter هو محور الوظيفة ولا إضافة جانبية.",
-    href: "https://www.linkedin.com/jobs/search/?keywords=Flutter%20Developer&location=United%20Arab%20Emirates",
-    coverLetter: `Dear SEVEN Hiring Team,
+    match: "تطابق قوي",
+    matchClass: "strong",
+    why: "مطلوب 3+ سنوات موبايل وFlutter وBLoC/GetX وFirebase وHive/SQLite وREST وFastlane أو GitHub Actions؛ تطابق شبه كامل.",
+    note: "الإعلان ما زال يعرض زر تقديم مباشر، لكن الراتب مخفي. اسأل أيضًا عن عدد أيام الحضور الأسبوعية.",
+    href: "https://wuzzuf.net/jobs/p/rqvrdx4amus0-flutter-mobile-developer-tawfeer-cairo-egypt",
+    coverLetter: `Dear Tawfeer Hiring Team,
 
-I am interested in the Senior Full-Stack Developer role involving Flutter and Zoho CRM integration. My main strength is Flutter development, with more than 3 years of experience building production mobile applications using Dart, Bloc/Cubit, clean architecture, REST APIs, Firebase, and release automation.
+I am writing to apply for the Flutter Mobile Developer role. I have more than three years of production experience with Flutter and Dart, including BLoC/Cubit and GetX, REST API integration, Firebase, Hive, SQLite, testing, and publishing applications across platforms.
 
-I have worked closely with backend services and product requirements, so I am comfortable connecting mobile experiences with APIs and business systems. If Flutter is a core part of this role, I believe my mobile engineering background can help your team deliver reliable, maintainable user-facing applications.
+My recent work includes modular and clean architecture, performance improvements, real-time integrations, and CI/CD workflows using GitHub Actions and Fastlane. The responsibilities in this role closely match the work I deliver today.
 
-I would welcome the chance to learn more about the scope of the Flutter work and how I can contribute.
+I would welcome the opportunity to discuss the team, hybrid schedule, and how I can contribute to Tawfeer's mobile products.
 
 Best regards,
 Muhammad Essam`,
   },
   {
-    company: "Aqary International Group",
-    role: "Flutter Mobile App Developer",
-    location: "أبوظبي، الإمارات",
-    mode: "دوام كامل",
-    age: "منذ 3 أسابيع على LinkedIn",
+    company: "Vee Tech",
+    role: "Flutter Developer",
+    location: "التجمع الخامس، القاهرة",
+    mode: "دوام كامل أو جزئي · On-site مع إمكانية Remote",
+    age: "منشور من يومين",
     salary: "غير معلن",
-    match: "تطابق جيد",
-    matchClass: "good",
-    why: "موبايل Flutter مباشر، ومكانه في الإمارات وأنت قلت إن الانتقال خارج مصر مقبول.",
-    note: "تأكد من تفاصيل الفيزا والراتب قبل أي خطوات طويلة.",
-    href: "https://www.linkedin.com/jobs/search/?keywords=Flutter%20Developer&location=United%20Arab%20Emirates",
-    coverLetter: `Dear Aqary International Group Hiring Team,
+    match: "تطابق قوي",
+    matchClass: "strong",
+    why: "الإعلان بيركز على المهارة الفعلية، Clean Architecture، الأداء، REST APIs، والاستقلالية بدل عدد السنين؛ مناسب جدًا لبروفايلك.",
+    note: "الشركة تفضّل الحضور. اتفق من البداية على Remote أو عدد أيام المكتب، واسأل عن الراتب.",
+    href: "https://wuzzuf.net/jobs/p/4b46aa9f-28b2-4f91-bc85-e56d92fec21f-Flutter-Developer-Vee-Tech-Cairo-Egypt",
+    coverLetter: `Dear Vee Tech Hiring Team,
 
-I am writing to apply for the Flutter Mobile App Developer position. I am a Flutter Developer with more than 3 years of experience delivering cross-platform mobile applications using Flutter, Dart, REST APIs, Firebase, Bloc/Cubit, and clean architecture.
+I am interested in your Flutter Developer position. I have more than three years of hands-on production experience building cross-platform applications with Flutter and Dart, with a strong focus on clean architecture, performance, maintainability, and reliable API integrations.
 
-I have experience turning product requirements into stable mobile features, integrating backend services, handling local storage, improving performance, and preparing apps for release. I am also open to relocation or working with teams in the UAE, depending on the role requirements.
+I have delivered features using BLoC/Cubit, GetX, Firebase, REST APIs, local databases, testing, and automated release workflows. I am comfortable taking ownership, working independently, and translating product requirements into polished Flutter experiences.
 
-I would be happy to discuss how my Flutter experience can support your mobile product roadmap.
+I would be happy to share examples of my work and discuss the preferred work model.
 
 Best regards,
 Muhammad Essam`,
   },
   {
-    company: "Loynova",
-    role: "Senior Software Engineer",
-    location: "الشيخ زايد، الجيزة",
-    mode: "دوام كامل",
-    age: "منذ أسبوع على LinkedIn",
+    company: "Zad aljoud",
+    role: "Mobile Application Developer — Flutter",
+    location: "الرياض، السعودية",
+    mode: "عن بُعد · دوام كامل",
+    age: "إعلان حديث والتقديم مفتوح",
     salary: "غير معلن",
-    match: "راجع المهام أولًا",
+    match: "ممكن — فرق خبرة",
     matchClass: "good",
-    why: "ظهر داخل نتائج Flutter في مصر ومكانه مناسب لو فيه حضور أكتر من يوم، لكنه ليس بعنوان Flutter صريح.",
-    note: "لا تقدم إلا لو وصف الوظيفة داخل LinkedIn يؤكد Flutter/Dart أو Mobile Engineering.",
-    href: "https://www.linkedin.com/jobs/search/?keywords=Flutter%20Developer&location=Egypt",
-    coverLetter: `Dear Loynova Hiring Team,
+    why: "Flutter وBloc وClean Architecture وREST وFirebase والاختبارات وCI/CD كلها مطابقة، والعمل Remote.",
+    note: "طالبين 5 سنوات موبايل، وأنت 3+ سنوات إنتاجية. قدم فقط لو تقدر تعرض ملكية واضحة لمنتجات منشورة.",
+    href: "https://wuzzuf.net/saudi/jobs/p/pbtrdcx4mggd-mobile-application-developer-flutter-zad-aljoud-riyadh-saudi-arabia",
+    coverLetter: `Dear Zad aljoud Hiring Team,
 
-I am interested in the Senior Software Engineer opportunity. My strongest area is mobile engineering with Flutter, where I have more than 3 years of production experience using Dart, Bloc/Cubit, clean architecture, REST APIs, Firebase, Git, CI/CD, and app deployment workflows.
+I am applying for the Mobile Application Developer - Flutter role. I have more than three years of production experience delivering cross-platform Flutter applications with Dart, BLoC/Cubit, Clean Architecture, REST APIs, Firebase, testing, and CI/CD.
 
-I have built and maintained real applications across multiple platforms, working on performance, architecture, API integration, and reliable release processes. If this role includes Flutter, Dart, or mobile product development, I believe my background would be a strong match.
+Although my total experience is below the stated five-year preference, my work has included ownership of production features, architecture migrations, performance improvements, local persistence, real-time integrations, and release workflows. I believe the depth and relevance of this experience make me worth considering.
 
-I would appreciate the opportunity to learn more about the technical scope of the position.
+I would be glad to share my portfolio and discuss the role.
 
 Best regards,
 Muhammad Essam`,
   },
   {
-    company: "SSC HR Solutions",
+    company: "Cubic Information Systems",
     role: "Senior Flutter Developer",
-    location: "القاهرة / العين السخنة",
-    mode: "دوام كامل",
-    age: "منذ 4 أشهر على LinkedIn",
+    location: "القاهرة الجديدة",
+    mode: "On-site · دوام كامل",
+    age: "إعلان أقدم لكنه ما زال يعرض التقديم",
     salary: "غير معلن",
-    match: "احتياطي فقط",
-    matchClass: "stretch",
-    why: "العنوان مطابق، لكن عمر الإعلان 4 أشهر، فاعتبره آخر اختيار وليس أولوية اليوم.",
-    note: "افتحه من LinkedIn فقط لو عايز توسع دائرة التقديم بعد الفرص الحديثة.",
-    href: "https://www.linkedin.com/jobs/search/?keywords=Flutter%20Developer&location=Egypt",
-    coverLetter: `Dear SSC HR Solutions Hiring Team,
+    match: "ممكن — تحقق أولًا",
+    matchClass: "good",
+    why: "3+ سنوات Flutter وClean Architecture وMVVM وBLoC وFirebase وREST وCI/CD مطابقة، والشركة مقرها دبي.",
+    note: "الإعلان قديم نسبيًا. افتحه وتأكد إن التقديم ما زال فعليًا، واسأل عن الراتب ونظام الحضور قبل المتابعة.",
+    href: "https://wuzzuf.net/jobs/p/kcu4w3gntlht-senior-flutter-developer-cubic-information-systems-cairo-egypt",
+    coverLetter: `Dear Cubic Information Systems Hiring Team,
 
-I am writing to express my interest in the Senior Flutter Developer position. I am a Flutter Developer with more than 3 years of hands-on production experience building mobile applications with Flutter and Dart.
+I am interested in the Senior Flutter Developer position. I have more than three years of production Flutter experience using Dart, BLoC/Cubit, Clean Architecture, MVVM, REST APIs, Firebase, testing, and CI/CD.
 
-My experience includes Bloc/Cubit state management, clean architecture, REST API integration, Firebase, local storage, Git workflows, CI/CD, and publishing applications across platforms. I focus on writing maintainable code, improving performance, and delivering features that fit business needs.
+My background includes building and maintaining cross-platform applications, migrating architecture, improving performance, integrating backend services, and supporting reliable releases. The technical scope of this role is closely aligned with my current experience.
 
-I would be glad to discuss whether my Flutter experience matches the current requirements for this role.
+Please let me know if the position is still open. I would be pleased to discuss how I can contribute.
 
 Best regards,
 Muhammad Essam`,
@@ -119,58 +119,10 @@ Muhammad Essam`,
 ] as const;
 
 const rejected = [
-  "Dsquares: صفحة Workable بتقول إن الوظيفة لم تعد متاحة.",
-  "ZORA / Up2staff: المصدر ضعيف وغير كافٍ كفرصة جدية للتقديم.",
-  "Recast Designs: الإعلان قديم جدًا، فلا يدخل في أولويات اليوم.",
-  "Dorra / Pulse Job: الصفحة لا تعرض تفاصيل كافية بدون تحقق إضافي، فخرجت من القائمة الأساسية.",
-] as const;
-
-const emailReports = [
-  {
-    source: "Nawy Real Estate",
-    subject: "Senior Flutter Developer - Nawy",
-    time: "14 يوليو · 6:33 ص",
-    type: "رد شركة",
-    priority: "عالي",
-    summary: "إيميل من Nawy يشير لاهتمامهم بمعرفة خبرتك لوظيفة Senior Flutter Developer.",
-    action: "افتح الإيميل وراجع هل فيه طلب رد أو خطوة تالية. دي أهم رسالة متابعة في آخر 48 ساعة.",
-  },
-  {
-    source: "Sarah Mustafa",
-    subject: "Senior Mobile Developer - BlueCloud Technologies",
-    time: "13 يوليو · 7:03 م",
-    type: "رد شركة",
-    priority: "عالي",
-    summary: "رسالة بخصوص وظيفة Senior Mobile Developer في BlueCloud Technologies، وتقول إنهم سيراجعون طلبك خلال الأيام القادمة.",
-    action: "تابعها كفرصة حقيقية، خصوصًا لأنها في القاهرة ومرتبطة بموبايل.",
-  },
-  {
-    source: "Mindrift",
-    subject: "Freelance Mobile App Developer",
-    time: "13 يوليو · 6:27 م",
-    type: "رد مراجعة",
-    priority: "متوسط",
-    summary: "Mindrift أكدوا إنهم بيراجعوا معلوماتك لدور Freelance Mobile App Developer (iOS/Android).",
-    action: "مناسبة كموبايل عام، لكنها ليست Flutter صريحة. تابعها لو طبيعة المهام مناسبة.",
-  },
-  {
-    source: "Adree Recruiting",
-    subject: "Flutter Developer - Adree",
-    time: "13 يوليو",
-    type: "رد شركة",
-    priority: "عالي",
-    summary: "Adree Recruiting أرسلوا إنهم استلموا طلبك لوظيفة Flutter Developer وسيبقوك على اطلاع بالخطوة التالية.",
-    action: "اعتبرها من أهم فرص المتابعة؛ لو مفيش رد خلال أيام ابعت follow-up.",
-  },
-  {
-    source: "Adam Ali",
-    subject: "Flutter Mobile Developer at Jolie Egypt",
-    time: "12 يوليو",
-    type: "رد على تقديم",
-    priority: "عالي",
-    summary: "إيميل مباشر بخصوص تقديمك لوظيفة Flutter Mobile Developer في Jolie Egypt.",
-    action: "افتحه وراجع هل فيه سؤال أو خطوة مطلوبة؛ ده يبدو أكثر شخصية من job alert.",
-  },
+  "UE Technology وEGYTALHUB وFP وSSC: صفحات LinkedIn بتقول إن التقديم اتقفل.",
+  "CodeNinja: الوظيفة في الرياض لكن الشركة مقرها باكستان، فمش مطابقة لشرط المقر العربي.",
+  "Tanemera وأي Internship/Junior: خارج مستوى الخبرة المطلوب.",
+  "MOWEEX: مقر الشركة الظاهر النمسا، فخرجت من شرط الشركات العربية.",
 ] as const;
 
 export default function Home() {
@@ -183,15 +135,13 @@ export default function Home() {
         </nav>
         <div className="heroCopy">
           <p className="eyebrow">تقرير وظائف Flutter اليومي</p>
-          <h1>تقرير مصحح: فرص قابلة للتقديم، مش لينكات وخلاص.</h1>
-          <p className="intro">
-            شيلت الفرص المقفولة أو ضعيفة المصدر، وخلّيت التقرير مبني على فرص لها صفحة حية أو ظهور حديث في مصدر توظيف واضح.
-          </p>
+          <h1>٣ فرص قوية فعلًا، وفرصتين يستاهلوا مراجعة سريعة.</h1>
+          <p className="intro">كل فرصة هنا لها مسار تقديم ظاهر، وشركة مقرها في مصر أو دولة عربية. الراتب غير معلن في كل الفرص، فاسأل عنه بدري.</p>
         </div>
         <div className="stats" aria-label="ملخص التقرير">
-          <div><strong>5</strong><span>فرص قابلة للمراجعة</span></div>
-          <div><strong>1</strong><span>تقديم مباشر مؤكد</span></div>
-          <div><strong>4</strong><span>فرص مستبعدة من التقرير القديم</span></div>
+          <div><strong>3</strong><span>تطابق قوي</span></div>
+          <div><strong>2</strong><span>فرص ممكنة</span></div>
+          <div><strong>0</strong><span>ردود Gmail مؤكدة</span></div>
         </div>
       </header>
 
@@ -204,11 +154,8 @@ export default function Home() {
 
       <section className="content">
         <div className="sectionHead">
-          <div>
-            <p className="eyebrow">الأولوية الآن</p>
-            <h2>ابدأ بالأول فقط، ثم راجع الباقي</h2>
-          </div>
-          <p>أي فرصة بدون راتب معلن لازم أول سؤال فيها يكون عن الرينج. أقل من 30,000 جنيه أو 800 دولار؟ اقفلها بدري.</p>
+          <div><p className="eyebrow">الأولوية اليوم</p><h2>ابدأ بـ Jolie ثم Tawfeer ثم Vee Tech</h2></div>
+          <p>المرتب مخفي في الخمس فرص. لو الرينج أقل من 30,000 جنيه أو 800 دولار، وفّر وقتك واقفلها بدري.</p>
         </div>
 
         <div className="jobGrid">
@@ -220,22 +167,13 @@ export default function Home() {
               </div>
               <p className="company">{job.company}</p>
               <h3>{job.role}</h3>
-              <div className="meta">
-                <span>{job.location}</span>
-                <span>{job.mode}</span>
-                <span>{job.age}</span>
-              </div>
-              <div className="salary">
-                <span>الراتب</span>
-                <strong>{job.salary}</strong>
-              </div>
+              <div className="meta"><span>{job.location}</span><span>{job.mode}</span><span>{job.age}</span></div>
+              <div className="salary"><span>الراتب</span><strong>{job.salary}</strong></div>
               <p className="why"><b>ليه مناسبة:</b> {job.why}</p>
               <p className="note"><b>خد بالك:</b> {job.note}</p>
               <div className="actions">
                 <CopyButton text={job.coverLetter} />
-                <a href={job.href} target="_blank" rel="noreferrer" aria-label={`فتح وظيفة ${job.role} في ${job.company}`}>
-                  افتح الوظيفة <span aria-hidden="true">↗</span>
-                </a>
+                <a href={job.href} target="_blank" rel="noreferrer" aria-label={`فتح وظيفة ${job.role} في ${job.company}`}>افتح الوظيفة <span aria-hidden="true">↗</span></a>
               </div>
             </article>
           ))}
@@ -243,43 +181,29 @@ export default function Home() {
 
         <section className="emailSection" aria-label="إيميلات التوظيف آخر 48 ساعة">
           <div className="sectionHead">
-            <div>
-              <p className="eyebrow">من Gmail</p>
-              <h2>إيميلات التوظيف آخر ٤٨ ساعة</h2>
-            </div>
-            <p>بحثت في حساب muhammad159e@gmail.com وفلترت 44 نتيجة. الظاهر هنا ردود الشركات والرسائل المهمة فقط، بدون رسائل مرسلة منك أو تأكيدات تقديم أو job alerts.</p>
+            <div><p className="eyebrow">من Gmail</p><h2>إيميلات التوظيف آخر ٤٨ ساعة</h2></div>
+            <p>تعذر الوصول إلى Chrome/Gmail في تشغيل اليوم، لذلك لم أنشر أي رسائل قديمة أو إيصالات تقديم على إنها ردود شركات.</p>
           </div>
           <div className="emailGrid">
-            {emailReports.map((email) => (
-              <article className="emailCard" key={`${email.source}-${email.subject}`}>
-                <div className="cardTop">
-                  <span className="rank">{email.time}</span>
-                  <span className={`match ${email.priority === "عالي" ? "strong" : email.priority === "متوسط" ? "good" : "stretch"}`}>{email.priority}</span>
-                </div>
-                <p className="company">{email.source}</p>
-                <h3>{email.subject}</h3>
-                <div className="meta">
-                  <span>{email.type}</span>
-                </div>
-                <p className="why"><b>الملخص:</b> {email.summary}</p>
-                <p className="note"><b>الخطوة المقترحة:</b> {email.action}</p>
-              </article>
-            ))}
+            <article className="emailCard">
+              <div className="cardTop"><span className="rank">14 يوليو</span><span className="match stretch">تعذر الفحص</span></div>
+              <p className="company">muhammad159e@gmail.com</p>
+              <h3>لا توجد ردود مؤكدة منشورة اليوم</h3>
+              <p className="why"><b>السبب:</b> اتصال Chrome غير متاح في التشغيل الحالي، فتعذر تنفيذ بحث آخر 48 ساعة.</p>
+              <p className="note"><b>الخطوة التالية:</b> عند عودة الوصول، يتكرر البحث ويظهر فقط رد بشري أو مقابلة أو تقييم أو خطوة تالية مهمة.</p>
+            </article>
           </div>
         </section>
 
         <div className="rejected" aria-label="فرص مستبعدة">
-          <p className="eyebrow">تصحيح مهم</p>
-          <h2>اللي اتشال من التقرير</h2>
-          <ul>
-            {rejected.map((item) => <li key={item}>{item}</li>)}
-          </ul>
+          <p className="eyebrow">فلترة اليوم</p><h2>ليه فرص تانية ما دخلتش التقرير؟</h2>
+          <ul>{rejected.map((item) => <li key={item}>{item}</li>)}</ul>
         </div>
       </section>
 
       <footer>
-        <p>الترتيب بعد التصحيح: فرصة مؤكدة أولًا، ثم فرص تحتاج مراجعة داخل LinkedIn.</p>
-        <p>آخر تصحيح: 14 يوليو 2026 · القاهرة</p>
+        <p>الترتيب مبني على قوة التطابق وحداثة الإعلان ووضوح مسار التقديم.</p>
+        <p>آخر تحديث: 14 يوليو 2026 · القاهرة</p>
       </footer>
     </main>
   );

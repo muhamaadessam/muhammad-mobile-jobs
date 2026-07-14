@@ -1,3 +1,5 @@
+import CopyButton from "./CopyButton";
+
 const jobs = [
   {
     company: "Diyar United Company",
@@ -11,6 +13,16 @@ const jobs = [
     why: "الدور طالب Flutter/Dart وREST APIs وFirebase وState Management وHive/SQLite وCI/CD، وهي نقاط قوية في خبرتك.",
     note: "مطلوب 4+ سنوات؛ قدم لو هتبيع خبرتك الإنتاجية بوضوح، واسأل عن الراتب من أول تواصل.",
     href: "https://www.bayt.com/en/saudi-arabia/jobs/flutter-developer-remote-5456198/",
+    coverLetter: `Dear Diyar United Company Hiring Team,
+
+I am writing to apply for the Flutter Developer - Remote position. I am a Flutter Developer with more than 3 years of production experience building mobile applications with Flutter and Dart, including REST API integration, Firebase services, state management with Bloc/Cubit, local storage using Hive/SQLite, and CI/CD workflows.
+
+In my recent work, I have delivered cross-platform applications with clean architecture, maintainable code, and attention to performance, deployment, and real user needs. Your role strongly matches my experience in scalable mobile development, API integrations, Firebase, Git, and app release workflows.
+
+I would be glad to discuss how I can contribute to your digital solutions team. I am also open to remote work and regional opportunities.
+
+Best regards,
+Muhammad Essam`,
   },
   {
     company: "SEVEN",
@@ -24,6 +36,16 @@ const jobs = [
     why: "فيه Flutter واضح، لكنه Full-stack ومعاه Zoho CRM؛ مناسب لو مهام الموبايل جزء أساسي من الدور.",
     note: "قبل التقديم اسأل هل Flutter هو محور الوظيفة ولا إضافة جانبية.",
     href: "https://www.linkedin.com/jobs/search/?keywords=Flutter%20Developer&location=United%20Arab%20Emirates",
+    coverLetter: `Dear SEVEN Hiring Team,
+
+I am interested in the Senior Full-Stack Developer role involving Flutter and Zoho CRM integration. My main strength is Flutter development, with more than 3 years of experience building production mobile applications using Dart, Bloc/Cubit, clean architecture, REST APIs, Firebase, and release automation.
+
+I have worked closely with backend services and product requirements, so I am comfortable connecting mobile experiences with APIs and business systems. If Flutter is a core part of this role, I believe my mobile engineering background can help your team deliver reliable, maintainable user-facing applications.
+
+I would welcome the chance to learn more about the scope of the Flutter work and how I can contribute.
+
+Best regards,
+Muhammad Essam`,
   },
   {
     company: "Aqary International Group",
@@ -37,6 +59,16 @@ const jobs = [
     why: "موبايل Flutter مباشر، ومكانه في الإمارات وأنت قلت إن الانتقال خارج مصر مقبول.",
     note: "تأكد من تفاصيل الفيزا والراتب قبل أي خطوات طويلة.",
     href: "https://www.linkedin.com/jobs/search/?keywords=Flutter%20Developer&location=United%20Arab%20Emirates",
+    coverLetter: `Dear Aqary International Group Hiring Team,
+
+I am writing to apply for the Flutter Mobile App Developer position. I am a Flutter Developer with more than 3 years of experience delivering cross-platform mobile applications using Flutter, Dart, REST APIs, Firebase, Bloc/Cubit, and clean architecture.
+
+I have experience turning product requirements into stable mobile features, integrating backend services, handling local storage, improving performance, and preparing apps for release. I am also open to relocation or working with teams in the UAE, depending on the role requirements.
+
+I would be happy to discuss how my Flutter experience can support your mobile product roadmap.
+
+Best regards,
+Muhammad Essam`,
   },
   {
     company: "Loynova",
@@ -50,6 +82,16 @@ const jobs = [
     why: "ظهر داخل نتائج Flutter في مصر ومكانه مناسب لو فيه حضور أكتر من يوم، لكنه ليس بعنوان Flutter صريح.",
     note: "لا تقدم إلا لو وصف الوظيفة داخل LinkedIn يؤكد Flutter/Dart أو Mobile Engineering.",
     href: "https://www.linkedin.com/jobs/search/?keywords=Flutter%20Developer&location=Egypt",
+    coverLetter: `Dear Loynova Hiring Team,
+
+I am interested in the Senior Software Engineer opportunity. My strongest area is mobile engineering with Flutter, where I have more than 3 years of production experience using Dart, Bloc/Cubit, clean architecture, REST APIs, Firebase, Git, CI/CD, and app deployment workflows.
+
+I have built and maintained real applications across multiple platforms, working on performance, architecture, API integration, and reliable release processes. If this role includes Flutter, Dart, or mobile product development, I believe my background would be a strong match.
+
+I would appreciate the opportunity to learn more about the technical scope of the position.
+
+Best regards,
+Muhammad Essam`,
   },
   {
     company: "SSC HR Solutions",
@@ -63,6 +105,16 @@ const jobs = [
     why: "العنوان مطابق، لكن عمر الإعلان 4 أشهر، فاعتبره آخر اختيار وليس أولوية اليوم.",
     note: "افتحه من LinkedIn فقط لو عايز توسع دائرة التقديم بعد الفرص الحديثة.",
     href: "https://www.linkedin.com/jobs/search/?keywords=Flutter%20Developer&location=Egypt",
+    coverLetter: `Dear SSC HR Solutions Hiring Team,
+
+I am writing to express my interest in the Senior Flutter Developer position. I am a Flutter Developer with more than 3 years of hands-on production experience building mobile applications with Flutter and Dart.
+
+My experience includes Bloc/Cubit state management, clean architecture, REST API integration, Firebase, local storage, Git workflows, CI/CD, and publishing applications across platforms. I focus on writing maintainable code, improving performance, and delivering features that fit business needs.
+
+I would be glad to discuss whether my Flutter experience matches the current requirements for this role.
+
+Best regards,
+Muhammad Essam`,
   },
 ] as const;
 
@@ -131,9 +183,12 @@ export default function Home() {
               </div>
               <p className="why"><b>ليه مناسبة:</b> {job.why}</p>
               <p className="note"><b>خد بالك:</b> {job.note}</p>
-              <a href={job.href} target="_blank" rel="noreferrer" aria-label={`فتح وظيفة ${job.role} في ${job.company}`}>
-                افتح الوظيفة <span aria-hidden="true">↗</span>
-              </a>
+              <div className="actions">
+                <CopyButton text={job.coverLetter} />
+                <a href={job.href} target="_blank" rel="noreferrer" aria-label={`فتح وظيفة ${job.role} في ${job.company}`}>
+                  افتح الوظيفة <span aria-hidden="true">↗</span>
+                </a>
+              </div>
             </article>
           ))}
         </div>

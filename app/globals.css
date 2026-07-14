@@ -70,8 +70,15 @@ h3 { margin: 0; font-size: clamp(25px, 3vw, 36px); line-height: 1.2; letter-spac
 .salary span { color: var(--muted); }
 .why, .note { margin: 0 0 12px; line-height: 1.72; font-size: 14px; color: #43514c; }
 .note { color: #76665b; }
-.jobCard a { margin-top: auto; display: flex; justify-content: space-between; align-items: center; text-decoration: none; background: var(--ink); color: white; padding: 15px 17px; border-radius: 12px; font-weight: 800; }
-.jobCard a:hover, .jobCard a:focus-visible { background: var(--green); outline: 3px solid var(--lime); outline-offset: 2px; }
+.actions { margin-top: auto; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.copyButton,
+.jobCard a { min-height: 50px; display: flex; justify-content: center; align-items: center; gap: 8px; text-decoration: none; border-radius: 12px; font-weight: 800; font-size: 14px; }
+.copyButton { border: 1px solid var(--ink); background: transparent; color: var(--ink); cursor: pointer; font-family: inherit; }
+.jobCard a { background: var(--ink); color: white; padding: 0 15px; }
+.copyButton:hover,
+.copyButton:focus-visible,
+.jobCard a:hover,
+.jobCard a:focus-visible { background: var(--green); color: white; outline: 3px solid var(--lime); outline-offset: 2px; }
 .jobCard a span { font-size: 20px; }
 .rejected { margin-top: 34px; border-top: 1px solid var(--line); padding-top: 34px; }
 .rejected h2 { font-size: clamp(28px, 4vw, 46px); margin-bottom: 18px; }
@@ -88,6 +95,7 @@ footer p { margin: 0; }
   .sectionHead { align-items: start; flex-direction: column; }
   .jobGrid { grid-template-columns: 1fr; }
   .jobCard { min-height: 500px; }
+  .actions { grid-template-columns: 1fr; }
   footer { flex-direction: column; }
 }
 

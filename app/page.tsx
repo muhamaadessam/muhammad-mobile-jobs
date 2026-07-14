@@ -125,6 +125,144 @@ const rejected = [
   "Dorra / Pulse Job: الصفحة لا تعرض تفاصيل كافية بدون تحقق إضافي، فخرجت من القائمة الأساسية.",
 ] as const;
 
+const emailReports = [
+  {
+    source: "LinkedIn",
+    subject: "تم إرسال تقديمك إلى Salt",
+    time: "14 يوليو · 7:12 ص",
+    type: "تأكيد تقديم",
+    priority: "متوسط",
+    summary: "تقديمك اتبعت لوظيفة Flutter Developer في Salt بدبي. الإيميل فيه رابط وظيفة LinkedIn.",
+    action: "تابع حالة التقديم على LinkedIn واسأل عن الراتب/نظام العمل لو حصل تواصل.",
+  },
+  {
+    source: "Tanemera",
+    subject: "ENG-FLT-SR-006",
+    time: "14 يوليو · 6:54 ص",
+    type: "إيميل مرسل منك",
+    priority: "متوسط",
+    summary: "أنت أرسلت Cover Letter وCV لوظيفة Senior Flutter Developer في Tanemera.",
+    action: "انتظر ردهم، ولو مفيش رد خلال 5 أيام ابعت follow-up قصير.",
+  },
+  {
+    source: "Pulse Job",
+    subject: "استلام تقديم Dorra Developments",
+    time: "14 يوليو · 6:47 ص",
+    type: "تأكيد تقديم",
+    priority: "متوسط",
+    summary: "Pulse Job أكد استلام تقديمك لوظيفة Senior Flutter Developer في Dorra Developments.",
+    action: "احتفظ بها كمتابعة، لكن لأن مصدر الوظيفة كان غير واضح عند الفتح، لا تعتبرها أولوية عالية.",
+  },
+  {
+    source: "Nawy Real Estate",
+    subject: "Senior Flutter Developer - Nawy",
+    time: "14 يوليو · 6:33 ص",
+    type: "رد شركة",
+    priority: "عالي",
+    summary: "إيميل من Nawy يشير لاهتمامهم بمعرفة خبرتك لوظيفة Senior Flutter Developer.",
+    action: "افتح الإيميل وراجع هل فيه طلب رد أو خطوة تالية. دي أهم رسالة متابعة في آخر 48 ساعة.",
+  },
+  {
+    source: "Workable / LinkedIn",
+    subject: "تأكيد تقديم Nawy",
+    time: "14 يوليو · 6:30-6:31 ص",
+    type: "تأكيد تقديم",
+    priority: "عالي",
+    summary: "Workable وLinkedIn أكدوا إن تقديمك لوظيفة Senior Flutter Developer في Nawy اتسجل بنجاح.",
+    action: "اربطها برسالة Nawy نفسها، وخليها أول متابعة عندك.",
+  },
+  {
+    source: "Indeed",
+    subject: "Flutter Developer at Adree",
+    time: "14 يوليو · 4:43-4:52 ص",
+    type: "Job alert",
+    priority: "متوسط",
+    summary: "تنبيهات Indeed فيها Flutter Developer at Adree ووظائف Flutter/Application Developer في القاهرة.",
+    action: "افتح نتائج Indeed وراجع Adree فقط أولًا لأنها متكررة ومباشرة.",
+  },
+  {
+    source: "BlueCloud / Workable / LinkedIn",
+    subject: "Senior Mobile Developer - BlueCloud Technologies",
+    time: "13 يوليو · 6:51-7:03 م",
+    type: "تأكيد تقديم + رد",
+    priority: "عالي",
+    summary: "وصلت سلسلة رسائل تؤكد تقديمك لوظيفة Senior Mobile Developer في BlueCloud Technologies، ورسالة تقول إنهم سيراجعون طلبك خلال الأيام القادمة.",
+    action: "تابعها كفرصة حقيقية، خصوصًا لأنها في القاهرة ومرتبطة بموبايل.",
+  },
+  {
+    source: "Workable",
+    subject: "Envision Employment Solutions",
+    time: "13 يوليو · 6:46 م",
+    type: "تأكيد تقديم",
+    priority: "عالي",
+    summary: "تأكيد تقديم لوظيفة Senior Mobile Developer (Flutter) في Envision Employment Solutions.",
+    action: "دي مناسبة جدًا للـCV. افتح نسخة التقديم واحتفظ بالرابط للمتابعة.",
+  },
+  {
+    source: "Mindrift / Workable / LinkedIn",
+    subject: "Freelance Mobile App Developer",
+    time: "13 يوليو · 6:27 م",
+    type: "تأكيد تقديم",
+    priority: "متوسط",
+    summary: "Mindrift أكدوا إنهم بيراجعوا معلوماتك لدور Freelance Mobile App Developer (iOS/Android).",
+    action: "مناسبة كموبايل عام، لكنها ليست Flutter صريحة. تابعها لو طبيعة المهام مناسبة.",
+  },
+  {
+    source: "Adree Recruiting / Workable / LinkedIn",
+    subject: "Flutter Developer - Adree",
+    time: "13 يوليو",
+    type: "تأكيد تقديم + رد",
+    priority: "عالي",
+    summary: "Adree أكدوا استلام طلبك لوظيفة Flutter Developer، ومعاه تأكيدات من Workable وLinkedIn.",
+    action: "اعتبرها من أهم فرص المتابعة؛ لو مفيش رد خلال أيام ابعت follow-up.",
+  },
+  {
+    source: "Mostafa Sayed",
+    subject: "دعوة Flutter Developer Internship من TransIT",
+    time: "13 يوليو",
+    type: "دعوة",
+    priority: "منخفض",
+    summary: "دعوة مرتبطة بـFlutter Developer Internship من Transport Information Technology (TransIT).",
+    action: "أنت خبرتك أعلى من Internship؛ تجاهلها إلا لو فيها مسار سريع أو شركة مهمة بالنسبة لك.",
+  },
+  {
+    source: "LinkedIn Job Alerts",
+    subject: "Loynova - Senior Software Engineer",
+    time: "13 يوليو",
+    type: "Job alert",
+    priority: "متوسط",
+    summary: "تنبيه LinkedIn عن Loynova - Senior Software Engineer ضمن بحث Flutter في مصر.",
+    action: "افتح الوصف وتأكد إن Flutter جزء أساسي قبل التقديم.",
+  },
+  {
+    source: "LinkedIn",
+    subject: "Datamatics Technologies",
+    time: "13 يوليو",
+    type: "تأكيد تقديم",
+    priority: "متوسط",
+    summary: "LinkedIn أكد إرسال تقديمك لوظيفة Mobile App Developer في Datamatics Technologies بالقاهرة.",
+    action: "تابعها لو الدور موبايل فعلي وليس web فقط.",
+  },
+  {
+    source: "Adam Ali",
+    subject: "Flutter Mobile Developer at Jolie Egypt",
+    time: "12 يوليو",
+    type: "رد على تقديم",
+    priority: "عالي",
+    summary: "إيميل مباشر بخصوص تقديمك لوظيفة Flutter Mobile Developer في Jolie Egypt.",
+    action: "افتحه وراجع هل فيه سؤال أو خطوة مطلوبة؛ ده يبدو أكثر شخصية من job alert.",
+  },
+  {
+    source: "Bayt / Indeed",
+    subject: "تنبيهات وظائف عامة",
+    time: "12-14 يوليو",
+    type: "Job alerts",
+    priority: "منخفض",
+    summary: "وصلت تنبيهات عامة من Bayt وIndeed وLinkedIn عن وظائف software/developer متعددة.",
+    action: "استخدمها للبحث فقط. لا تضيع وقت في غير Flutter/Mobile أو شركة عربية مناسبة.",
+  },
+] as const;
+
 export default function Home() {
   return (
     <main>
@@ -192,6 +330,33 @@ export default function Home() {
             </article>
           ))}
         </div>
+
+        <section className="emailSection" aria-label="إيميلات التوظيف آخر 48 ساعة">
+          <div className="sectionHead">
+            <div>
+              <p className="eyebrow">من Gmail</p>
+              <h2>إيميلات التوظيف آخر ٤٨ ساعة</h2>
+            </div>
+            <p>بحثت في حساب muhammad159e@gmail.com عن إيميلات لها علاقة بالتوظيف. ظهرت 44 نتيجة، ودي أهم الرسائل المصنفة.</p>
+          </div>
+          <div className="emailGrid">
+            {emailReports.map((email) => (
+              <article className="emailCard" key={`${email.source}-${email.subject}`}>
+                <div className="cardTop">
+                  <span className="rank">{email.time}</span>
+                  <span className={`match ${email.priority === "عالي" ? "strong" : email.priority === "متوسط" ? "good" : "stretch"}`}>{email.priority}</span>
+                </div>
+                <p className="company">{email.source}</p>
+                <h3>{email.subject}</h3>
+                <div className="meta">
+                  <span>{email.type}</span>
+                </div>
+                <p className="why"><b>الملخص:</b> {email.summary}</p>
+                <p className="note"><b>الخطوة المقترحة:</b> {email.action}</p>
+              </article>
+            ))}
+          </div>
+        </section>
 
         <div className="rejected" aria-label="فرص مستبعدة">
           <p className="eyebrow">تصحيح مهم</p>

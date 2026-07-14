@@ -1,82 +1,76 @@
 const jobs = [
   {
-    company: "Dsquares",
-    role: "Senior Mobile Developer — Flutter",
-    location: "6 أكتوبر، الجيزة",
-    mode: "هجين · دوام كامل",
-    age: "منذ 8 أيام",
-    salary: "غير معلن",
-    match: "تطابق قوي",
-    matchClass: "strong",
-    why: "أقرب فرصة لخبرتك: Flutter وBLoC/Cubit وClean Architecture وREST وGetIt وHive، والمطلوب يبدأ من سنتين خبرة.",
-    note: "اسأل في أول مكالمة عن عدد أيام الحضور والراتب.",
-    href: "https://jobs.workable.com/view/cJRsTpmcpmrfxN8ZLz1rsj/hybrid-senior-mobile-developer---flutter-in-6th-of-october-city-at-dsquares",
-  },
-  {
-    company: "Dorra Developments",
-    role: "Senior Flutter Developer",
-    location: "الشيخ زايد، الجيزة",
-    mode: "من المكتب · دوام كامل",
-    age: "آخر موعد 16 يوليو",
-    salary: "45–75 ألف جنيه",
-    match: "تطابق قوي",
-    matchClass: "strong",
-    why: "المهارات المطلوبة مطابقة تقريبًا: Flutter/Dart وAndroid/iOS وREST وBloc وGit، والراتب أعلى من حدك الأدنى.",
-    note: "مطلوب 4+ سنوات؛ أنت قريب جدًا، فركّز على خبرتك الإنتاجية وتعدد المنصات.",
-    href: "https://www.pulsjob.com/jobs/dorra-developments%2Fjob%2Fsenior-flutter-developer",
-  },
-  {
-    company: "Nawy",
-    role: "Senior Flutter Developer",
-    location: "المعادي، القاهرة",
-    mode: "من المكتب · دوام كامل",
-    age: "منذ يوم",
-    salary: "غير معلن",
-    match: "تطابق جيد",
-    matchClass: "good",
-    why: "الخبرة المطلوبة 3–5 سنوات مع Flutter وAndroid/iOS والاختبارات وواجهات API؛ ده قريب جدًا من ملفك.",
-    note: "تأكد من الراتب قبل مراحل المقابلات المتقدمة.",
-    href: "https://eg.linkedin.com/company/nawyestate/jobs",
-  },
-  {
-    company: "Recast Designs",
-    role: "Remote Flutter Developer",
-    location: "مصر",
-    mode: "عن بُعد · دوام كامل",
-    age: "منذ 4 أشهر",
-    salary: "غير معلن",
-    match: "تطابق قوي",
-    matchClass: "strong",
-    why: "1–3 سنوات وخبرة Flutter وBloc وREST وFirebase وCI/CD؛ المطلوب يطابق خبرتك بشكل مباشر.",
-    note: "الإعلان قديم نسبيًا؛ افتح الرابط وتأكد أنه ما زال يقبل التقديم.",
-    href: "https://eg.linkedin.com/jobs/view/remote-flutter-developer-at-recast-designs-4375282891",
-  },
-  {
-    company: "ZORA",
-    role: "Front-End Flutter Developer",
+    company: "Diyar United Company",
+    role: "Flutter Developer — Remote",
     location: "الرياض، السعودية",
-    mode: "عن بُعد · دوام كامل",
-    age: "محدّث 26 يونيو",
+    mode: "عن بعد · دوام كامل",
+    age: "التقديم يغلق 16 يوليو 2026",
+    salary: "غير معلن",
+    match: "تطابق قوي",
+    matchClass: "strong",
+    why: "الدور طالب Flutter/Dart وREST APIs وFirebase وState Management وHive/SQLite وCI/CD، وهي نقاط قوية في خبرتك.",
+    note: "مطلوب 4+ سنوات؛ قدم لو هتبيع خبرتك الإنتاجية بوضوح، واسأل عن الراتب من أول تواصل.",
+    href: "https://www.bayt.com/en/saudi-arabia/jobs/flutter-developer-remote-5456198/",
+  },
+  {
+    company: "SEVEN",
+    role: "Senior Full-Stack Developer — Flutter + Zoho CRM",
+    location: "دبي، الإمارات",
+    mode: "دوام كامل",
+    age: "منذ 3 أيام على LinkedIn",
     salary: "غير معلن",
     match: "تطابق جيد",
     matchClass: "good",
-    why: "Flutter للموبايل والويب وREST وGit، مع أفضلية لـ CI/CD؛ مناسب لتعدد المنصات عندك.",
-    note: "تحقق من الراتب وطريقة التعاقد قبل التقديم.",
-    href: "https://up2staff.com/front-end-flutter-developer-role-at-zora",
+    why: "فيه Flutter واضح، لكنه Full-stack ومعاه Zoho CRM؛ مناسب لو مهام الموبايل جزء أساسي من الدور.",
+    note: "قبل التقديم اسأل هل Flutter هو محور الوظيفة ولا إضافة جانبية.",
+    href: "https://www.linkedin.com/jobs/search/?keywords=Flutter%20Developer&location=United%20Arab%20Emirates",
   },
   {
-    company: "Tanemera",
-    role: "Senior Flutter Developer",
-    location: "القاهرة",
-    mode: "من المكتب · دوام كامل",
-    age: "معلن كعاجل",
+    company: "Aqary International Group",
+    role: "Flutter Mobile App Developer",
+    location: "أبوظبي، الإمارات",
+    mode: "دوام كامل",
+    age: "منذ 3 أسابيع على LinkedIn",
     salary: "غير معلن",
-    match: "فرصة طموحة",
-    matchClass: "stretch",
-    why: "Flutter/Dart وstate management وCI/CD والأداء كلها نقاط قوية عندك، لكن الدور فيه قيادة ومراجعة كود.",
-    note: "مطلوب 4–7 سنوات؛ قدّم لو عندك أمثلة واضحة على الملكية التقنية أو مساعدة مطورين آخرين.",
-    href: "https://tanemera.com/careers/details/?code=ENG-FLT-SR-006",
+    match: "تطابق جيد",
+    matchClass: "good",
+    why: "موبايل Flutter مباشر، ومكانه في الإمارات وأنت قلت إن الانتقال خارج مصر مقبول.",
+    note: "تأكد من تفاصيل الفيزا والراتب قبل أي خطوات طويلة.",
+    href: "https://www.linkedin.com/jobs/search/?keywords=Flutter%20Developer&location=United%20Arab%20Emirates",
   },
+  {
+    company: "Loynova",
+    role: "Senior Software Engineer",
+    location: "الشيخ زايد، الجيزة",
+    mode: "دوام كامل",
+    age: "منذ أسبوع على LinkedIn",
+    salary: "غير معلن",
+    match: "راجع المهام أولًا",
+    matchClass: "good",
+    why: "ظهر داخل نتائج Flutter في مصر ومكانه مناسب لو فيه حضور أكتر من يوم، لكنه ليس بعنوان Flutter صريح.",
+    note: "لا تقدم إلا لو وصف الوظيفة داخل LinkedIn يؤكد Flutter/Dart أو Mobile Engineering.",
+    href: "https://www.linkedin.com/jobs/search/?keywords=Flutter%20Developer&location=Egypt",
+  },
+  {
+    company: "SSC HR Solutions",
+    role: "Senior Flutter Developer",
+    location: "القاهرة / العين السخنة",
+    mode: "دوام كامل",
+    age: "منذ 4 أشهر على LinkedIn",
+    salary: "غير معلن",
+    match: "احتياطي فقط",
+    matchClass: "stretch",
+    why: "العنوان مطابق، لكن عمر الإعلان 4 أشهر، فاعتبره آخر اختيار وليس أولوية اليوم.",
+    note: "افتحه من LinkedIn فقط لو عايز توسع دائرة التقديم بعد الفرص الحديثة.",
+    href: "https://www.linkedin.com/jobs/search/?keywords=Flutter%20Developer&location=Egypt",
+  },
+] as const;
+
+const rejected = [
+  "Dsquares: صفحة Workable بتقول إن الوظيفة لم تعد متاحة.",
+  "ZORA / Up2staff: المصدر ضعيف وغير كافٍ كفرصة جدية للتقديم.",
+  "Recast Designs: الإعلان قديم جدًا، فلا يدخل في أولويات اليوم.",
+  "Dorra / Pulse Job: الصفحة لا تعرض تفاصيل كافية بدون تحقق إضافي، فخرجت من القائمة الأساسية.",
 ] as const;
 
 export default function Home() {
@@ -89,15 +83,15 @@ export default function Home() {
         </nav>
         <div className="heroCopy">
           <p className="eyebrow">تقرير وظائف Flutter اليومي</p>
-          <h1>فرص مختارة على مقاس خبرتك، مش مجرد نتائج بحث.</h1>
+          <h1>تقرير مصحح: فرص قابلة للتقديم، مش لينكات وخلاص.</h1>
           <p className="intro">
-            راجعنا وظائف شركات مصرية وعربية فقط، ورتبناها حسب قربها من خبرتك في Flutter وBLoC وClean Architecture وFirebase وREST.
+            شيلت الفرص المقفولة أو ضعيفة المصدر، وخلّيت التقرير مبني على فرص لها صفحة حية أو ظهور حديث في مصدر توظيف واضح.
           </p>
         </div>
         <div className="stats" aria-label="ملخص التقرير">
-          <div><strong>6</strong><span>فرص مناسبة</span></div>
-          <div><strong>4</strong><span>تطابق قوي</span></div>
-          <div><strong>2</strong><span>من آخر 8 أيام</span></div>
+          <div><strong>5</strong><span>فرص قابلة للمراجعة</span></div>
+          <div><strong>1</strong><span>تقديم مباشر مؤكد</span></div>
+          <div><strong>4</strong><span>فرص مستبعدة من التقرير القديم</span></div>
         </div>
       </header>
 
@@ -112,9 +106,9 @@ export default function Home() {
         <div className="sectionHead">
           <div>
             <p className="eyebrow">الأولوية الآن</p>
-            <h2>ابدأ بأول 3 فرص</h2>
+            <h2>ابدأ بالأول فقط، ثم راجع الباقي</h2>
           </div>
-          <p>الراتب غير المعلن لا يعني إنه أقل من حدك؛ اسأل عنه بدري قبل ما تستثمر وقت كبير.</p>
+          <p>أي فرصة بدون راتب معلن لازم أول سؤال فيها يكون عن الرينج. أقل من 30,000 جنيه أو 800 دولار؟ اقفلها بدري.</p>
         </div>
 
         <div className="jobGrid">
@@ -143,11 +137,19 @@ export default function Home() {
             </article>
           ))}
         </div>
+
+        <div className="rejected" aria-label="فرص مستبعدة">
+          <p className="eyebrow">تصحيح مهم</p>
+          <h2>اللي اتشال من التقرير</h2>
+          <ul>
+            {rejected.map((item) => <li key={item}>{item}</li>)}
+          </ul>
+        </div>
       </section>
 
       <footer>
-        <p>ترتيب الترشيحات مبني على الـCV المرسل وشروطك الحالية.</p>
-        <p>آخر مراجعة: 14 يوليو 2026 · القاهرة</p>
+        <p>الترتيب بعد التصحيح: فرصة مؤكدة أولًا، ثم فرص تحتاج مراجعة داخل LinkedIn.</p>
+        <p>آخر تصحيح: 14 يوليو 2026 · القاهرة</p>
       </footer>
     </main>
   );

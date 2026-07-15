@@ -2,116 +2,116 @@ import CopyButton from "./CopyButton";
 
 const jobs = [
   {
-    company: "Jolie Egypt / Meenda",
-    role: "Flutter Mobile Developer",
-    location: "الشيخ زايد، الجيزة",
-    mode: "عن بُعد · دوام كامل",
-    age: "منشور من 6 أيام",
-    salary: "غير معلن",
-    match: "تطابق قوي",
-    matchClass: "strong",
-    why: "الدور طالب 2+ سنة Flutter وBLoC/Cubit وREST/GraphQL وHive/SQLite وFirebase وCI/CD؛ ده أقرب وصف مباشر لخبرتك الحالية.",
-    note: "الراتب مخفي. اسأل عن الرينج قبل أي مرحلة طويلة وتأكد إن خبرتك في GraphQL كافية.",
-    href: "https://wuzzuf.net/jobs/p/f2qyxeh9duti-flutter-mobile-developer-jolie-egypt-giza-egypt",
-    coverLetter: `Dear Jolie Egypt Hiring Team,
-
-I am applying for the Flutter Mobile Developer position for Meenda. I have more than three years of production experience building Flutter applications for Android, iOS, and Windows using Dart, BLoC/Cubit, Clean Architecture, REST APIs, Firebase, and local storage with Hive and SQLite.
-
-My experience also includes multilingual interfaces, real-time features, testing, performance work, and release automation with GitHub Actions and Fastlane. I am comfortable owning features from API integration through testing and deployment, and I can contribute effectively in a remote product team.
-
-I would be glad to discuss how my experience can support Meenda's mobile launch.
-
-Best regards,
-Muhammad Essam`,
-  },
-  {
-    company: "Tawfeer",
-    role: "Flutter Mobile Developer",
-    location: "المعادي، القاهرة",
-    mode: "Hybrid · دوام كامل",
-    age: "منشور من حوالي شهر",
-    salary: "غير معلن",
-    match: "تطابق قوي",
-    matchClass: "strong",
-    why: "مطلوب 3+ سنوات موبايل وFlutter وBLoC/GetX وFirebase وHive/SQLite وREST وFastlane أو GitHub Actions؛ تطابق شبه كامل.",
-    note: "الإعلان ما زال يعرض زر تقديم مباشر، لكن الراتب مخفي. اسأل أيضًا عن عدد أيام الحضور الأسبوعية.",
-    href: "https://wuzzuf.net/jobs/p/rqvrdx4amus0-flutter-mobile-developer-tawfeer-cairo-egypt",
-    coverLetter: `Dear Tawfeer Hiring Team,
-
-I am writing to apply for the Flutter Mobile Developer role. I have more than three years of production experience with Flutter and Dart, including BLoC/Cubit and GetX, REST API integration, Firebase, Hive, SQLite, testing, and publishing applications across platforms.
-
-My recent work includes modular and clean architecture, performance improvements, real-time integrations, and CI/CD workflows using GitHub Actions and Fastlane. The responsibilities in this role closely match the work I deliver today.
-
-I would welcome the opportunity to discuss the team, hybrid schedule, and how I can contribute to Tawfeer's mobile products.
-
-Best regards,
-Muhammad Essam`,
-  },
-  {
-    company: "Vee Tech",
+    company: "AppFactory",
     role: "Flutter Developer",
-    location: "التجمع الخامس، القاهرة",
-    mode: "دوام كامل أو جزئي · On-site مع إمكانية Remote",
-    age: "منشور من يومين",
-    salary: "غير معلن",
+    location: "القاهرة الجديدة",
+    mode: "On-site · دوام كامل",
+    age: "صفحة التوظيف نشطة ومفحوصة اليوم",
+    salary: "تنافسي — الرقم غير معلن",
     match: "تطابق قوي",
     matchClass: "strong",
-    why: "الإعلان بيركز على المهارة الفعلية، Clean Architecture، الأداء، REST APIs، والاستقلالية بدل عدد السنين؛ مناسب جدًا لبروفايلك.",
-    note: "الشركة تفضّل الحضور. اتفق من البداية على Remote أو عدد أيام المكتب، واسأل عن الراتب.",
-    href: "https://wuzzuf.net/jobs/p/4b46aa9f-28b2-4f91-bc85-e56d92fec21f-Flutter-Developer-Vee-Tech-Cairo-Egypt",
-    coverLetter: `Dear Vee Tech Hiring Team,
+    why: "مطلوب 3–5 سنوات Flutter وDart وstate management وREST وWebSockets وCI/CD واختبارات؛ قريب جدًا من خبرتك الإنتاجية.",
+    note: "الحضور من المكتب. اسأل من أول مكالمة عن الرينج المالي وإمكانية المرونة في الحضور.",
+    href: "https://www.appfactoryltd.com/flutter-developer.html",
+    coverLetter: `Dear AppFactory Hiring Team,
 
-I am interested in your Flutter Developer position. I have more than three years of hands-on production experience building cross-platform applications with Flutter and Dart, with a strong focus on clean architecture, performance, maintainability, and reliable API integrations.
+I am applying for the Flutter Developer position. I have more than three years of production experience building Flutter applications for Android, iOS, and Windows using Dart, BLoC/Cubit, GetX, Clean Architecture, REST APIs, Firebase, WebSockets, and local storage.
 
-I have delivered features using BLoC/Cubit, GetX, Firebase, REST APIs, local databases, testing, and automated release workflows. I am comfortable taking ownership, working independently, and translating product requirements into polished Flutter experiences.
+My work includes unit testing, performance optimization, real-time features, code reviews, and automated delivery with GitHub Actions and Fastlane. This background closely matches your need for maintainable, high-performance apps across multiple product lines.
 
-I would be happy to share examples of my work and discuss the preferred work model.
+I would welcome the opportunity to discuss how I can contribute to AppFactory's mobile engineering team.
 
 Best regards,
 Muhammad Essam`,
   },
   {
-    company: "Zad aljoud",
-    role: "Mobile Application Developer — Flutter",
-    location: "الرياض، السعودية",
-    mode: "عن بُعد · دوام كامل",
-    age: "إعلان حديث والتقديم مفتوح",
+    company: "Adree",
+    role: "Flutter Developer",
+    location: "القاهرة، مصر",
+    mode: "دوام كامل · مقر العمل",
+    age: "منشور أو متجدد خلال آخر يوم",
     salary: "غير معلن",
-    match: "ممكن — فرق خبرة",
-    matchClass: "good",
-    why: "Flutter وBloc وClean Architecture وREST وFirebase والاختبارات وCI/CD كلها مطابقة، والعمل Remote.",
-    note: "طالبين 5 سنوات موبايل، وأنت 3+ سنوات إنتاجية. قدم فقط لو تقدر تعرض ملكية واضحة لمنتجات منشورة.",
-    href: "https://wuzzuf.net/saudi/jobs/p/pbtrdcx4mggd-mobile-application-developer-flutter-zad-aljoud-riyadh-saudi-arabia",
-    coverLetter: `Dear Zad aljoud Hiring Team,
+    match: "تطابق قوي",
+    matchClass: "strong",
+    why: "3–6 سنوات Flutter مع Bloc/GetX وREST/GraphQL وFirebase وFCM وHive/SQLite وCI/CD؛ معظم المتطلبات موجودة عندك مباشرة.",
+    note: "مقر الشركة الرئيسي الرياض، لكن الراتب مخفي. وضّح مستوى خبرتك في GraphQL واسأل عن الرينج قبل المراحل الطويلة.",
+    href: "https://www.gulftalent.com/egypt/jobs/flutter-developer-607114",
+    coverLetter: `Dear Adree Hiring Team,
 
-I am applying for the Mobile Application Developer - Flutter role. I have more than three years of production experience delivering cross-platform Flutter applications with Dart, BLoC/Cubit, Clean Architecture, REST APIs, Firebase, testing, and CI/CD.
+I am interested in the Flutter Developer role. I bring more than three years of production Flutter experience across Android, iOS, and Windows, using Dart, BLoC/Cubit, GetX, Clean Architecture, REST APIs, Firebase, FCM, Hive, SQLite, and SharedPreferences.
 
-Although my total experience is below the stated five-year preference, my work has included ownership of production features, architecture migrations, performance improvements, local persistence, real-time integrations, and release workflows. I believe the depth and relevance of this experience make me worth considering.
+I have also worked on performance optimization, testing, real-time integrations, and CI/CD workflows with GitHub Actions and Fastlane. The role's focus on scalable cross-platform applications and reliable production delivery strongly matches my current work.
 
-I would be glad to share my portfolio and discuss the role.
+I would be pleased to discuss the team, compensation range, and how I can contribute.
+
+Best regards,
+Muhammad Essam`,
+  },
+  {
+    company: "VerteX Technologies",
+    role: "Middle Flutter Developer",
+    location: "Smart Village، الجيزة",
+    mode: "On-site · دوام كامل",
+    age: "صفحة الشركة نشطة ومفحوصة اليوم",
+    salary: "بالدولار — الرقم غير معلن",
+    match: "تطابق قوي",
+    matchClass: "strong",
+    why: "الدور Mid صريح ويطلب 3+ سنوات Flutter/Dart وBLoC وREST وSOLID وarchitecture قوية؛ مناسب جدًا لمستواك الحالي.",
+    note: "العرض يذكر راتبًا بالدولار لكن بلا رقم. تأكد من الرينج وعدد أيام الحضور قبل المقابلة الفنية.",
+    href: "https://vertextech-eg.com/vacancies/middle-flutter-developer",
+    coverLetter: `Dear VerteX Technologies Hiring Team,
+
+I am applying for the Middle Flutter Developer position. I have more than three years of commercial Flutter and Dart experience, with strong hands-on work in BLoC/Cubit, REST APIs, SOLID principles, Clean Architecture, MVVM, and modular application design.
+
+I have delivered production features across Android, iOS, and Windows, including Firebase integrations, local persistence, testing, performance improvements, and CI/CD automation. I am comfortable collaborating in English and working within an engineering-focused international team.
+
+I would be glad to discuss how my experience fits your current projects.
 
 Best regards,
 Muhammad Essam`,
   },
   {
     company: "Cubic Information Systems",
-    role: "Senior Flutter Developer",
-    location: "القاهرة الجديدة",
-    mode: "On-site · دوام كامل",
-    age: "إعلان أقدم لكنه ما زال يعرض التقديم",
+    role: "Flutter Developer",
+    location: "مصر",
+    mode: "Contract · نظام العمل غير موضح",
+    age: "صفحة الشركة نشطة ومفحوصة اليوم",
     salary: "غير معلن",
-    match: "ممكن — تحقق أولًا",
-    matchClass: "good",
-    why: "3+ سنوات Flutter وClean Architecture وMVVM وBLoC وFirebase وREST وCI/CD مطابقة، والشركة مقرها دبي.",
-    note: "الإعلان قديم نسبيًا. افتحه وتأكد إن التقديم ما زال فعليًا، واسأل عن الراتب ونظام الحضور قبل المتابعة.",
-    href: "https://wuzzuf.net/jobs/p/kcu4w3gntlht-senior-flutter-developer-cubic-information-systems-cairo-egypt",
+    match: "تطابق قوي",
+    matchClass: "strong",
+    why: "الفرصة الجديدة 1–3 سنوات وتطلب Flutter/Dart وBloc وREST وCI/CD والنشر على المتاجر؛ مناسبة لخبرتك أكثر من إعلان Senior القديم.",
+    note: "العقد والراتب ونظام العمل غير موضحين. اتأكد منهم قبل استثمار وقت في المراحل التالية.",
+    href: "https://cubicsystems.com/job/flutter-developer/",
     coverLetter: `Dear Cubic Information Systems Hiring Team,
 
-I am interested in the Senior Flutter Developer position. I have more than three years of production Flutter experience using Dart, BLoC/Cubit, Clean Architecture, MVVM, REST APIs, Firebase, testing, and CI/CD.
+I am applying for the Flutter Developer contract position. I have more than three years of production experience building and maintaining Flutter applications with Dart, BLoC/Cubit, Clean Architecture, REST APIs, Firebase, testing, and CI/CD.
 
-My background includes building and maintaining cross-platform applications, migrating architecture, improving performance, integrating backend services, and supporting reliable releases. The technical scope of this role is closely aligned with my current experience.
+My background includes third-party SDK integrations, publishing applications, improving performance, and supporting reliable releases across Android, iOS, and Windows. The responsibilities listed for this role closely match the work I deliver today.
 
-Please let me know if the position is still open. I would be pleased to discuss how I can contribute.
+I would appreciate the opportunity to discuss the contract duration, work model, and compensation range.
+
+Best regards,
+Muhammad Essam`,
+  },
+  {
+    company: "Nawy Real Estate",
+    role: "Senior Flutter Developer",
+    location: "مصر",
+    mode: "دوام كامل · نظام العمل غير موضح",
+    age: "منشور أو متجدد خلال آخر أسبوع",
+    salary: "غير معلن",
+    match: "تطابق قوي",
+    matchClass: "strong",
+    why: "الدور Senior لكنه محدد 3–5 سنوات، ويركز على Flutter والاختبارات وAPIs وقواعد البيانات والأداء والـarchitecture؛ ضمن نطاق خبرتك.",
+    note: "الراتب ونظام الحضور مخفيان. اسأل عنهما، وركّز في التقديم على ملكية الميزات والمشاريع المنشورة.",
+    href: "https://www.bayt.com/en/egypt/jobs/senior-flutter-developer-74846404/",
+    coverLetter: `Dear Nawy Hiring Team,
+
+I am interested in the Senior Flutter Developer position. I have more than three years of production Flutter experience across Android, iOS, and Windows, with hands-on ownership of features built using BLoC/Cubit, Clean Architecture, MVVM, REST APIs, Firebase, local databases, and automated testing.
+
+My recent work includes architecture migration, performance improvement, third-party integrations, code review, and CI/CD with GitHub Actions and Fastlane. This experience aligns closely with the role's 3–5 year range and its focus on scalable, testable mobile products.
+
+I would welcome the opportunity to discuss how I can contribute to Nawy's mobile products.
 
 Best regards,
 Muhammad Essam`,
@@ -119,10 +119,10 @@ Muhammad Essam`,
 ] as const;
 
 const rejected = [
-  "UE Technology وEGYTALHUB وFP وSSC: صفحات LinkedIn بتقول إن التقديم اتقفل.",
-  "CodeNinja: الوظيفة في الرياض لكن الشركة مقرها باكستان، فمش مطابقة لشرط المقر العربي.",
-  "Tanemera وأي Internship/Junior: خارج مستوى الخبرة المطلوب.",
-  "MOWEEX: مقر الشركة الظاهر النمسا، فخرجت من شرط الشركات العربية.",
+  "فرص تقرير 14 يوليو (Jolie وTawfeer وVee Tech وZad aljoud وCubic Senior): ما اتكررتش علشان التقرير يفضل للفرص الجديدة.",
+  "VAM Systems — قطر: إعلان Flutter القديم مش موجود ضمن الوظائف الحالية في صفحة الشركة، فاعتبرته مقفولًا.",
+  "Envision Employment Solutions: فرصة Senior Mobile Developer طالبة 6+ سنوات، ففرق الخبرة أكبر من المناسب.",
+  "Nile Bits وSSC وTalent 360 والإعلانات الأقدم: Senior بمتطلبات أعلى أو أقدم من البدائل الأقوى اليوم.",
 ] as const;
 
 export default function Home() {
@@ -131,16 +131,16 @@ export default function Home() {
       <header className="hero">
         <nav aria-label="رأس التقرير">
           <span className="brand">فرص محمد</span>
-          <span className="date">تقرير 14 يوليو 2026</span>
+          <span className="date">تقرير 15 يوليو 2026</span>
         </nav>
         <div className="heroCopy">
           <p className="eyebrow">تقرير وظائف Flutter اليومي</p>
-          <h1>٣ فرص قوية فعلًا، وفرصتين يستاهلوا مراجعة سريعة.</h1>
-          <p className="intro">كل فرصة هنا لها مسار تقديم ظاهر، وشركة مقرها في مصر أو دولة عربية. الراتب غير معلن في كل الفرص، فاسأل عنه بدري.</p>
+          <h1>٥ فرص جديدة قوية، من غير تكرار تقرير امبارح.</h1>
+          <p className="intro">كل فرصة مفتوحة بمسار تقديم واضح وشركة مقرها في مصر أو دولة عربية. الأرقام المالية غير معلنة، فاسأل عن الرينج بدري.</p>
         </div>
         <div className="stats" aria-label="ملخص التقرير">
-          <div><strong>3</strong><span>تطابق قوي</span></div>
-          <div><strong>2</strong><span>فرص ممكنة</span></div>
+          <div><strong>5</strong><span>تطابق قوي</span></div>
+          <div><strong>0</strong><span>فرص ممكنة</span></div>
           <div><strong>0</strong><span>ردود Gmail مؤكدة</span></div>
         </div>
       </header>
@@ -154,8 +154,8 @@ export default function Home() {
 
       <section className="content">
         <div className="sectionHead">
-          <div><p className="eyebrow">الأولوية اليوم</p><h2>ابدأ بـ Jolie ثم Tawfeer ثم Vee Tech</h2></div>
-          <p>المرتب مخفي في الخمس فرص. لو الرينج أقل من 30,000 جنيه أو 800 دولار، وفّر وقتك واقفلها بدري.</p>
+          <div><p className="eyebrow">الأولوية اليوم</p><h2>ابدأ بـ AppFactory ثم Adree ثم VerteX</h2></div>
+          <p>كل الفرص برواتب مخفية أو بدون رقم واضح. اسأل عن الرينج المالي ونظام الحضور قبل أي مرحلة طويلة.</p>
         </div>
 
         <div className="jobGrid">
@@ -182,15 +182,15 @@ export default function Home() {
         <section className="emailSection" aria-label="إيميلات التوظيف آخر 48 ساعة">
           <div className="sectionHead">
             <div><p className="eyebrow">من Gmail</p><h2>إيميلات التوظيف آخر ٤٨ ساعة</h2></div>
-            <p>تعذر الوصول إلى Chrome/Gmail في تشغيل اليوم، لذلك لم أنشر أي رسائل قديمة أو إيصالات تقديم على إنها ردود شركات.</p>
+            <p>تعذر فحص Gmail لأن إضافة ChatGPT في Chrome غير موجودة في البروفايل الحالي. لم أنشر رسائل قديمة أو إيصالات تقديم بدل الردود الحقيقية.</p>
           </div>
           <div className="emailGrid">
             <article className="emailCard">
-              <div className="cardTop"><span className="rank">14 يوليو</span><span className="match stretch">تعذر الفحص</span></div>
+              <div className="cardTop"><span className="rank">15 يوليو</span><span className="match stretch">تعذر الفحص</span></div>
               <p className="company">muhammad159e@gmail.com</p>
-              <h3>لا توجد ردود مؤكدة منشورة اليوم</h3>
-              <p className="why"><b>السبب:</b> اتصال Chrome غير متاح في التشغيل الحالي، فتعذر تنفيذ بحث آخر 48 ساعة.</p>
-              <p className="note"><b>الخطوة التالية:</b> عند عودة الوصول، يتكرر البحث ويظهر فقط رد بشري أو مقابلة أو تقييم أو خطوة تالية مهمة.</p>
+              <h3>لا توجد ردود شركات مؤكدة منشورة اليوم</h3>
+              <p className="why"><b>السبب:</b> إضافة ChatGPT غير مثبّتة أو مفعّلة في Chrome، لذلك تعذر بحث آخر 48 ساعة بأمان.</p>
+              <p className="note"><b>المطلوب:</b> ثبّت وفعّل إضافة ChatGPT في بروفايل Chrome الحالي؛ التشغيل القادم هينشر فقط رد بشري أو مقابلة أو تقييم أو خطوة تالية مهمة.</p>
             </article>
           </div>
         </section>
@@ -203,7 +203,7 @@ export default function Home() {
 
       <footer>
         <p>الترتيب مبني على قوة التطابق وحداثة الإعلان ووضوح مسار التقديم.</p>
-        <p>آخر تحديث: 14 يوليو 2026 · القاهرة</p>
+        <p>آخر تحديث: 15 يوليو 2026 · القاهرة</p>
       </footer>
     </main>
   );

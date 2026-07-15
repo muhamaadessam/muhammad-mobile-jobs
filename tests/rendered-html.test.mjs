@@ -18,10 +18,10 @@ test("renders today's filtered Flutter report", async () => {
   assert.equal(response.status, 200);
 
   const html = await response.text();
-  assert.match(html, /تقرير 14 يوليو 2026/);
-  assert.match(html, /Jolie Egypt \/ Meenda/);
-  assert.match(html, /Tawfeer/);
-  assert.match(html, /Vee Tech/);
-  assert.match(html, /تعذر الوصول إلى Chrome\/Gmail/);
+  assert.match(html, /تقرير 15 يوليو 2026/);
+  assert.match(html, /AppFactory/);
+  assert.match(html, /Adree/);
+  assert.match(html, /VerteX Technologies/);
+  assert.match(html, /إضافة ChatGPT غير مثبّتة أو مفعّلة/);
   assert.equal((html.match(/نسخ Cover Letter/g) ?? []).length, 5);
 });

@@ -22,6 +22,8 @@ test("renders today's filtered Flutter report", async () => {
   assert.match(html, /AppFactory/);
   assert.match(html, /Adree/);
   assert.match(html, /VerteX Technologies/);
-  assert.match(html, /إضافة ChatGPT غير مثبّتة أو مفعّلة/);
+  assert.match(html, /Complete your assessment to join Mindrift projects/);
+  assert.match(html, /Please complete your identity verification/);
+  assert.match(html, /16 يوليو الساعة 11:36 صباحًا/);
   assert.equal((html.match(/نسخ Cover Letter/g) ?? []).length, 5);
 });

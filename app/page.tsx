@@ -141,7 +141,7 @@ export default function Home() {
         <div className="stats" aria-label="ملخص التقرير">
           <div><strong>5</strong><span>تطابق قوي</span></div>
           <div><strong>0</strong><span>فرص ممكنة</span></div>
-          <div><strong>0</strong><span>ردود Gmail مؤكدة</span></div>
+          <div><strong>2</strong><span>رسائل توظيف مهمة</span></div>
         </div>
       </header>
 
@@ -182,15 +182,22 @@ export default function Home() {
         <section className="emailSection" aria-label="إيميلات التوظيف آخر 48 ساعة">
           <div className="sectionHead">
             <div><p className="eyebrow">من Gmail</p><h2>إيميلات التوظيف آخر ٤٨ ساعة</h2></div>
-            <p>تعذر فحص Gmail لأن إضافة ChatGPT في Chrome غير موجودة في البروفايل الحالي. لم أنشر رسائل قديمة أو إيصالات تقديم بدل الردود الحقيقية.</p>
+            <p>ظهر طلبان مهمان من Mindrift. استبعدت إيصالات التقديم وتنبيهات الوظائف والرسائل العامة، واحتفظت فقط بالخطوات المطلوبة منك.</p>
           </div>
           <div className="emailGrid">
             <article className="emailCard">
-              <div className="cardTop"><span className="rank">15 يوليو</span><span className="match stretch">تعذر الفحص</span></div>
-              <p className="company">muhammad159e@gmail.com</p>
-              <h3>لا توجد ردود شركات مؤكدة منشورة اليوم</h3>
-              <p className="why"><b>السبب:</b> إضافة ChatGPT غير مثبّتة أو مفعّلة في Chrome، لذلك تعذر بحث آخر 48 ساعة بأمان.</p>
-              <p className="note"><b>المطلوب:</b> ثبّت وفعّل إضافة ChatGPT في بروفايل Chrome الحالي؛ التشغيل القادم هينشر فقط رد بشري أو مقابلة أو تقييم أو خطوة تالية مهمة.</p>
+              <div className="cardTop"><span className="rank">14 يوليو · 11:36 ص</span><span className="match stretch">عاجل</span></div>
+              <p className="company">Mindrift Team</p>
+              <h3>Complete your assessment to join Mindrift projects</h3>
+              <p className="why"><b>ليه مهمة:</b> راجعوا طلبك ودعوك للخطوة التالية. لازم تكمّل التقييم خلال 48 ساعة علشان تفضل مؤهل للمشاريع القادمة.</p>
+              <p className="note"><b>الإجراء:</b> كمّل التحقق من الهوية أولًا، وبعده التقييم من لابتوب قبل 16 يوليو الساعة 11:36 صباحًا. استخدام أدوات AI في التقييم ممنوع.</p>
+            </article>
+            <article className="emailCard">
+              <div className="cardTop"><span className="rank">14 يوليو · 9:53 م</span><span className="match good">أولوية عالية</span></div>
+              <p className="company">Mindrift Team</p>
+              <h3>Please complete your identity verification</h3>
+              <p className="why"><b>ليه مهمة:</b> التحقق من الهوية خطوة مطلوبة مرة واحدة علشان تقدر تكمل على Mindrift وتحمي الحساب والأرباح.</p>
+              <p className="note"><b>الإجراء:</b> ادخل لوحة Mindrift ونفّذ التحقق عبر Persona، وبعد نجاحه ابدأ التقييم فورًا.</p>
             </article>
           </div>
         </section>

@@ -2,6 +2,52 @@ import CopyButton from "./CopyButton";
 
 const jobs = [
   {
+    company: "Tamara",
+    role: "Product Engineer II - Flutter",
+    location: "الرياض، السعودية",
+    mode: "دوام كامل · نظام العمل غير موضح",
+    age: "أُعيد نشرها قبل 15 ساعة وما زال زر التقديم ظاهرًا",
+    salary: "غير معلن",
+    match: "تطابق قوي",
+    matchClass: "strong",
+    why: "تطلب 3+ سنوات Flutter مع Dart وBLoC وClean Architecture وSOLID والاختبارات؛ مطابقة مباشرة لخبرتك، والشركة مقرها الرياض.",
+    note: "أكثر من 200 متقدم. اسأل مبكرًا عن relocation أو إمكانية العمل من مصر وعن الرينج المالي.",
+    href: "https://sa.linkedin.com/jobs/view/product-engineer-ii-flutter-at-tamara-4429957476",
+    coverLetter: `Dear Tamara Hiring Team,
+
+I am applying for the Product Engineer II - Flutter position. I have more than three years of production Flutter experience building Android, iOS, and Windows applications with Dart, BLoC/Cubit, Clean Architecture, SOLID principles, REST APIs, Firebase, testing, and CI/CD.
+
+My recent work includes migrating production code from GetX to Cubit/BLoC, improving modular architecture, debugging complex issues, optimizing performance, reviewing code, and shipping reliable releases with GitHub Actions and Fastlane. Tamara's focus on readable, testable Flutter code and secure, scalable product features strongly matches my experience.
+
+I would welcome the opportunity to discuss how I can contribute to Tamara's product engineering team.
+
+Best regards,
+Muhammad Essam`,
+  },
+  {
+    company: "Colada",
+    role: "Flutter Engineer",
+    location: "الرياض، السعودية",
+    mode: "دوام كامل · فريق remote وasync-friendly",
+    age: "منشور حديثًا وما زال زر التقديم ظاهرًا",
+    salary: "غير معلن",
+    match: "تطابق قوي",
+    matchClass: "strong",
+    why: "Mid-to-Senior ويطلب 3+ سنوات مع REST/Dio وFirebase وGit وFastlane وrealtime updates وتطبيقات منشورة؛ قريب جدًا من خبرتك.",
+    note: "الإعلان يصف الفريق بأنه remote، لكن الموقع المسجل الرياض. أكد قبول العمل من مصر قبل استثمار وقت طويل.",
+    href: "https://sa.linkedin.com/jobs/view/flutter-engineer-at-colada-4436582717",
+    coverLetter: `Dear Colada Hiring Team,
+
+I am interested in the Flutter Engineer role. I have more than three years of production Flutter and Dart experience building and maintaining cross-platform applications for Android, iOS, and Windows.
+
+My background includes BLoC/Cubit and GetX, Clean Architecture, REST API and JSON integrations, Firebase Messaging, real-time features with Pusher, local storage, testing, Git-based code review, and mobile delivery through GitHub Actions and Fastlane. I am comfortable owning features end-to-end and collaborating effectively in remote, asynchronous teams.
+
+I would be glad to discuss how I can contribute to Colada's ordering, checkout, loyalty, and bilingual mobile experiences.
+
+Best regards,
+Muhammad Essam`,
+  },
+  {
     company: "Dsquares",
     role: "Senior Mobile Developer - Flutter",
     location: "مصر",
@@ -70,6 +116,29 @@ I would welcome the opportunity to discuss how I can support Pioneers Academy's 
 Best regards,
 Muhammad Essam`,
   },
+  {
+    company: "7P Marketing & Software",
+    role: "Flutter Developer",
+    location: "الجيزة، مصر",
+    mode: "دوام كامل · نظام الحضور غير موضح",
+    age: "الصفحة ما زالت نشطة ومسار التواصل ظاهر؛ تاريخ النشر غير واضح",
+    salary: "غير معلن",
+    match: "فرصة ممكنة",
+    matchClass: "good",
+    why: "تطلب 3+ سنوات Flutter مع BLoC/GetX وREST/JSON وClean Architecture وMVVM وFirebase وCI/CD؛ تطابق تقني قوي ومقرها الجيزة.",
+    note: "أضعف من الفرص الحديثة لأن عمر الإعلان غير واضح والتقديم عبر LinkedIn/التواصل مع ناشر الوظيفة. تحقق من الشاغر والراتب أولًا.",
+    href: "https://eg.linkedin.com/jobs/view/flutter-developer-at-7p-marketing-software-4288507731",
+    coverLetter: `Dear 7P Marketing & Software Hiring Team,
+
+I am applying for the Flutter Developer position. I have more than three years of production Flutter experience across Android, iOS, and Windows using Dart, BLoC/Cubit, GetX, Clean Architecture, MVVM, REST APIs, JSON, Firebase, Git, testing, and CI/CD.
+
+My recent work includes architecture migration, production debugging, performance optimization, third-party integrations, local storage, code reviews, and automated releases with GitHub Actions and Fastlane. These skills align closely with the role's focus on scalable, maintainable mobile applications.
+
+I would welcome the opportunity to confirm the position's current status and discuss how I can contribute to your development team.
+
+Best regards,
+Muhammad Essam`,
+  },
 ] as const;
 
 const rejected = [
@@ -77,6 +146,9 @@ const rejected = [
   "Net2Source Dubai: 8–15 سنة، أعلى بوضوح من نطاق الخبرة المناسب.",
   "Urban Ridge Supplies / Jackpot Technologies: Flutter Game Developer قوي تقنيًا، لكن مقر الشركة العربي غير مثبت كفاية من الإعلان.",
   "Nile Bits وTalent 360 وEnvision: أقدم أو Senior بمتطلبات خبرة أعلى من المناسب.",
+  "Loynova: الإعلان الجديد يطلب 5+ سنوات Flutter مخصصة، أعلى من خبرة محمد الحالية.",
+  "Salt Dubai: شركة التوظيف ليست عربية المقر، والدور يشترط خبرة بنوك/خدمات مالية والعمل من المكتب 5 أيام.",
+  "Tamara: استبعدت الصفحة القديمة المغلقة واستخدمت فقط إعادة النشر الجديدة المفتوحة.",
   "Adree وVerteX في Gmail: إيصالات استلام/تنبيهات فقط، وليست ردود Recruiter أو خطوات جديدة.",
 ] as const;
 
@@ -90,12 +162,12 @@ export default function Home() {
         </nav>
         <div className="heroCopy">
           <p className="eyebrow">تقرير وظائف Flutter اليومي</p>
-          <h1>٣ فرص جديدة فقط بعد حذف التكرار والتنبيهات.</h1>
-          <p className="intro">كل فرصة مفتوحة بمسار تقديم واضح وشركة في مصر أو دولة عربية. الأرقام المالية غير معلنة، فاسأل عن الرينج بدري.</p>
+          <h1>٦ فرص اليوم بعد تحديث المساء وحذف التكرار والتنبيهات.</h1>
+          <p className="intro">أضفت Tamara وColada كأقوى فرص المساء، و7P كخيار احتياطي يحتاج تأكيد حداثة الشاغر. كل الرواتب غير معلنة.</p>
         </div>
         <div className="stats" aria-label="ملخص التقرير">
-          <div><strong>2</strong><span>تطابق قوي</span></div>
-          <div><strong>1</strong><span>فرصة ممكنة</span></div>
+          <div><strong>4</strong><span>تطابق قوي</span></div>
+          <div><strong>2</strong><span>فرصة ممكنة</span></div>
           <div><strong>0</strong><span>رسائل توظيف مهمة</span></div>
         </div>
       </header>
@@ -109,8 +181,8 @@ export default function Home() {
 
       <section className="content">
         <div className="sectionHead">
-          <div><p className="eyebrow">الأولوية اليوم</p><h2>ابدأ بـ Dsquares ثم SBC</h2></div>
-          <p>Pioneers Academy مناسبة كخيار احتياطي. كل الرواتب مخفية، فالسؤال عن الرينج ونظام الحضور أول خطوة.</p>
+          <div><p className="eyebrow">الأولوية اليوم</p><h2>ابدأ بـ Tamara ثم Colada</h2></div>
+          <p>بعدهما Dsquares وSBC. Pioneers Academy و7P خيارات احتياطية، وكل الرواتب مخفية.</p>
         </div>
 
         <div className="jobGrid">
@@ -137,14 +209,14 @@ export default function Home() {
         <section className="emailSection" aria-label="إيميلات التوظيف آخر 48 ساعة">
           <div className="sectionHead">
             <div><p className="eyebrow">من Gmail</p><h2>إيميلات التوظيف آخر ٤٨ ساعة</h2></div>
-            <p>راجعت آخر 48 ساعة. لم يظهر رد شركة/ريكروتر مهم أو طلب مقابلة جديد؛ الموجود تنبيهات وظائف وإيصالات استلام فقط.</p>
+            <p>راجعت آخر 48 ساعة حتى تحديث المساء. لم يظهر رد شركة/ريكروتر مهم أو طلب مقابلة جديد؛ الموجود تنبيهات وإيصالات فقط.</p>
           </div>
           <div className="emailGrid">
             <article className="emailCard">
               <div className="cardTop"><span className="rank">15-16 يوليو</span><span className="match good">لا يوجد إجراء</span></div>
               <p className="company">Gmail</p>
               <h3>لا توجد ردود توظيف مهمة جديدة</h3>
-              <p className="why"><b>الذي تم استبعاده:</b> تنبيهات Indeed وLinkedIn وPulse، نشرات LinkedIn، وإيصالات استلام Adree وVerteX.</p>
+              <p className="why"><b>الذي تم استبعاده:</b> تنبيهات Indeed وLinkedIn وPulse، تنبيه Loynova، نشرات LinkedIn، وإيصالات استلام Adree وVerteX.</p>
               <p className="note"><b>الإجراء:</b> لا يوجد رد مطلوب الآن من البريد. تابع فقط لو وصل طلب مقابلة أو assessment جديد.</p>
             </article>
           </div>

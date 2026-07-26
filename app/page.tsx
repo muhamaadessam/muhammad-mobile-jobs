@@ -70,36 +70,16 @@ I am based in Egypt and open to relocating to Bahrain. I would be glad to discus
 Best regards,
 Muhammad Essam`,
   },
-  {
-    company: "Al-Tadamun Microfinance Association",
-    role: "Flutter Developer",
-    location: "الدقي، الجيزة",
-    mode: "دوام كامل · On-site",
-    age: "إعلان أقدم لكنه ما زال ضمن الشواغر المفتوحة",
-    salary: "غير معلن",
-    match: "فرصة ممكنة",
-    matchClass: "good",
-    why: "مؤسسة مصرية كبيرة طالبة 1–3 سنوات مع Flutter/Dart وREST APIs وGit واختبارات وأداء ونشر على المتاجر. التطابق التقني قوي ومسار التقديم على Wuzzuf مفتوح.",
-    note: "الإعلان أقدم والراتب مخفي. اسأل من أول مكالمة عن صافي الراتب وساعات الحضور، وما تكملش لو أقل من 30 ألف جنيه.",
-    href: "https://wuzzuf.net/jobs/p/4hmmvblpweo3-flutter-developer-al-tadamun-microfinance-association-giza-egypt",
-    coverLetter: `Dear Al-Tadamun Hiring Team,
-
-I am applying for the Flutter Developer position in Dokki. I have more than three years of production experience building and maintaining Flutter applications for Android, iOS, and Windows using Dart, BLoC/Cubit, GetX, Clean Architecture, REST APIs, Firebase, local storage, testing, and Git.
-
-In my current and recent roles, I have delivered new features, migrated production code from GetX to Cubit/BLoC, improved modular architecture, resolved live issues, written tests, and supported releases through GitHub Actions and Fastlane. I am comfortable collaborating with product, design, backend, and QA teams while owning features through deployment and maintenance.
-
-I would welcome the opportunity to contribute to Al-Tadamun's mobile applications and discuss the role's scope, working arrangement, and compensation.
-
-Best regards,
-Muhammad Essam`,
-  },
 ] as const;
 
 const rejected = [
   "CDS Solutions وInnovationTeam وOliv وKalvad وTechnosat وPayTabs وBlueCloud وAdree وNawy وTamara وDsquares: ظهروا في تقارير سابقة، فمش هكررهم من غير تغيير مهم.",
+  "Al‑Tadamun Microfinance Association: Wuzzuf شال زر التقديم وبيوجّه لفرص مشابهة، فاعتبرتها مقفولة وشلتها من التقرير.",
   "Colada: ظهر قبل كده، والراتب الظاهر حاليًا 350 دولار شهريًا، أقل من الحد الأدنى.",
   "NEOM Associate Flutter: صفحة LinkedIn بتقول إنهم لم يعودوا يقبلوا طلبات.",
   "Dorra Developments: آخر موعد للتقديم كان 16 يوليو، فالفرصة مقفولة.",
+  "Watan First Digital وPROJECX: صفحات LinkedIn لا تقبل طلبات حاليًا؛ Watan كمان طالبة 5+ سنوات Flutter.",
+  "Envision Employment Solutions: الوظيفة طالبة 6+ سنوات Mobile وقيادة معمارية، أعلى من الخبرة الحالية.",
   "Salt Dubai: التطابق التقني جيد لكن جهة التوظيف Salt غير عربية المقر، فمرفوضة حسب الفلتر.",
   "SAZGENIX / MOAISUS: هوية صاحب العمل والمقر الرئيسي العربي مش واضحين بما يكفي.",
   "Smart EGAT: التقديم مفتوح لكن خبرة BLE وIoT أساسية، والراتب مخفي والإعلان أقدم؛ أولوية أقل من فرص النهارده.",
@@ -117,12 +97,12 @@ export default function Home() {
         </nav>
         <div className="heroCopy">
           <p className="eyebrow">تقرير وظائف Flutter اليومي</p>
-          <h1>٣ فرص قوية برواتب واضحة، وفرصة إضافية محتملة.</h1>
-          <p className="intro">ابدأ بـMedad Holding ثم Diverge AI بسبب قوة التطابق ونطاق الراتب، وبعدهم Script IT. مفيش ردود Recruiter مهمة في Gmail آخر ٤٨ ساعة.</p>
+          <h1>٣ فرص قوية برواتب واضحة، ومفيش فرص جديدة تستاهل الإضافة.</h1>
+          <p className="intro">تحديث ٥:٥٥ مساءً: ابدأ بـMedad Holding ثم Diverge AI وبعدهم Script IT. Al‑Tadamun اتقفلت، ومفيش ردود Recruiter مهمة في Gmail آخر ٤٨ ساعة.</p>
         </div>
         <div className="stats" aria-label="ملخص التقرير">
           <div><strong>3</strong><span>تطابق قوي</span></div>
-          <div><strong>1</strong><span>فرصة ممكنة</span></div>
+          <div><strong>0</strong><span>فرصة ممكنة</span></div>
           <div><strong>0</strong><span>رسالة توظيف مهمة</span></div>
         </div>
       </header>
@@ -137,7 +117,7 @@ export default function Home() {
       <section className="content">
         <div className="sectionHead">
           <div><p className="eyebrow">الأولوية اليوم</p><h2>قدّم على التلات فرص القوية</h2></div>
-          <p>الفرص القوية لها رواتب معلنة فوق الحد ومقر عربي واضح ومسار تقديم مباشر. Al‑Tadamun احتياطي لأن الإعلان أقدم والراتب مخفي.</p>
+          <p>الفرص الثلاثة لسه مفتوحة، برواتب معلنة فوق الحد، ومقر عربي واضح، ومسار تقديم مباشر. البحث الجديد ماطلعش إضافة بنفس الجودة.</p>
         </div>
 
         <div className="jobGrid">
@@ -164,14 +144,14 @@ export default function Home() {
         <section className="emailSection" aria-label="إيميلات التوظيف آخر 48 ساعة">
           <div className="sectionHead">
             <div><p className="eyebrow">من Gmail</p><h2>إيميلات التوظيف آخر ٤٨ ساعة</h2></div>
-            <p>راجعت الحساب muhammad159e@gmail.com وفلترت الرسائل المرسلة منك، تأكيدات التقديم، التنبيهات والنشرات. مفيش ردود شركة أو Recruiter مهمة.</p>
+            <p>راجعت الحساب muhammad159e@gmail.com من 24 لحد 26 يوليو وفلترت الرسائل المرسلة منك، تأكيدات التقديم، التنبيهات والنشرات. مفيش ردود شركة أو Recruiter مهمة.</p>
           </div>
           <div className="emailGrid">
             <article className="emailCard">
               <div className="cardTop"><span className="rank">آخر ٤٨ ساعة</span><span className="match good">لا جديد مهم</span></div>
               <p className="company">Gmail · muhammad159e@gmail.com</p>
               <h3>0 ردود توظيف مهمة</h3>
-              <p className="why"><b>اللي اتراجع:</b> تنبيهات Indeed وLinkedIn وPulse Job وNaukriGulf وWuzzuf، دعوات LinkedIn، ورسائل Onboarding ونشرات عامة.</p>
+              <p className="why"><b>اللي اتراجع:</b> تنبيهات Indeed وLinkedIn وPulse Job وNaukriGulf وWuzzuf، دعوات LinkedIn، وتذكير Outlier بالـOnboarding، ونشرات عامة.</p>
               <p className="note"><b>الإجراء المقترح:</b> مفيش متابعة عاجلة من الإيميل النهارده؛ ركّز على التقديم للفرص الثلاثة الأولى.</p>
             </article>
           </div>
@@ -185,7 +165,7 @@ export default function Home() {
 
       <footer>
         <p>الترتيب مبني على قوة التطابق وحداثة الإعلان ووضوح الراتب ومسار التقديم.</p>
-        <p>آخر تحديث: 26 يوليو 2026 · القاهرة</p>
+        <p>آخر تحديث: 26 يوليو 2026 · 5:55 مساءً القاهرة</p>
       </footer>
     </main>
   );

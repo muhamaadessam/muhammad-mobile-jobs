@@ -22,8 +22,8 @@ test("renders today's filtered Flutter report", async () => {
   assert.match(html, /Diverge AI/);
   assert.match(html, /Medad Holding/);
   assert.match(html, /Script for Information Technology/);
-  assert.match(html, /Al-Tadamun Microfinance Association/);
+  assert.match(html, /Al‑Tadamun Microfinance Association: Wuzzuf شال زر التقديم/);
   assert.match(html, /0 ردود توظيف مهمة/);
   assert.match(html, /NEOM Associate Flutter/);
-  assert.equal((html.match(/نسخ Cover Letter/g) ?? []).length, 4);
+  assert.equal((html.match(/نسخ Cover Letter/g) ?? []).length, 3);
 });

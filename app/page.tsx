@@ -2,70 +2,93 @@ import CopyButton from "./CopyButton";
 
 const jobs = [
   {
-    company: "CDS Solutions",
+    company: "Diverge AI",
     role: "Flutter Developer",
-    location: "مدينة نصر، القاهرة",
+    location: "أبوظبي، الإمارات",
     mode: "دوام كامل · On-site",
-    age: "منشور خلال آخر 24 ساعة والتقديم مفتوح",
-    salary: "غير معلن · Competitive + bonuses",
+    age: "مفتوحة حاليًا على Indeed",
+    salary: "6,000–9,000 درهم إماراتي / شهر",
     match: "تطابق قوي",
     matchClass: "strong",
-    why: "مطلوب 2+ سنة Flutter مع Dart وREST APIs وBloc/Provider/Riverpod وGit وCI/CD ونشر التطبيقات؛ ده مطابق مباشرة لخبرتك، والشركة مصرية مقرها مدينة نصر.",
-    note: "الراتب مخفي والحضور من المكتب. اسأل من أول مكالمة عن صافي الراتب وعدد أيام وساعات الحضور.",
-    href: "https://www.cds-solutions.co/jobs/flutter-developer-22",
-    coverLetter: `Dear CDS Solutions Hiring Team,
+    why: "شركة إماراتية مقرها أبوظبي طالبة 2+ سنة Flutter مع Bloc/Provider، REST وWebSocket، Hive/sqflite، FCM وFirebase، Clean Architecture، اختبارات وCI/CD؛ ده أقرب تطابق كامل لخبرتك الحالية.",
+    note: "لازم تكون مستعد للانتقال لأبوظبي، ونموذج التقديم بيطلب تأكيد قبول نطاق الراتب. اكتب Yes لو النطاق مناسب لك.",
+    href: "https://ae.indeed.com/viewjob?jk=9051550655829cb1",
+    coverLetter: `Dear Diverge AI Hiring Team,
 
-I am applying for the Flutter Developer position in Nasr City. I have more than three years of production experience building and maintaining Flutter applications for Android, iOS, and Windows using Dart, BLoC/Cubit, GetX, Clean Architecture, REST APIs, Firebase, local storage, testing, and Git-based workflows.
+I am applying for the Flutter Developer position in Abu Dhabi. I have more than three years of production experience building Flutter applications for Android, iOS, and Windows using Dart, BLoC/Cubit, GetX, Clean Architecture, REST APIs, WebSocket-based services, Firebase, Hive, SQLite, testing, and Git.
 
-My recent work includes migrating production code from GetX to Cubit/BLoC, improving modular architecture, integrating APIs and third-party services, fixing production issues, and automating releases with GitHub Actions and Fastlane. I have also worked with app-store releases and performance-focused maintenance of live applications.
+My recent work includes migrating production features from GetX to Cubit/BLoC, improving modular architecture, integrating APIs and push notifications, resolving production issues, and automating releases with GitHub Actions and Fastlane. I have shipped and maintained live applications and am comfortable owning features from implementation through release.
 
-I would welcome the opportunity to contribute to CDS Solutions' mobile products and digital transformation projects.
+I am based in Egypt and willing to relocate to Abu Dhabi. The advertised salary range is acceptable, and I would welcome the opportunity to help Diverge build reliable bilingual AI-powered mobile products.
 
 Best regards,
 Muhammad Essam`,
   },
   {
-    company: "InnovationTeam",
-    role: "Flutter Mobile Developer",
-    location: "الرياض، السعودية",
-    mode: "دوام كامل · Remote",
-    age: "مفتوحة على صفحة الشركة وWorkable",
-    salary: "غير معلن",
+    company: "Medad Holding",
+    role: "Flutter Mobile Application Developer",
+    location: "دبي، الإمارات",
+    mode: "دوام كامل دائم · On-site",
+    age: "مفتوحة حاليًا على Indeed",
+    salary: "12,000–15,000 درهم إماراتي / شهر",
     match: "تطابق قوي",
     matchClass: "strong",
-    why: "الدور يطلب Flutter وREST APIs وBloc/Provider/Riverpod وCI/CD وAgile ونشر التطبيقات، وبيقبل مستويات مختلفة من 1–2 سنة فأكثر. موقع الشركة الرسمي يحدد الرياض كمقر رئيسي.",
-    note: "الراتب مخفي، ونموذج التقديم بيسأل عن الراتب الحالي والمتوقع بالريال. اكتب رقمًا مناسبًا للسوق وتأكد إن الـRemote متاح من مصر.",
-    href: "https://apply.workable.com/innovationteam/j/8AD4C184DD/",
-    coverLetter: `Dear InnovationTeam Hiring Team,
+    why: "شركة إماراتية مقرها دبي طالبة 3–5 سنوات Mobile مع Flutter/Dart وREST APIs وGit وأمان التطبيقات والنشر على المتاجر؛ خبرتك في تطبيقات الإنتاج وFirebase وCI/CD مناسبة جدًا، وخبرة الـfintech ميزة وليست شرطًا.",
+    note: "الوظيفة من المكتب في دبي. وضّح استعدادك للانتقال واسأل عن التأشيرة والتأمين وموعد الانضمام في أول مقابلة.",
+    href: "https://ae.indeed.com/viewjob?jk=aef0e038fc2c954a",
+    coverLetter: `Dear Medad Holding Hiring Team,
 
-I am applying for the Flutter Mobile Developer role. I have more than three years of production Flutter experience across Android, iOS, and Windows, with strong hands-on work in Dart, BLoC/Cubit, GetX, Clean Architecture, REST APIs, Firebase, local storage, testing, and release automation.
+I am applying for the Flutter Mobile Application Developer position in Dubai. I have more than three years of hands-on production experience building and maintaining Android, iOS, and Windows applications with Flutter and Dart.
 
-In recent roles, I migrated production features from GetX to Cubit/BLoC, improved modular architecture, integrated backend services, resolved production issues, and supported releases through GitHub Actions and Fastlane. I am comfortable owning features, collaborating with product and QA teams, and maintaining reliable applications after launch.
+My experience includes BLoC/Cubit, GetX, Clean Architecture, MVVM, REST APIs, Firebase, local storage, unit testing, Git, and app-store deployment. In recent roles, I migrated production code from GetX to Cubit/BLoC, improved modular architecture, integrated backend services, fixed live issues, and supported automated releases through GitHub Actions and Fastlane.
 
-I am based in Egypt and would be glad to discuss the remote working arrangement, availability, and compensation in SAR.
+I am comfortable delivering secure, reliable mobile features in collaboration with product, design, backend, and QA teams. I am based in Egypt and willing to relocate to Dubai for this permanent role.
 
 Best regards,
 Muhammad Essam`,
   },
   {
-    company: "Oliv",
-    role: "Frontend Engineer (Flutter)",
-    location: "الزمالك، القاهرة",
-    mode: "دوام كامل · Hybrid",
-    age: "منشورة من شهر والتقديم ما زال مفتوحًا",
-    salary: "غير معلن",
+    company: "Script for Information Technology",
+    role: "Flutter Developer",
+    location: "سنابس / المنامة، البحرين",
+    mode: "دوام كامل · On-site",
+    age: "صاحب العمل نشط خلال آخر ساعات والتقديم مفتوح",
+    salary: "400–900 دينار بحريني / شهر",
     match: "تطابق قوي",
     matchClass: "strong",
-    why: "Fintech مصرية طالبة خبرة إنتاج فعلية في Flutter وDart وREST APIs وAuthentication وState Management واختبارات وأداء وملكية كاملة للـfeatures؛ ده قريب جدًا من خبرتك.",
-    note: "الراتب وعدد أيام الحضور مش معلنين. اسأل بدري عن صافي الراتب ونظام الـHybrid قبل استكمال المراحل.",
-    href: "https://wuzzuf.net/jobs/p/b1l7nuffcuhn-frontend-engineer-flutter-oliv-cairo-egypt",
-    coverLetter: `Dear Oliv Hiring Team,
+    why: "شركة بحرينية مسجلة ومقرها المنامة، والإعلان يطلب 2–4 سنوات مع Flutter/Dart وREST APIs وBloc/Provider/Riverpod وFirebase وGit وCI/CD ونشر التطبيقات؛ كل ده داخل خبرتك.",
+    note: "النطاق المعلن فوق الحد المطلوب، لكن الشغل من البحرين. اسأل قبل أي التزام عن التأشيرة، السكن، وصافي الراتب بعد أي استقطاعات.",
+    href: "https://www.naukrigulf.com/flutter-developer-jobs-in-bahrain-in-script-for-information-technology-co.-w.l.l-2-to-4-years-n-cd-332265-jid-230726000339",
+    coverLetter: `Dear Script IT Hiring Team,
 
-I am applying for the Frontend Engineer (Flutter) position. I have more than three years of hands-on production experience building and maintaining Flutter applications with Dart, BLoC/Cubit, GetX, Clean Architecture, MVVM, REST APIs, Firebase, local storage, testing, and CI/CD.
+I am applying for the Flutter Developer position in Bahrain. I have more than three years of production experience building and maintaining Flutter applications across Android, iOS, and Windows using Dart, BLoC/Cubit, GetX, Clean Architecture, REST APIs, Firebase, local storage, testing, and Git.
 
-My recent work includes owning production features end to end, migrating GetX code to Cubit/BLoC, improving modular architecture, integrating authentication and backend services, debugging live issues, and supporting automated releases with GitHub Actions and Fastlane. I enjoy high-ownership product environments and writing maintainable code that remains reliable after launch.
+My recent work includes migrating production modules from GetX to Cubit/BLoC, integrating APIs and third-party services, improving performance and maintainability, fixing production issues, and automating releases with GitHub Actions and Fastlane. I also have hands-on experience with app-store deployment and maintaining live applications.
 
-I would welcome the opportunity to help Oliv evolve its Flutter products for Egyptian SMEs.
+I am based in Egypt and open to relocating to Bahrain. I would be glad to discuss the role, visa support, availability, and compensation.
+
+Best regards,
+Muhammad Essam`,
+  },
+  {
+    company: "Al-Tadamun Microfinance Association",
+    role: "Flutter Developer",
+    location: "الدقي، الجيزة",
+    mode: "دوام كامل · On-site",
+    age: "إعلان أقدم لكنه ما زال ضمن الشواغر المفتوحة",
+    salary: "غير معلن",
+    match: "فرصة ممكنة",
+    matchClass: "good",
+    why: "مؤسسة مصرية كبيرة طالبة 1–3 سنوات مع Flutter/Dart وREST APIs وGit واختبارات وأداء ونشر على المتاجر. التطابق التقني قوي ومسار التقديم على Wuzzuf مفتوح.",
+    note: "الإعلان أقدم والراتب مخفي. اسأل من أول مكالمة عن صافي الراتب وساعات الحضور، وما تكملش لو أقل من 30 ألف جنيه.",
+    href: "https://wuzzuf.net/jobs/p/4hmmvblpweo3-flutter-developer-al-tadamun-microfinance-association-giza-egypt",
+    coverLetter: `Dear Al-Tadamun Hiring Team,
+
+I am applying for the Flutter Developer position in Dokki. I have more than three years of production experience building and maintaining Flutter applications for Android, iOS, and Windows using Dart, BLoC/Cubit, GetX, Clean Architecture, REST APIs, Firebase, local storage, testing, and Git.
+
+In my current and recent roles, I have delivered new features, migrated production code from GetX to Cubit/BLoC, improved modular architecture, resolved live issues, written tests, and supported releases through GitHub Actions and Fastlane. I am comfortable collaborating with product, design, backend, and QA teams while owning features through deployment and maintenance.
+
+I would welcome the opportunity to contribute to Al-Tadamun's mobile applications and discuss the role's scope, working arrangement, and compensation.
 
 Best regards,
 Muhammad Essam`,
@@ -73,14 +96,15 @@ Muhammad Essam`,
 ] as const;
 
 const rejected = [
-  "Kalvad وTechnosat وPayTabs وBlueCloud وAdree وNawy وTamara وColada وDsquares: ظهروا في تقارير سابقة، فمش هكررهم من غير تغيير مهم.",
-  "Envision: الدور الجديد يطلب 6+ سنوات Mobile وخبرة Mentoring وقيادة تقنية.",
-  "almentor: يطلب 5+ سنوات Mobile وسنتين على الأقل في قيادة فريق وتطبيق يتجاوز 100 ألف تحميل.",
-  "CODE SARAA: يطلب 5+ سنوات Flutter مع ASP.NET Core وMySQL، وده خارج خبرتك الحالية.",
-  "Burjline / Jackpot: الدور متخصص في ألعاب Casino وFlame وRNG وShaders وخبرة ألعاب فعلية.",
-  "Al-Tadamun وIbn Sina وSmart EGAT وCarina Wear: صفحات Wuzzuf ظاهرة في البحث لكن من غير زر تقديم مباشر أو قديمة، فمش مؤكدة كفرص مفتوحة.",
-  "Dorra انتهى موعدها 16 يوليو، وExabyting انتهى موعدها 23 يوليو.",
-  "رسائل LinkedIn وIndeed وPulse Job وNaukriGulf: تنبيهات أو تأكيدات تقديم آلية وليست ردود Recruiter مهمة.",
+  "CDS Solutions وInnovationTeam وOliv وKalvad وTechnosat وPayTabs وBlueCloud وAdree وNawy وTamara وDsquares: ظهروا في تقارير سابقة، فمش هكررهم من غير تغيير مهم.",
+  "Colada: ظهر قبل كده، والراتب الظاهر حاليًا 350 دولار شهريًا، أقل من الحد الأدنى.",
+  "NEOM Associate Flutter: صفحة LinkedIn بتقول إنهم لم يعودوا يقبلوا طلبات.",
+  "Dorra Developments: آخر موعد للتقديم كان 16 يوليو، فالفرصة مقفولة.",
+  "Salt Dubai: التطابق التقني جيد لكن جهة التوظيف Salt غير عربية المقر، فمرفوضة حسب الفلتر.",
+  "SAZGENIX / MOAISUS: هوية صاحب العمل والمقر الرئيسي العربي مش واضحين بما يكفي.",
+  "Smart EGAT: التقديم مفتوح لكن خبرة BLE وIoT أساسية، والراتب مخفي والإعلان أقدم؛ أولوية أقل من فرص النهارده.",
+  "Tanemera وIbn Sina والفرص التدريبية: Junior أو Entry Level، فمش مناسبة للفلتر.",
+  "رسائل Indeed وLinkedIn وPulse Job وNaukriGulf وWuzzuf: تنبيهات أو دعوات أو نشرات عامة، وليست ردود شركة أو Recruiter مهمة.",
 ] as const;
 
 export default function Home() {
@@ -89,17 +113,17 @@ export default function Home() {
       <header className="hero">
         <nav aria-label="رأس التقرير">
           <span className="brand">فرص محمد</span>
-          <span className="date">تقرير 24 يوليو 2026</span>
+          <span className="date">تقرير 26 يوليو 2026</span>
         </nav>
         <div className="heroCopy">
           <p className="eyebrow">تقرير وظائف Flutter اليومي</p>
-          <h1>٣ فرص قوية جديدة وتحديث توظيف مهم.</h1>
-          <p className="intro">ابدأ بـCDS Solutions لأنها الأحدث، وبعدها InnovationTeam وOliv. NIX/Vertex أكدوا إنهم اختاروا مرشحًا آخر للدور السابق.</p>
+          <h1>٣ فرص قوية برواتب واضحة، وفرصة إضافية محتملة.</h1>
+          <p className="intro">ابدأ بـMedad Holding ثم Diverge AI بسبب قوة التطابق ونطاق الراتب، وبعدهم Script IT. مفيش ردود Recruiter مهمة في Gmail آخر ٤٨ ساعة.</p>
         </div>
         <div className="stats" aria-label="ملخص التقرير">
           <div><strong>3</strong><span>تطابق قوي</span></div>
-          <div><strong>0</strong><span>فرصة ممكنة</span></div>
-          <div><strong>1</strong><span>رسالة توظيف مهمة</span></div>
+          <div><strong>1</strong><span>فرصة ممكنة</span></div>
+          <div><strong>0</strong><span>رسالة توظيف مهمة</span></div>
         </div>
       </header>
 
@@ -112,8 +136,8 @@ export default function Home() {
 
       <section className="content">
         <div className="sectionHead">
-          <div><p className="eyebrow">الأولوية اليوم</p><h2>قدّم على التلات فرص</h2></div>
-          <p>كل فرصة لها مسار تقديم مباشر ومقر عربي واضح وتطابق تقني قوي. الرواتب مخفية، فاسأل عن الصافي ونظام الحضور في أول تواصل.</p>
+          <div><p className="eyebrow">الأولوية اليوم</p><h2>قدّم على التلات فرص القوية</h2></div>
+          <p>الفرص القوية لها رواتب معلنة فوق الحد ومقر عربي واضح ومسار تقديم مباشر. Al‑Tadamun احتياطي لأن الإعلان أقدم والراتب مخفي.</p>
         </div>
 
         <div className="jobGrid">
@@ -140,15 +164,15 @@ export default function Home() {
         <section className="emailSection" aria-label="إيميلات التوظيف آخر 48 ساعة">
           <div className="sectionHead">
             <div><p className="eyebrow">من Gmail</p><h2>إيميلات التوظيف آخر ٤٨ ساعة</h2></div>
-            <p>راجعت الحساب muhammad159e@gmail.com وفلترت التنبيهات والتأكيدات الآلية. فيه تحديث حالة مهم واحد من NIX/Vertex.</p>
+            <p>راجعت الحساب muhammad159e@gmail.com وفلترت الرسائل المرسلة منك، تأكيدات التقديم، التنبيهات والنشرات. مفيش ردود شركة أو Recruiter مهمة.</p>
           </div>
           <div className="emailGrid">
             <article className="emailCard">
-              <div className="cardTop"><span className="rank">23 يوليو · 3:40 م</span><span className="match stretch">تحديث مهم</span></div>
-              <p className="company">Subanbekova Aliia · NIX HR / Vertex</p>
-              <h3>Update on your application</h3>
-              <p className="why"><b>ليه مهمة:</b> الشركة أنهت عملية الاختيار لوظيفة Middle Flutter Developer وقررت تكمل مع مرشح آخر.</p>
-              <p className="note"><b>الإجراء المقترح:</b> مفيش رد مطلوب. اقفل المتابعة على الوظيفة واحتفظ بالشركة ضمن قائمة الفرص المستقبلية.</p>
+              <div className="cardTop"><span className="rank">آخر ٤٨ ساعة</span><span className="match good">لا جديد مهم</span></div>
+              <p className="company">Gmail · muhammad159e@gmail.com</p>
+              <h3>0 ردود توظيف مهمة</h3>
+              <p className="why"><b>اللي اتراجع:</b> تنبيهات Indeed وLinkedIn وPulse Job وNaukriGulf وWuzzuf، دعوات LinkedIn، ورسائل Onboarding ونشرات عامة.</p>
+              <p className="note"><b>الإجراء المقترح:</b> مفيش متابعة عاجلة من الإيميل النهارده؛ ركّز على التقديم للفرص الثلاثة الأولى.</p>
             </article>
           </div>
         </section>
@@ -160,8 +184,8 @@ export default function Home() {
       </section>
 
       <footer>
-        <p>الترتيب مبني على قوة التطابق وحداثة الإعلان ووضوح مسار التقديم.</p>
-        <p>آخر تحديث: 24 يوليو 2026 · القاهرة</p>
+        <p>الترتيب مبني على قوة التطابق وحداثة الإعلان ووضوح الراتب ومسار التقديم.</p>
+        <p>آخر تحديث: 26 يوليو 2026 · القاهرة</p>
       </footer>
     </main>
   );

@@ -27,10 +27,15 @@ test("renders both candidate tabs without email content", async () => {
   assert.match(html, /Muhammad Essam/);
   assert.match(html, /Asmaa Atya/);
   assert.match(html, /Android Native/);
-  assert.match(html, /مستنيين CV أسماء/);
+  assert.match(html, /Tawajood/);
+  assert.match(html, /Expert Apps/);
+  assert.match(html, /Efada Technology/);
+  assert.match(html, /Al Ahly Momkn/);
+  assert.match(html, /٢ قوية و٢ ممكنة/);
   assert.match(html, /Al‑Tadamun Microfinance Association: Wuzzuf شال زر التقديم/);
   assert.match(html, /NEOM Associate Flutter/);
   assert.equal((html.match(/type="radio"/g) ?? []).length, 2);
-  assert.equal((html.match(/نسخ Cover Letter/g) ?? []).length, 5);
+  assert.equal((html.match(/نسخ Cover Letter/g) ?? []).length, 9);
+  assert.equal((html.match(/Asmaa Atya/g) ?? []).length >= 5, true);
   assert.doesNotMatch(html, /Gmail|إيميلات التوظيف|ردود توظيف مهمة/);
 });

@@ -92,11 +92,6 @@ h3 { margin: 0; font-size: clamp(25px, 3vw, 36px); line-height: 1.2; letter-spac
 .jobCard a:hover,
 .jobCard a:focus-visible { background: var(--green); color: white; outline: 3px solid var(--lime); outline-offset: 2px; }
 .jobCard a span { font-size: 20px; }
-.emptyState { max-width: 760px; min-height: 360px; padding: clamp(28px, 5vw, 54px); display: flex; flex-direction: column; justify-content: center; background: var(--card); border: 1px dashed #a99f90; border-radius: 22px; }
-.emptyState .company { margin-top: 0; }
-.emptyState > p:not(.company) { max-width: 620px; color: var(--muted); line-height: 1.8; }
-.candidateSignature { margin-top: 28px; padding: 18px 20px; display: flex; justify-content: space-between; gap: 16px; border-radius: 14px; background: #eaf3ef; color: #43514c; }
-.candidateSignature strong { color: var(--green); }
 .rejected { margin-top: 34px; border-top: 1px solid var(--line); padding-top: 34px; }
 .rejected h2 { font-size: clamp(28px, 4vw, 46px); margin-bottom: 18px; }
 .rejected ul { margin: 0; padding: 0 22px 0 0; color: #574d45; line-height: 1.9; }
@@ -114,7 +109,6 @@ footer p { margin: 0; }
   .jobGrid { grid-template-columns: 1fr; }
   .jobCard { min-height: 500px; }
   .actions { grid-template-columns: 1fr; }
-  .candidateSignature { flex-direction: column; }
   footer { flex-direction: column; }
 }
 

@@ -70,6 +70,52 @@ I am based in Egypt and open to relocating to Bahrain. I would be glad to discus
 Best regards,
 Muhammad Essam`,
   },
+  {
+    company: "TAWANTECH",
+    role: "Senior Flutter Developer offshore",
+    location: "القاهرة، مصر",
+    mode: "دوام كامل · On-site",
+    age: "منشورة من 22 ساعة والتقديم Easy Apply مفتوح",
+    salary: "مخفي",
+    match: "فرصة ممكنة",
+    matchClass: "stretch",
+    why: "شركة سعودية مقرها الرياض، والدور يطابق خبرتك في Flutter/Dart وBloc/GetX وClean Architecture وREST وFirebase وGit وCI/CD والنشر. شرط 3+ سنوات Flutter متحقق.",
+    note: "الإعلان طالب 5+ سنوات Software Development مع mentoring، وده أعلى من إجمالي خبرتك الحالية؛ قدّم لو تقدر تبرز مسؤوليتك عن Features الإنتاج والـarchitecture.",
+    href: "https://www.linkedin.com/jobs/view/4445611919/",
+    coverLetter: `Dear TAWANTECH Hiring Team,
+
+I am applying for the Senior Flutter Developer offshore position in Cairo. I have more than three years of hands-on production experience building and maintaining Flutter applications for Android, iOS, and Windows using Dart, BLoC/Cubit, GetX, Clean Architecture, REST APIs, Firebase, local storage, testing, Git, and CI/CD.
+
+In my recent work, I migrated production modules from GetX to Cubit/BLoC, improved modular architecture, integrated APIs and third-party services, resolved live production issues, and supported automated releases with GitHub Actions and Fastlane. I am comfortable owning features end to end, collaborating with product, backend, design, and QA teams, and contributing to technical planning and code reviews.
+
+I am based in Egypt, available for on-site work in Cairo, and would welcome the opportunity to discuss how my production Flutter experience can support TAWANTECH's mobile products.
+
+Best regards,
+Muhammad Essam`,
+  },
+  {
+    company: "PSdigital",
+    role: "Flutter Developer",
+    location: "دبي، الإمارات",
+    mode: "دوام كامل · On-site",
+    age: "الإعلان ما زال مفتوحًا لكنه أقدم من 30 يوم",
+    salary: "مخفي",
+    match: "فرصة ممكنة",
+    matchClass: "stretch",
+    why: "شركة مقرها دبي، والمتطلبات مناسبة: Flutter/Dart وREST APIs وGit وUI/UX وautomated testing وCI، مع مسار تقديم ظاهر على صفحة الوظيفة.",
+    note: "الراتب مخفي والإعلان أقدم من فرص اليوم، فاسأل مبكرًا عن صافي الراتب، التأشيرة، والانتقال لدبي قبل أي مقابلات طويلة.",
+    href: "https://www.glassdoor.com/job-listing/flutter-developer-psdigital-JV_IC2204498_KO0%2C17_KE18%2C27.htm?jl=1009227501808",
+    coverLetter: `Dear PSdigital Hiring Team,
+
+I am applying for the Flutter Developer position in Dubai. I have more than three years of production experience building cross-platform applications for Android, iOS, and Windows with Flutter and Dart.
+
+My experience includes BLoC/Cubit, GetX, Clean Architecture, REST APIs, Firebase, local storage, unit testing, Git, and CI/CD. I have shipped and maintained live applications, migrated production features from GetX to Cubit/BLoC, integrated backend services, fixed production issues, and supported releases through GitHub Actions and Fastlane.
+
+I am based in Egypt and willing to relocate to Dubai. I would be glad to discuss the role, visa support, compensation, and how my production Flutter experience can contribute to PSdigital's mobile products.
+
+Best regards,
+Muhammad Essam`,
+  },
 ] as const;
 
 const rejected = [
@@ -84,6 +130,11 @@ const rejected = [
   "SAZGENIX / MOAISUS: هوية صاحب العمل والمقر الرئيسي العربي مش واضحين بما يكفي.",
   "Smart EGAT: التقديم مفتوح لكن خبرة BLE وIoT أساسية، والراتب مخفي والإعلان أقدم؛ أولوية أقل من فرص النهارده.",
   "Tanemera وIbn Sina والفرص التدريبية: Junior أو Entry Level، فمش مناسبة للفلتر.",
+  "onebank: الإعلان الجديد لتطوير Android وiOS Native فقط، مش Flutter.",
+  "Heru Loop وFekra Technologies: الوظائف الجديدة مركزة على React Native، مش Flutter.",
+  "Vallix: التطابق التقني قريب لكن مقر الشركة الرئيسي لندن، فمرفوضة حسب فلتر المقر العربي.",
+  "Dicetek: طالبة 5–8+ سنوات مع Flutter وReact Native معًا؛ أعلى من الخبرة الحالية.",
+  "Primis: Recruiter بريطاني والعميل البنكي غير معلن، والوظيفة من دبي من غير تأشيرة؛ مقر العميل العربي غير قابل للتحقق.",
   "رسائل Indeed وLinkedIn وPulse Job وNaukriGulf وWuzzuf: تنبيهات أو دعوات أو نشرات عامة، وليست ردود شركة أو Recruiter مهمة.",
 ] as const;
 
@@ -93,16 +144,16 @@ export default function Home() {
       <header className="hero">
         <nav aria-label="رأس التقرير">
           <span className="brand">فرص محمد</span>
-          <span className="date">تقرير 26 يوليو 2026</span>
+          <span className="date">تقرير 27 يوليو 2026</span>
         </nav>
         <div className="heroCopy">
           <p className="eyebrow">تقرير وظائف Flutter اليومي</p>
-          <h1>٣ فرص قوية برواتب واضحة، ومفيش فرص جديدة تستاهل الإضافة.</h1>
-          <p className="intro">تحديث ٥:٥٥ مساءً: ابدأ بـMedad Holding ثم Diverge AI وبعدهم Script IT. Al‑Tadamun اتقفلت، ومفيش ردود Recruiter مهمة في Gmail آخر ٤٨ ساعة.</p>
+          <h1>٣ فرص قوية، وفرصتين جديدتين ممكنتين، ومفيش ردود Recruiter مهمة.</h1>
+          <p className="intro">تحديث ٥:١٧ مساءً: ابدأ بـMedad Holding ثم Diverge AI وScript IT. TAWANTECH جديدة ومناسبة تقنيًا لكن شرط الخبرة أعلى، وPSdigital مفتوحة لكن أقدم والراتب مخفي.</p>
         </div>
         <div className="stats" aria-label="ملخص التقرير">
           <div><strong>3</strong><span>تطابق قوي</span></div>
-          <div><strong>0</strong><span>فرصة ممكنة</span></div>
+          <div><strong>2</strong><span>فرصة ممكنة</span></div>
           <div><strong>0</strong><span>رسالة توظيف مهمة</span></div>
         </div>
       </header>
@@ -116,8 +167,8 @@ export default function Home() {
 
       <section className="content">
         <div className="sectionHead">
-          <div><p className="eyebrow">الأولوية اليوم</p><h2>قدّم على التلات فرص القوية</h2></div>
-          <p>الفرص الثلاثة لسه مفتوحة، برواتب معلنة فوق الحد، ومقر عربي واضح، ومسار تقديم مباشر. البحث الجديد ماطلعش إضافة بنفس الجودة.</p>
+          <div><p className="eyebrow">الأولوية اليوم</p><h2>٣ قوية و٢ ممكنة</h2></div>
+          <p>الفرص الثلاثة الأقوى ما زالت مفتوحة برواتب معلنة فوق الحد. أضفت TAWANTECH وPSdigital كفرص ممكنة لأن الراتب مخفي أو شرط الخبرة أعلى.</p>
         </div>
 
         <div className="jobGrid">
@@ -144,15 +195,15 @@ export default function Home() {
         <section className="emailSection" aria-label="إيميلات التوظيف آخر 48 ساعة">
           <div className="sectionHead">
             <div><p className="eyebrow">من Gmail</p><h2>إيميلات التوظيف آخر ٤٨ ساعة</h2></div>
-            <p>راجعت الحساب muhammad159e@gmail.com من 24 لحد 26 يوليو وفلترت الرسائل المرسلة منك، تأكيدات التقديم، التنبيهات والنشرات. مفيش ردود شركة أو Recruiter مهمة.</p>
+            <p>راجعت الحساب muhammad159e@gmail.com من 25 لحد 27 يوليو وفلترت الرسائل المرسلة منك، تأكيدات التقديم، التنبيهات والنشرات. مفيش ردود شركة أو Recruiter مهمة.</p>
           </div>
           <div className="emailGrid">
             <article className="emailCard">
               <div className="cardTop"><span className="rank">آخر ٤٨ ساعة</span><span className="match good">لا جديد مهم</span></div>
               <p className="company">Gmail · muhammad159e@gmail.com</p>
               <h3>0 ردود توظيف مهمة</h3>
-              <p className="why"><b>اللي اتراجع:</b> تنبيهات Indeed وLinkedIn وPulse Job وNaukriGulf وWuzzuf، دعوات LinkedIn، وتذكير Outlier بالـOnboarding، ونشرات عامة.</p>
-              <p className="note"><b>الإجراء المقترح:</b> مفيش متابعة عاجلة من الإيميل النهارده؛ ركّز على التقديم للفرص الثلاثة الأولى.</p>
+              <p className="why"><b>اللي اتراجع:</b> تنبيهات TAWANTECH من Indeed وLinkedIn، تنبيهات Pulse Job وNaukriGulf، دعوات ومجموعات LinkedIn/Facebook، وتذكير Outlier؛ كلها رسائل آلية أو غير توظيفية.</p>
+              <p className="note"><b>الإجراء المقترح:</b> مفيش متابعة عاجلة من الإيميل النهارده؛ ركّز على الفرص الثلاثة القوية وبعدهم TAWANTECH.</p>
             </article>
           </div>
         </section>
@@ -165,7 +216,7 @@ export default function Home() {
 
       <footer>
         <p>الترتيب مبني على قوة التطابق وحداثة الإعلان ووضوح الراتب ومسار التقديم.</p>
-        <p>آخر تحديث: 26 يوليو 2026 · 5:55 مساءً القاهرة</p>
+        <p>آخر تحديث: 27 يوليو 2026 · 5:17 مساءً القاهرة</p>
       </footer>
     </main>
   );

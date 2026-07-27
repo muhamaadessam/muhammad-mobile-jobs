@@ -18,12 +18,14 @@ test("renders today's filtered Flutter report", async () => {
   assert.equal(response.status, 200);
 
   const html = await response.text();
-  assert.match(html, /تقرير 26 يوليو 2026/);
+  assert.match(html, /تقرير 27 يوليو 2026/);
   assert.match(html, /Diverge AI/);
   assert.match(html, /Medad Holding/);
   assert.match(html, /Script for Information Technology/);
+  assert.match(html, /TAWANTECH/);
+  assert.match(html, /PSdigital/);
   assert.match(html, /Al‑Tadamun Microfinance Association: Wuzzuf شال زر التقديم/);
   assert.match(html, /0 ردود توظيف مهمة/);
   assert.match(html, /NEOM Associate Flutter/);
-  assert.equal((html.match(/نسخ Cover Letter/g) ?? []).length, 3);
+  assert.equal((html.match(/نسخ Cover Letter/g) ?? []).length, 5);
 });

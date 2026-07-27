@@ -13,7 +13,7 @@ async function render() {
   );
 }
 
-test("renders today's filtered Flutter report", async () => {
+test("renders both candidate tabs without email content", async () => {
   const response = await render();
   assert.equal(response.status, 200);
 
@@ -24,8 +24,13 @@ test("renders today's filtered Flutter report", async () => {
   assert.match(html, /Script for Information Technology/);
   assert.match(html, /TAWANTECH/);
   assert.match(html, /PSdigital/);
+  assert.match(html, /Muhammad Essam/);
+  assert.match(html, /Asmaa Atya/);
+  assert.match(html, /Android Native/);
+  assert.match(html, /مستنيين CV أسماء/);
   assert.match(html, /Al‑Tadamun Microfinance Association: Wuzzuf شال زر التقديم/);
-  assert.match(html, /0 ردود توظيف مهمة/);
   assert.match(html, /NEOM Associate Flutter/);
+  assert.equal((html.match(/type="radio"/g) ?? []).length, 2);
   assert.equal((html.match(/نسخ Cover Letter/g) ?? []).length, 5);
+  assert.doesNotMatch(html, /Gmail|إيميلات التوظيف|ردود توظيف مهمة/);
 });

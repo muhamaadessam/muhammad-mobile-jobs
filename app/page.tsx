@@ -135,7 +135,6 @@ const rejected = [
   "Vallix: التطابق التقني قريب لكن مقر الشركة الرئيسي لندن، فمرفوضة حسب فلتر المقر العربي.",
   "Dicetek: طالبة 5–8+ سنوات مع Flutter وReact Native معًا؛ أعلى من الخبرة الحالية.",
   "Primis: Recruiter بريطاني والعميل البنكي غير معلن، والوظيفة من دبي من غير تأشيرة؛ مقر العميل العربي غير قابل للتحقق.",
-  "رسائل Indeed وLinkedIn وPulse Job وNaukriGulf وWuzzuf: تنبيهات أو دعوات أو نشرات عامة، وليست ردود شركة أو Recruiter مهمة.",
 ] as const;
 
 export default function Home() {
@@ -143,18 +142,18 @@ export default function Home() {
     <main>
       <header className="hero">
         <nav aria-label="رأس التقرير">
-          <span className="brand">فرص محمد</span>
+          <span className="brand">فرص محمد وأسماء</span>
           <span className="date">تقرير 27 يوليو 2026</span>
         </nav>
         <div className="heroCopy">
-          <p className="eyebrow">تقرير وظائف Flutter اليومي</p>
-          <h1>٣ فرص قوية، وفرصتين جديدتين ممكنتين، ومفيش ردود Recruiter مهمة.</h1>
-          <p className="intro">تحديث ٥:١٧ مساءً: ابدأ بـMedad Holding ثم Diverge AI وScript IT. TAWANTECH جديدة ومناسبة تقنيًا لكن شرط الخبرة أعلى، وPSdigital مفتوحة لكن أقدم والراتب مخفي.</p>
+          <p className="eyebrow">Flutter وAndroid Native في مكان واحد</p>
+          <h1>اختار التخصص وشوف الفرص المناسبة لكل شخص.</h1>
+          <p className="intro">تاب محمد فيه تقرير Flutter الحالي كامل. تاب أسماء جاهز لاستقبال وظائف Android Native أول ما تضيف الـCV.</p>
         </div>
         <div className="stats" aria-label="ملخص التقرير">
-          <div><strong>3</strong><span>تطابق قوي</span></div>
-          <div><strong>2</strong><span>فرصة ممكنة</span></div>
-          <div><strong>0</strong><span>رسالة توظيف مهمة</span></div>
+          <div><strong>2</strong><span>مسار وظيفي</span></div>
+          <div><strong>5</strong><span>فرص Flutter</span></div>
+          <div><strong>—</strong><span>Android بعد الـCV</span></div>
         </div>
       </header>
 
@@ -166,57 +165,76 @@ export default function Home() {
       </section>
 
       <section className="content">
-        <div className="sectionHead">
-          <div><p className="eyebrow">الأولوية اليوم</p><h2>٣ قوية و٢ ممكنة</h2></div>
-          <p>الفرص الثلاثة الأقوى ما زالت مفتوحة برواتب معلنة فوق الحد. أضفت TAWANTECH وPSdigital كفرص ممكنة لأن الراتب مخفي أو شرط الخبرة أعلى.</p>
-        </div>
+        <fieldset className="candidateTabs">
+          <legend className="srOnly">اختار تقرير الوظائف</legend>
 
-        <div className="jobGrid">
-          {jobs.map((job, index) => (
-            <article className="jobCard" key={`${job.company}-${job.role}`}>
-              <div className="cardTop">
-                <span className="rank">{String(index + 1).padStart(2, "0")}</span>
-                <span className={`match ${job.matchClass}`}>{job.match}</span>
-              </div>
-              <p className="company">{job.company}</p>
-              <h3>{job.role}</h3>
-              <div className="meta"><span>{job.location}</span><span>{job.mode}</span><span>{job.age}</span></div>
-              <div className="salary"><span>الراتب</span><strong>{job.salary}</strong></div>
-              <p className="why"><b>ليه مناسبة:</b> {job.why}</p>
-              <p className="note"><b>خد بالك:</b> {job.note}</p>
-              <div className="actions">
-                <CopyButton text={job.coverLetter} />
-                <a href={job.href} target="_blank" rel="noreferrer" aria-label={`فتح وظيفة ${job.role} في ${job.company}`}>افتح الوظيفة <span aria-hidden="true">↗</span></a>
+          <input className="tabInput" type="radio" name="candidate" id="flutter-tab" defaultChecked />
+          <label className="tabLabel" htmlFor="flutter-tab">
+            <span>Flutter</span>
+            <small>Muhammad Essam</small>
+          </label>
+
+          <input className="tabInput" type="radio" name="candidate" id="android-tab" />
+          <label className="tabLabel" htmlFor="android-tab">
+            <span>Android Native</span>
+            <small>Asmaa Atya</small>
+          </label>
+
+          <section className="tabPanel flutterPanel" aria-labelledby="flutter-tab">
+            <div className="sectionHead">
+              <div><p className="eyebrow">Flutter · Muhammad Essam</p><h2>٣ قوية و٢ ممكنة</h2></div>
+              <p>الفرص الثلاثة الأقوى ما زالت مفتوحة برواتب معلنة فوق الحد. TAWANTECH وPSdigital فرص ممكنة لأن الراتب مخفي أو شرط الخبرة أعلى.</p>
+            </div>
+
+            <div className="jobGrid">
+              {jobs.map((job, index) => (
+                <article className="jobCard" key={`${job.company}-${job.role}`}>
+                  <div className="cardTop">
+                    <span className="rank">{String(index + 1).padStart(2, "0")}</span>
+                    <span className={`match ${job.matchClass}`}>{job.match}</span>
+                  </div>
+                  <p className="company">{job.company}</p>
+                  <h3>{job.role}</h3>
+                  <div className="meta"><span>{job.location}</span><span>{job.mode}</span><span>{job.age}</span></div>
+                  <div className="salary"><span>الراتب</span><strong>{job.salary}</strong></div>
+                  <p className="why"><b>ليه مناسبة:</b> {job.why}</p>
+                  <p className="note"><b>خد بالك:</b> {job.note}</p>
+                  <div className="actions">
+                    <CopyButton text={job.coverLetter} />
+                    <a href={job.href} target="_blank" rel="noreferrer" aria-label={`فتح وظيفة ${job.role} في ${job.company}`}>افتح الوظيفة <span aria-hidden="true">↗</span></a>
+                  </div>
+                </article>
+              ))}
+            </div>
+
+            <div className="rejected" aria-label="فرص Flutter مستبعدة">
+              <p className="eyebrow">فلترة Flutter</p><h2>ليه فرص تانية ما دخلتش التقرير؟</h2>
+              <ul>{rejected.map((item) => <li key={item}>{item}</li>)}</ul>
+            </div>
+          </section>
+
+          <section className="tabPanel androidPanel" aria-labelledby="android-tab">
+            <div className="sectionHead">
+              <div><p className="eyebrow">Android Native · Asmaa Atya</p><h2>مستنيين CV أسماء</h2></div>
+              <p>مش هنضيف وظائف أو ندّعي خبرات قبل ما نراجع الـCV. أول تحديث بعد استلامه هيملأ التاب بفرص Android Native المطابقة.</p>
+            </div>
+
+            <article className="emptyState">
+              <p className="company">Asmaa Atya</p>
+              <h3>التاب جاهز للبحث والتقديم</h3>
+              <p>هنعرض هنا فرص Kotlin وJava وAndroid SDK وJetpack Compose المناسبة لخبرة أسماء، مع راتب واضح أو تنبيه لو الراتب مخفي.</p>
+              <div className="candidateSignature">
+                <span>كل Cover Letter في التاب ده هيتوقّع باسم</span>
+                <strong>Asmaa Atya</strong>
               </div>
             </article>
-          ))}
-        </div>
-
-        <section className="emailSection" aria-label="إيميلات التوظيف آخر 48 ساعة">
-          <div className="sectionHead">
-            <div><p className="eyebrow">من Gmail</p><h2>إيميلات التوظيف آخر ٤٨ ساعة</h2></div>
-            <p>راجعت الحساب muhammad159e@gmail.com من 25 لحد 27 يوليو وفلترت الرسائل المرسلة منك، تأكيدات التقديم، التنبيهات والنشرات. مفيش ردود شركة أو Recruiter مهمة.</p>
-          </div>
-          <div className="emailGrid">
-            <article className="emailCard">
-              <div className="cardTop"><span className="rank">آخر ٤٨ ساعة</span><span className="match good">لا جديد مهم</span></div>
-              <p className="company">Gmail · muhammad159e@gmail.com</p>
-              <h3>0 ردود توظيف مهمة</h3>
-              <p className="why"><b>اللي اتراجع:</b> تنبيهات TAWANTECH من Indeed وLinkedIn، تنبيهات Pulse Job وNaukriGulf، دعوات ومجموعات LinkedIn/Facebook، وتذكير Outlier؛ كلها رسائل آلية أو غير توظيفية.</p>
-              <p className="note"><b>الإجراء المقترح:</b> مفيش متابعة عاجلة من الإيميل النهارده؛ ركّز على الفرص الثلاثة القوية وبعدهم TAWANTECH.</p>
-            </article>
-          </div>
-        </section>
-
-        <div className="rejected" aria-label="فرص مستبعدة">
-          <p className="eyebrow">فلترة اليوم</p><h2>ليه فرص تانية ما دخلتش التقرير؟</h2>
-          <ul>{rejected.map((item) => <li key={item}>{item}</li>)}</ul>
-        </div>
+          </section>
+        </fieldset>
       </section>
 
       <footer>
         <p>الترتيب مبني على قوة التطابق وحداثة الإعلان ووضوح الراتب ومسار التقديم.</p>
-        <p>آخر تحديث: 27 يوليو 2026 · 5:17 مساءً القاهرة</p>
+        <p>آخر تحديث: 27 يوليو 2026 · 6:20 مساءً القاهرة</p>
       </footer>
     </main>
   );

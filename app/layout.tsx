@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import socialCard from "./jobs-social-card.png";
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
@@ -13,13 +14,13 @@ export const metadata: Metadata = {
     title: "فرص محمد وأسماء | Flutter وAndroid Native",
     description: "فرص موبايل مختارة يوميًا لمحمد وأسماء في مصر والوطن العربي.",
     url: "https://muhammad-flutter-jobs.watchxstore7.chatgpt.site",
-    images: ["/jobs-social-card.png"],
+    images: [socialCard.src],
   },
   twitter: {
     card: "summary_large_image",
     title: "فرص محمد وأسماء | Flutter وAndroid Native",
     description: "فرص موبايل مختارة يوميًا لمحمد وأسماء في مصر والوطن العربي.",
-    images: ["/jobs-social-card.png"],
+    images: [socialCard.src],
   },
 };
 

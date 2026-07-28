@@ -13,12 +13,12 @@ async function render() {
   );
 }
 
-test("renders both candidate tabs without email content", async () => {
+test("renders separate jobs, direct posts, and email actions for both candidates", async () => {
   const response = await render();
   assert.equal(response.status, 200);
 
   const html = await response.text();
-  assert.match(html, /تقرير 27 يوليو 2026/);
+  assert.match(html, /تقرير 28 يوليو 2026/);
   assert.match(html, /Diverge AI/);
   assert.match(html, /Medad Holding/);
   assert.match(html, /Script for Information Technology/);
@@ -29,13 +29,18 @@ test("renders both candidate tabs without email content", async () => {
   assert.match(html, /Android Native/);
   assert.match(html, /Tawajood/);
   assert.match(html, /Expert Apps/);
-  assert.match(html, /Efada Technology/);
-  assert.match(html, /Al Ahly Momkn/);
-  assert.match(html, /٢ قوية و٢ ممكنة/);
+  assert.match(html, /Vertex Technologies/);
+  assert.match(html, /Yassir/);
+  assert.match(html, /٤ قوية و٠ ممكنة/);
+  assert.match(html, /Infolexus Solutions/);
+  assert.match(html, /recruiter1@infolexus.com/);
+  assert.match(html, /sriram@linchpinz.com/);
   assert.match(html, /Al‑Tadamun Microfinance Association: Wuzzuf شال زر التقديم/);
   assert.match(html, /NEOM Associate Flutter/);
   assert.equal((html.match(/type="radio"/g) ?? []).length, 2);
   assert.equal((html.match(/نسخ Cover Letter/g) ?? []).length, 9);
+  assert.equal((html.match(/class="postCard"/g) ?? []).length >= 10, true);
+  assert.equal((html.match(/فتح الرسالة في Gmail/g) ?? []).length >= 2, true);
+  assert.equal((html.match(/افتح WhatsApp/g) ?? []).length >= 2, true);
   assert.equal((html.match(/Asmaa Atya/g) ?? []).length >= 5, true);
-  assert.doesNotMatch(html, /Gmail|إيميلات التوظيف|ردود توظيف مهمة/);
 });

@@ -107,6 +107,17 @@ h3 { margin: 0; font-size: clamp(25px, 3vw, 36px); line-height: 1.18; letter-spa
 .jobCard a:hover,
 .jobCard a:focus-visible { background: #5c40d8; color: white; outline: 3px solid var(--lime); outline-offset: 2px; }
 .jobCard a span { font-size: 20px; }
+.linkedInSection { margin-top: 54px; padding-top: 42px; border-top: 1px solid var(--line); }
+.postGrid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+.postCard { padding: 26px; display: flex; flex-direction: column; border: 1px solid #cfe3f0; border-radius: 22px; background: linear-gradient(145deg, #fff, #f1faff); box-shadow: 0 14px 38px rgba(37,31,70,.07); }
+.postSource { padding: 7px 11px; border-radius: 999px; color: #075f8f; background: #dff4ff; font-size: 12px; font-weight: 900; }
+.postCard .company { margin-top: 24px; }
+.poster,
+.postContact { margin: 0 0 12px; color: #454157; line-height: 1.7; font-size: 14px; }
+.postContact { padding: 12px 14px; border-radius: 12px; background: #e8f8ff; direction: ltr; text-align: left; overflow-wrap: anywhere; }
+.postCard > a { min-height: 52px; margin-top: auto; padding: 0 16px; display: flex; justify-content: center; align-items: center; gap: 8px; border-radius: 14px; color: white; background: #0a66c2; text-decoration: none; font-weight: 900; font-size: 14px; }
+.postCard > a:hover,
+.postCard > a:focus-visible { outline: 3px solid var(--lime); outline-offset: 2px; }
 .emailComposer { margin-top: 38px; padding: clamp(22px, 4vw, 38px); display: grid; grid-template-columns: minmax(0, .7fr) minmax(0, 1.3fr); gap: 34px; border-radius: 26px; color: white; background: linear-gradient(135deg, #18152b, #392a82); box-shadow: 0 20px 55px rgba(37,31,70,.16); }
 .emailIntro h2 { font-size: clamp(30px, 4vw, 48px); }
 .emailIntro > p:last-child { color: #ddd9f0; line-height: 1.8; }
@@ -145,6 +156,7 @@ footer p { margin: 0; }
   .tabLabel span { font-size: 15px; }
   .tabLabel small { font-size: 11px; }
   .jobGrid { grid-template-columns: 1fr; }
+  .postGrid { grid-template-columns: 1fr; }
   .jobCard { min-height: 500px; padding: 22px; border-radius: 22px; }
   .actions { grid-template-columns: 1fr; }
   .emailComposer,

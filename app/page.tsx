@@ -312,6 +312,54 @@ const androidEmailApplications = [
   },
 ] as const;
 
+const flutterLinkedInPosts = [
+  {
+    company: "Oasisoft",
+    role: "Flutter Developer",
+    poster: "Md Junaead",
+    posterRole: "Flutter Developer",
+    age: "منشور من أسبوعين",
+    location: "القاهرة، مصر",
+    match: "تطابق قوي",
+    matchClass: "strong",
+    summary: "المنشور طالب 2+ سنة Flutter وDart مع BLoC/Cubit وبناء تطبيقات Production، وهي متطلبات مطابقة مباشرة لخبرة محمد.",
+    contact: "jobs@oasisoft.net · CC: contact.junaead@gmail.com",
+    note: "التقديم بالإيميل المنشور، والـSubject المطلوب: Flutter Developer Application.",
+    href: "https://www.linkedin.com/in/md-junaead/recent-activity/all/",
+  },
+  {
+    company: "Amjaad Technology",
+    role: "Mid-Level Flutter Developer",
+    poster: "Mayar Elessawy",
+    posterRole: "Technical Talent Acquisition Leader",
+    age: "منشور من أسبوعين",
+    location: "المعادي، القاهرة · Hybrid",
+    match: "فرصة ممكنة",
+    matchClass: "stretch",
+    summary: "Flutter وDart وBLoC وREST APIs وGit وتحسين الأداء كلها مطابقة، والدور داخل القاهرة بنظام Hybrid.",
+    contact: "m.nagy@amjaadiot.com",
+    note: "المنشور طالب 4+ سنوات، أعلى قليلًا من خبرة محمد؛ قدّم مع التركيز على تطبيقات الإنتاج والـarchitecture.",
+    href: "https://www.linkedin.com/in/mayar-elessawy-a56b45164/recent-activity/all/",
+  },
+] as const;
+
+const androidLinkedInPosts = [
+  {
+    company: "Smartec Systems Group",
+    role: "Senior Android Developer",
+    poster: "Nouran Shawky",
+    posterRole: "Senior HR Specialist",
+    age: "منشور من يومين",
+    location: "القاهرة، مصر · On-site",
+    match: "فرصة ممكنة",
+    matchClass: "stretch",
+    summary: "منشور توظيف مباشر لقطاع البنوك في القاهرة، وخبرة أسماء في Kotlin وJava وAndroid Native والمدفوعات قريبة من طبيعة الدور.",
+    contact: "hr@smartec-group.com",
+    note: "مطلوب 5+ سنوات، لذلك الفرصة Stretch وليست تطابقًا كاملًا. الراتب تنافسي لكن الرقم غير منشور.",
+    href: "https://www.linkedin.com/in/nouran-shawky-4294441a4/recent-activity/all/",
+  },
+] as const;
+
 export default function Home() {
   return (
     <main>
@@ -382,6 +430,31 @@ export default function Home() {
               ))}
             </div>
 
+            <section className="linkedInSection" aria-label="منشورات توظيف Flutter على LinkedIn">
+              <div className="sectionHead">
+                <div><p className="eyebrow">LinkedIn Posts فقط</p><h2>منشورات توظيف لمحمد</h2></div>
+                <p>بحث منفصل داخل منشورات LinkedIn، وليس إعادة عرض للوظائف الرسمية الموجودة فوق.</p>
+              </div>
+              <div className="postGrid">
+                {flutterLinkedInPosts.map((post) => (
+                  <article className="postCard" key={`${post.company}-${post.poster}`}>
+                    <div className="cardTop">
+                      <span className="postSource">LinkedIn Post</span>
+                      <span className={`match ${post.matchClass}`}>{post.match}</span>
+                    </div>
+                    <p className="company">{post.company}</p>
+                    <h3>{post.role}</h3>
+                    <div className="meta"><span>{post.location}</span><span>{post.age}</span></div>
+                    <p className="poster"><b>صاحب المنشور:</b> {post.poster} · {post.posterRole}</p>
+                    <p className="why"><b>ليه مناسبة:</b> {post.summary}</p>
+                    <p className="postContact"><b>التواصل:</b> {post.contact}</p>
+                    <p className="note"><b>خد بالك:</b> {post.note}</p>
+                    <a href={post.href} target="_blank" rel="noreferrer">افتح منشورات صاحب الإعلان <span aria-hidden="true">↗</span></a>
+                  </article>
+                ))}
+              </div>
+            </section>
+
             <EmailComposer candidate="Muhammad Essam" applications={flutterEmailApplications} />
 
             <div className="rejected" aria-label="فرص Flutter مستبعدة">
@@ -416,6 +489,31 @@ export default function Home() {
                 </article>
               ))}
             </div>
+
+            <section className="linkedInSection" aria-label="منشورات توظيف Android على LinkedIn">
+              <div className="sectionHead">
+                <div><p className="eyebrow">LinkedIn Posts فقط</p><h2>منشورات توظيف لأسماء</h2></div>
+                <p>نتائج مستقلة من منشورات Recruiters وHR، من غير تكرار كروت الوظائف الرسمية الموجودة فوق.</p>
+              </div>
+              <div className="postGrid">
+                {androidLinkedInPosts.map((post) => (
+                  <article className="postCard" key={`${post.company}-${post.poster}`}>
+                    <div className="cardTop">
+                      <span className="postSource">LinkedIn Post</span>
+                      <span className={`match ${post.matchClass}`}>{post.match}</span>
+                    </div>
+                    <p className="company">{post.company}</p>
+                    <h3>{post.role}</h3>
+                    <div className="meta"><span>{post.location}</span><span>{post.age}</span></div>
+                    <p className="poster"><b>صاحب المنشور:</b> {post.poster} · {post.posterRole}</p>
+                    <p className="why"><b>ليه مناسبة:</b> {post.summary}</p>
+                    <p className="postContact"><b>التواصل:</b> {post.contact}</p>
+                    <p className="note"><b>خد بالك:</b> {post.note}</p>
+                    <a href={post.href} target="_blank" rel="noreferrer">افتح منشورات صاحب الإعلان <span aria-hidden="true">↗</span></a>
+                  </article>
+                ))}
+              </div>
+            </section>
 
             <EmailComposer candidate="Asmaa Atya" applications={androidEmailApplications} />
 

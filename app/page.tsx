@@ -300,6 +300,64 @@ Muhammad Essam
 +20 101 702 2791
 muhammad159e@gmail.com`,
   },
+  {
+    company: "Talent 360",
+    role: "Flutter Developer",
+    to: "advisor38@talent-360.me",
+    subject: "Flutter Developer Application — Muhammad Essam",
+    body: `Dear Talent 360 Hiring Team,
+
+I am applying for the Flutter Developer opportunity with your software-house client. I have more than three years of production experience building and maintaining Flutter applications across Android, iOS, and Windows.
+
+My experience includes Flutter, Dart, BLoC/Cubit, GetX, Clean Architecture, REST APIs, Firebase, local storage, unit testing, Git, and CI/CD. I have owned production features, improved modular architecture, integrated backend services, resolved live issues, and supported automated releases with GitHub Actions and Fastlane.
+
+I am based in Cairo and available for the advertised flexible work model. My portfolio is available at https://muhamaadessam.github.io/.
+
+Best regards,
+Muhammad Essam
++20 101 702 2791
+muhammad159e@gmail.com`,
+  },
+  {
+    company: "EdHillfe",
+    role: "Flutter Developer",
+    to: "Vasantha@edhillfe.com",
+    subject: "Flutter Developer Application — Muhammad Essam",
+    body: `Dear EdHillfe Hiring Team,
+
+I am applying for the Flutter Developer contract opportunity. I have more than three years of professional experience building production applications with Flutter and Dart across Android, iOS, and Windows.
+
+My experience includes BLoC/Cubit, Clean Architecture, REST APIs, Firebase, local storage, testing, Git, CI/CD, and professional Android development exposure. I am comfortable joining an existing codebase, delivering production features, and resolving live application issues.
+
+I am currently based in Egypt. I would be glad to discuss whether remote work or relocation support is available for this contract.
+
+Portfolio: https://muhamaadessam.github.io/
+
+Best regards,
+Muhammad Essam
++20 101 702 2791
+muhammad159e@gmail.com`,
+  },
+  {
+    company: "GEMPERTS",
+    role: "Senior Flutter Mobility Developer",
+    to: "shweta.sgempertsindia@gmail.com",
+    subject: "Flutter Mobility Developer Application — Muhammad Essam",
+    body: `Dear GEMPERTS Hiring Team,
+
+I am interested in the Flutter Mobility Developer opportunity. I have more than three years of hands-on production experience with Flutter and Dart, including BLoC/Cubit, Clean Architecture, REST APIs, Firebase, performance optimization, testing, CI/CD, and app-store releases.
+
+I have built and maintained applications across Android, iOS, and Windows, migrated production modules to BLoC/Cubit, integrated backend services, fixed live issues, and automated releases with GitHub Actions and Fastlane.
+
+While the post targets a more senior experience level, I would appreciate your consideration for this role or a suitable mid-level Flutter opening.
+
+Portfolio: https://muhamaadessam.github.io/
+
+Best regards,
+Muhammad Essam
++20 101 702 2791
+muhammad159e@gmail.com`,
+  },
 ] as const;
 
 const androidEmailApplications = [
@@ -309,6 +367,70 @@ const androidEmailApplications = [
     to: "info@tawajood.com",
     subject: "Android Developer Application — Asmaa Atya",
     body: androidJobs[0].coverLetter,
+  },
+  {
+    company: "SIGMA EMEA",
+    role: "Android Developer",
+    to: "jobs@sigma-emea.com",
+    subject: "Android Developer Application — Asmaa Atya",
+    body: `Dear SIGMA EMEA Hiring Team,
+
+I am applying for the Android Developer position in Sheikh Zayed. I have more than three years of production Android experience using Kotlin, Java, Jetpack Compose, Coroutines, MVVM, MVI, Clean Architecture, REST APIs, Firebase, Git, and unit testing.
+
+I have built and maintained applications across POS, payments, healthcare, and government services. My work includes scalable multi-module architecture, product flavors, secure API integrations, performance optimization, and Google Play releases.
+
+My background aligns closely with your requirements for modern Kotlin development, Jetpack Compose, testing, and maintainable Android architecture. I would welcome the opportunity to discuss the hybrid role.
+
+Best regards,
+Asmaa Atya`,
+  },
+  {
+    company: "S M Techno Consultants",
+    role: "Android Developer",
+    to: "corporate@smtechno.com",
+    subject: "Android Developer Application — Asmaa Atya",
+    body: `Dear S M Techno Consultants Hiring Team,
+
+I am applying for the Android Developer position. I have more than three years of professional Android experience using Kotlin, Java, Android SDK, Jetpack Compose, MVVM, Clean Architecture, REST APIs, Firebase, Room, Coroutines, Git, testing, and release management.
+
+I have delivered production applications in POS, payments, healthcare, and government services, including scalable multi-module codebases and applications serving large user bases.
+
+I would be glad to discuss the position, work location, and whether remote work is available.
+
+Best regards,
+Asmaa Atya`,
+  },
+  {
+    company: "Xautomations",
+    role: "Android Developer",
+    to: "careers@xautomations.com",
+    subject: "Android Developer Application — Asmaa Atya",
+    body: `Dear Xautomations Hiring Team,
+
+I am applying for the Android Developer position. I have more than three years of production experience building native Android applications using Kotlin, Java, Jetpack Compose, MVVM, MVI, Clean Architecture, REST APIs, Firebase, Git, and unit testing.
+
+My experience includes POS and payment applications, healthcare and government services, multi-module architecture, performance optimization, secure API integrations, and Google Play release management.
+
+I am based in Egypt and would be glad to discuss remote work or relocation support for the role.
+
+Best regards,
+Asmaa Atya`,
+  },
+  {
+    company: "Pearl Data Direct",
+    role: "Android Developer",
+    to: "jobs@pearldatadirect.com",
+    subject: "Android Developer Application — Asmaa Atya",
+    body: `Dear Pearl Data Direct Hiring Team,
+
+I am applying for the Android Developer position. I have more than three years of professional Android experience using Kotlin, Jetpack Compose, MVVM, MVI, Clean Architecture, Retrofit-style REST API integrations, Room, Coroutines, Flow, Firebase, Git, and unit testing.
+
+I have built and maintained production applications across POS, payments, healthcare, and government services, with a strong focus on scalable architecture, performance, secure data handling, and reliable releases.
+
+I am currently based in Egypt and would welcome the opportunity to discuss relocation support and the expected joining timeline.
+
+Best regards,
+Asmaa Atya`,
   },
 ] as const;
 
@@ -598,6 +720,13 @@ const androidLinkedInPosts = [
   },
 ] as const;
 
+const flutterDirectPosts = flutterLinkedInPosts.filter(
+  (post) => post.contact.includes("@") || post.contact.toLowerCase().includes("whatsapp"),
+);
+const androidDirectPosts = androidLinkedInPosts.filter(
+  (post) => post.contact.includes("@") || post.contact.toLowerCase().includes("whatsapp"),
+);
+
 export default function Home() {
   return (
     <main>
@@ -670,11 +799,11 @@ export default function Home() {
 
             <section className="linkedInSection" aria-label="منشورات توظيف Flutter على LinkedIn">
               <div className="sectionHead">
-                <div><p className="eyebrow">LinkedIn Posts · آخر 72 ساعة فقط</p><h2>١٠ منشورات توظيف لمحمد</h2></div>
-                <p>بحث منفصل داخل منشورات LinkedIn، مرتب بالأحدث، من غير OpenToWork أو تكرار الوظائف الرسمية الموجودة فوق.</p>
+                <div><p className="eyebrow">LinkedIn Posts · Email أو WhatsApp فقط</p><h2>تقديم مباشر لمحمد</h2></div>
+                <p>المنشورات خلال آخر 72 ساعة وبها وسيلة تقديم مباشرة. منشورات DM فقط غير معروضة.</p>
               </div>
               <div className="postGrid">
-                {flutterLinkedInPosts.map((post) => (
+                {flutterDirectPosts.map((post) => (
                   <article className="postCard" key={`${post.company}-${post.poster}`}>
                     <div className="cardTop">
                       <span className="postSource">LinkedIn Post</span>
@@ -730,11 +859,11 @@ export default function Home() {
 
             <section className="linkedInSection" aria-label="منشورات توظيف Android على LinkedIn">
               <div className="sectionHead">
-                <div><p className="eyebrow">LinkedIn Posts · آخر 72 ساعة فقط</p><h2>١٠ منشورات توظيف لأسماء</h2></div>
-                <p>نتائج مستقلة من منشورات Recruiters وHR، مرتبة بالأحدث، من غير OpenToWork أو تكرار كروت الوظائف الرسمية الموجودة فوق.</p>
+                <div><p className="eyebrow">LinkedIn Posts · Email أو WhatsApp فقط</p><h2>تقديم مباشر لأسماء</h2></div>
+                <p>المنشورات خلال آخر 72 ساعة وبها وسيلة تقديم مباشرة. منشورات DM فقط غير معروضة.</p>
               </div>
               <div className="postGrid">
-                {androidLinkedInPosts.map((post) => (
+                {androidDirectPosts.map((post) => (
                   <article className="postCard" key={`${post.company}-${post.poster}`}>
                     <div className="cardTop">
                       <span className="postSource">LinkedIn Post</span>

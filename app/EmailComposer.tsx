@@ -41,7 +41,7 @@ export default function EmailComposer({
       <div className="emailIntro">
         <p className="eyebrow">إرسال الإيميلات</p>
         <h2>مسودة Gmail جاهزة لـ {candidate}</h2>
-        <p>اختار الشركة، راجع البيانات، ثم افتح الرسالة في Gmail. أضف الـCV يدويًا قبل الإرسال.</p>
+        <p>كل إعلان نشر إيميل تقديم موجود في القائمة. اختار الشركة وافتح Gmail مباشرة، ثم أضف الـCV يدويًا.</p>
       </div>
 
       <div className="emailForm">

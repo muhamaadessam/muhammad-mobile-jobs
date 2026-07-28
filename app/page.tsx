@@ -1,4 +1,5 @@
 import CopyButton from "./CopyButton";
+import EmailComposer from "./EmailComposer";
 
 const jobs = [
   {
@@ -243,18 +244,86 @@ const androidRejected = [
   "Henkel وCore Code وiBrokerage: جهات غير عربية المقر، فمستبعدين حسب الفلتر.",
 ] as const;
 
+const flutterEmailApplications = [
+  {
+    company: "Oasisoft",
+    role: "Flutter Developer",
+    to: "jobs@oasisoft.net",
+    cc: "contact.junaead@gmail.com",
+    subject: "Flutter Developer Application — Muhammad Essam",
+    body: `Dear Oasisoft Hiring Team,
+
+I am applying for the Flutter Developer position in Cairo. I have more than three years of production experience building and maintaining applications across Android, iOS, and Windows using Flutter, Dart, BLoC/Cubit, Clean Architecture, REST APIs, Firebase, WebSockets, local storage, testing, and Git.
+
+In my recent work, I migrated production features from GetX to Cubit/BLoC, improved modular architecture, integrated backend services and notifications, resolved live issues, and supported automated releases with GitHub Actions and Fastlane.
+
+My portfolio is available at https://muhamaadessam.github.io/. I would welcome the opportunity to discuss how my experience can contribute to Oasisoft.
+
+Best regards,
+Muhammad Essam
++20 101 702 2791
+muhammad159e@gmail.com`,
+  },
+  {
+    company: "LuminariesHub",
+    role: "Mid-Level Flutter Developer",
+    to: "careers@luminarieshub.net",
+    subject: "Mid-Level Flutter Developer — Muhammad Essam",
+    body: `Dear LuminariesHub Hiring Team,
+
+I am applying for the Mid-Level Flutter Developer position in Cairo. I have more than three years of production experience building Flutter applications for Android, iOS, and Windows using Dart, BLoC/Cubit, Clean Architecture, REST APIs, Firebase, secure local storage, testing, and Git.
+
+I have shipped and maintained live applications, improved modular architecture, integrated backend services, fixed production issues, and automated releases with GitHub Actions and Fastlane. This experience would help me contribute to reliable digital banking products and collaborate effectively with product, backend, design, and QA teams.
+
+My portfolio is available at https://muhamaadessam.github.io/. I would be glad to discuss the role.
+
+Best regards,
+Muhammad Essam
++20 101 702 2791
+muhammad159e@gmail.com`,
+  },
+  {
+    company: "Amjaad Technology",
+    role: "Mid-Level Flutter Developer",
+    to: "m.nagy@amjaadiot.com",
+    subject: "Mid-Level Flutter Developer — Muhammad Essam",
+    body: `Dear Amjaad Technology Hiring Team,
+
+I am applying for the Mid-Level Flutter Developer position. I have more than three years of hands-on production experience with Flutter and Dart across Android, iOS, and Windows.
+
+My experience includes BLoC/Cubit, GetX, Clean Architecture, REST APIs, Firebase, real-time communication, local storage, unit testing, Git, and CI/CD. I have owned production features from implementation through release, migrated modules to BLoC/Cubit, and resolved live application issues.
+
+I am based in Cairo and available for a hybrid role. My portfolio is available at https://muhamaadessam.github.io/.
+
+Best regards,
+Muhammad Essam
++20 101 702 2791
+muhammad159e@gmail.com`,
+  },
+] as const;
+
+const androidEmailApplications = [
+  {
+    company: "Tawajood",
+    role: "Android Developer",
+    to: "info@tawajood.com",
+    subject: "Android Developer Application — Asmaa Atya",
+    body: androidJobs[0].coverLetter,
+  },
+] as const;
+
 export default function Home() {
   return (
     <main>
       <header className="hero">
         <nav aria-label="رأس التقرير">
           <span className="brand">فرص محمد وأسماء</span>
-          <span className="date">تقرير 27 يوليو 2026</span>
+          <span className="date">تقرير 28 يوليو 2026</span>
         </nav>
         <div className="heroCopy">
           <p className="eyebrow">Flutter وAndroid Native في مكان واحد</p>
           <h1>اختار التخصص وشوف الفرص المناسبة لكل شخص.</h1>
-          <p className="intro">تاب محمد فيه تقرير Flutter الحالي، وتاب أسماء اتحدّث من الـCV وفيه فرص Android Native مطابقة مع Cover Letters جاهزة.</p>
+          <p className="intro">فرص Flutter وAndroid Native المطابقة، مع Cover Letters وقسم إرسال Gmail جاهز لكلٍ من محمد وأسماء.</p>
         </div>
         <div className="stats" aria-label="ملخص التقرير">
           <div><strong>2</strong><span>مسار وظيفي</span></div>
@@ -313,6 +382,8 @@ export default function Home() {
               ))}
             </div>
 
+            <EmailComposer candidate="Muhammad Essam" applications={flutterEmailApplications} />
+
             <div className="rejected" aria-label="فرص Flutter مستبعدة">
               <p className="eyebrow">فلترة Flutter</p><h2>ليه فرص تانية ما دخلتش التقرير؟</h2>
               <ul>{rejected.map((item) => <li key={item}>{item}</li>)}</ul>
@@ -346,6 +417,8 @@ export default function Home() {
               ))}
             </div>
 
+            <EmailComposer candidate="Asmaa Atya" applications={androidEmailApplications} />
+
             <div className="rejected" aria-label="فرص Android مستبعدة">
               <p className="eyebrow">فلترة Android Native</p><h2>ليه فرص تانية ما دخلتش التقرير؟</h2>
               <ul>{androidRejected.map((item) => <li key={item}>{item}</li>)}</ul>
@@ -356,7 +429,7 @@ export default function Home() {
 
       <footer>
         <p>الترتيب مبني على قوة التطابق وحداثة الإعلان ووضوح الراتب ومسار التقديم.</p>
-        <p>آخر تحديث: 27 يوليو 2026 · 6:39 مساءً القاهرة</p>
+        <p>آخر تحديث: 28 يوليو 2026 · القاهرة</p>
       </footer>
     </main>
   );

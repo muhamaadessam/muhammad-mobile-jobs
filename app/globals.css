@@ -107,6 +107,22 @@ h3 { margin: 0; font-size: clamp(25px, 3vw, 36px); line-height: 1.18; letter-spa
 .jobCard a:hover,
 .jobCard a:focus-visible { background: #5c40d8; color: white; outline: 3px solid var(--lime); outline-offset: 2px; }
 .jobCard a span { font-size: 20px; }
+.emailComposer { margin-top: 38px; padding: clamp(22px, 4vw, 38px); display: grid; grid-template-columns: minmax(0, .7fr) minmax(0, 1.3fr); gap: 34px; border-radius: 26px; color: white; background: linear-gradient(135deg, #18152b, #392a82); box-shadow: 0 20px 55px rgba(37,31,70,.16); }
+.emailIntro h2 { font-size: clamp(30px, 4vw, 48px); }
+.emailIntro > p:last-child { color: #ddd9f0; line-height: 1.8; }
+.emailForm { display: grid; gap: 14px; }
+.emailForm label { display: grid; gap: 7px; color: #e8e4ff; font-size: 13px; font-weight: 800; }
+.emailRow { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.emailForm input,
+.emailForm select,
+.emailForm textarea { width: 100%; border: 1px solid rgba(255,255,255,.2); border-radius: 12px; padding: 12px 14px; color: var(--ink); background: white; font: inherit; }
+.emailForm textarea { min-height: 260px; resize: vertical; line-height: 1.55; direction: ltr; }
+.emailForm input:focus,
+.emailForm select:focus,
+.emailForm textarea:focus { outline: 3px solid var(--lime); outline-offset: 2px; }
+.gmailButton { min-height: 54px; padding: 0 18px; display: flex; justify-content: center; align-items: center; gap: 8px; border-radius: 14px; color: #211a3e; background: var(--lime); text-decoration: none; font-weight: 900; }
+.gmailButton:hover,
+.gmailButton:focus-visible { outline: 3px solid white; outline-offset: 2px; }
 .rejected { margin-top: 38px; padding: 30px; border: 1px solid var(--line); border-radius: 24px; background: rgba(255,255,255,.65); }
 .rejected h2 { font-size: clamp(28px, 4vw, 46px); margin-bottom: 18px; }
 .rejected ul { margin: 0; padding: 0 22px 0 0; color: #5d586c; line-height: 1.9; }
@@ -131,6 +147,8 @@ footer p { margin: 0; }
   .jobGrid { grid-template-columns: 1fr; }
   .jobCard { min-height: 500px; padding: 22px; border-radius: 22px; }
   .actions { grid-template-columns: 1fr; }
+  .emailComposer,
+  .emailRow { grid-template-columns: 1fr; }
   .rejected { padding: 22px; }
   footer { flex-direction: column; }
 }

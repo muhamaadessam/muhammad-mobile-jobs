@@ -76,12 +76,12 @@ Muhammad Essam`,
     role: "Senior Flutter Developer offshore",
     location: "القاهرة، مصر",
     mode: "دوام كامل · On-site",
-    age: "منشورة من 22 ساعة والتقديم Easy Apply مفتوح",
+    age: "منشورة من يومين والتقديم Easy Apply مفتوح",
     salary: "مخفي",
     match: "فرصة ممكنة",
     matchClass: "stretch",
     why: "شركة سعودية مقرها الرياض، والدور يطابق خبرتك في Flutter/Dart وBloc/GetX وClean Architecture وREST وFirebase وGit وCI/CD والنشر. شرط 3+ سنوات Flutter متحقق.",
-    note: "الإعلان طالب 5+ سنوات Software Development مع mentoring، وده أعلى من إجمالي خبرتك الحالية؛ قدّم لو تقدر تبرز مسؤوليتك عن Features الإنتاج والـarchitecture.",
+    note: "الإعلان طالب 5+ سنوات Software Development مع mentoring، وده أعلى من إجمالي خبرتك الحالية. التقديم اتبعت بالفعل يوم 28 يوليو؛ راقب الرد وما تكررش الطلب.",
     href: "https://www.linkedin.com/jobs/view/4445611919/",
     coverLetter: `Dear TAWANTECH Hiring Team,
 
@@ -121,27 +121,24 @@ Muhammad Essam`,
 
 const androidJobs = [
   {
-    company: "Tawajood",
-    role: "Android Developer",
-    location: "مصر · مقر الشركة المعادي",
-    mode: "Hybrid / On-site",
-    age: "منشورة من 4 أيام والتقديم بالإيميل مفتوح",
+    company: "geidea",
+    role: "Mid-level Android Developer",
+    location: "القاهرة، مصر",
+    mode: "دوام كامل",
+    age: "التقديم مفتوح على LinkedIn",
     salary: "مخفي",
-    match: "تطابق قوي",
-    matchClass: "strong",
-    why: "المتطلبات شبه مطابقة للـCV: 2–3 سنوات Android Native مع Kotlin وJetpack Compose وMVVM وREST APIs وFirebase وPusher وPayment Gateways وGit. خبرة أسماء في MyCash والـPOS والمدفوعات ميزة مباشرة.",
-    note: "لازم تضيفي Current Notice Period وExpected Salary في رسالة التقديم، واسألي مبكرًا عن جدول الحضور لأن الإعلان كاتب Hybrid / On-site من غير عدد أيام.",
-    href: "mailto:info@tawajood.com?subject=Android%20Developer%20-%20Asmaa%20Atya",
-    coverLetter: `Dear Tawajood Hiring Team,
+    match: "فرصة ممكنة",
+    matchClass: "stretch",
+    why: "الدور Mid-level في شركة سعودية للمدفوعات، ويطابق Kotlin وJetpack Compose وMVVM/Clean Architecture وCoroutines وDI وREST وFirebase والـmulti-module والـPOS والأمان.",
+    note: "الإعلان يطلب خبرة عملية في KMM، وهي غير مؤكدة في الـCV؛ قدّمي باعتبار خبرة الـmulti-module والمدفوعات نقاط القوة واسألي مبكرًا عن حجم استخدام KMM والراتب.",
+    href: "https://eg.linkedin.com/jobs/view/mid-level-android-developer-at-geidea-4438588748?pageNum=0&position=7",
+    coverLetter: `Dear geidea Hiring Team,
 
-I am applying for the Android Developer position. I have more than three years of production experience building and maintaining native Android applications using Kotlin, Java, Jetpack Compose, MVVM, MVI, Clean Architecture, REST APIs, Firebase, Git, and unit testing.
+I am applying for the Mid-level Android Developer position in Cairo. I have more than three years of production Android experience using Kotlin, Java, Jetpack Compose, Coroutines, MVVM, MVI, Clean Architecture, dependency injection, REST APIs, Firebase, Git, and unit testing.
 
-At MyCash, I developed a scalable Android application for sales, invoices, POS, and payment services using Kotlin, Jetpack Compose, multi-module architecture, and product flavors. I also have hands-on experience with Firebase, API integrations, release management, and production applications serving large user bases.
+My background includes POS, invoices, payment integrations, secure data handling, multi-module architecture, product flavors, performance optimization, and Google Play release management. I have also contributed to healthcare and government applications, including an Egypt Ministry of Justice application serving more than one million users.
 
-My background aligns closely with your requirements for modern native Android development, payment integrations, Pusher-style real-time features, and maintainable architecture. I am based in Egypt and would be glad to discuss the hybrid or on-site schedule.
-
-Current notice period: [add your notice period]
-Expected salary: [add your expected net monthly salary]
+Geidea's focus on secure fintech products strongly matches my Android and payments experience. I would welcome the opportunity to discuss the role and how my production background can support your mobile applications.
 
 Best regards,
 Asmaa Atya`,
@@ -237,6 +234,7 @@ const rejected = [
 ] as const;
 
 const androidRejected = [
+  "Tawajood: الإعلان المباشر بقى أقدم من نافذة 72 ساعة، ومافيش صفحة وظيفة رسمية مستقلة أقدر أثبت منها إن التقديم ما زال مفتوح.",
   "Fixed Solutions و34ML: الصفحات بتعرض Browse Similar Jobs بدل زر التقديم، فاعتبرتها مقفولة.",
   "Efada Technology: صفحة Wuzzuf لم تعد تعرض مسار تقديم واضح، فشلتها بدل ما أعتمد على إعلان قديم.",
   "Al Ahly Momkn: صفحة الوظائف العامة فتحت من غير ما تثبت إن بطاقة Android POS ما زالت متاحة للتقديم.",
@@ -266,46 +264,6 @@ Muhammad Essam
 muhammad159e@gmail.com`,
   },
   {
-    company: "EdHillfe",
-    role: "Flutter Developer",
-    to: "Vasantha@edhillfe.com",
-    subject: "Flutter Developer Application — Muhammad Essam",
-    body: `Dear EdHillfe Hiring Team,
-
-I am applying for the Flutter Developer contract opportunity. I have more than three years of professional experience building production applications with Flutter and Dart across Android, iOS, and Windows.
-
-My experience includes BLoC/Cubit, Clean Architecture, REST APIs, Firebase, local storage, testing, Git, CI/CD, and professional Android development exposure. I am comfortable joining an existing codebase, delivering production features, and resolving live application issues.
-
-I am currently based in Egypt. I would be glad to discuss whether remote work or relocation support is available for this contract.
-
-Portfolio: https://muhamaadessam.github.io/
-
-Best regards,
-Muhammad Essam
-+20 101 702 2791
-muhammad159e@gmail.com`,
-  },
-  {
-    company: "GEMPERTS",
-    role: "Senior Flutter Mobility Developer",
-    to: "shweta.sgempertsindia@gmail.com",
-    subject: "Flutter Mobility Developer Application — Muhammad Essam",
-    body: `Dear GEMPERTS Hiring Team,
-
-I am interested in the Flutter Mobility Developer opportunity. I have more than three years of hands-on production experience with Flutter and Dart, including BLoC/Cubit, Clean Architecture, REST APIs, Firebase, performance optimization, testing, CI/CD, and app-store releases.
-
-I have built and maintained applications across Android, iOS, and Windows, migrated production modules to BLoC/Cubit, integrated backend services, fixed live issues, and automated releases with GitHub Actions and Fastlane.
-
-While the post targets a more senior experience level, I would appreciate your consideration for this role or a suitable mid-level Flutter opening.
-
-Portfolio: https://muhamaadessam.github.io/
-
-Best regards,
-Muhammad Essam
-+20 101 702 2791
-muhammad159e@gmail.com`,
-  },
-  {
     company: "Infolexus Solutions",
     role: "Mobile Application Developer — Flutter",
     to: "recruiter1@infolexus.com",
@@ -324,17 +282,53 @@ Best regards,
 Muhammad Essam`,
   },
   {
-    company: "LINCHPINZ",
+    company: "TravDigi",
     role: "Flutter Developer",
-    to: "sriram@linchpinz.com",
+    to: "hr@travdigi.com",
     subject: "Flutter Developer Application — Muhammad Essam",
-    body: `Dear LINCHPINZ Hiring Team,
+    body: `Dear TravDigi Hiring Team,
 
-I am applying for the Flutter Developer position in Hyderabad. I have more than three years of production experience with Flutter and Dart across Android, iOS, and Windows, including BLoC/Cubit, Clean Architecture, REST APIs, Firebase, testing, performance optimization, Git, CI/CD, and app-store releases.
+I am applying for the Flutter Developer position. I have more than three years of production experience building Flutter applications for Android, iOS, and Windows using Dart, BLoC/Cubit, GetX, Clean Architecture, REST APIs, Firebase, Git, testing, and CI/CD.
 
-I have owned production features end to end, migrated modules from GetX to Cubit/BLoC, integrated backend services, resolved live issues, and automated releases with GitHub Actions and Fastlane.
+I have shipped and maintained live applications, migrated production modules from GetX to Cubit/BLoC, integrated backend services and third-party SDKs, optimized performance, fixed production issues, and automated releases with GitHub Actions and Fastlane.
 
-While the post targets 6–7 years of experience, I would appreciate consideration for this role or a suitable mid-level opening. I am based in Egypt and would need remote work or relocation support.
+I am based in Egypt and would be glad to discuss remote work or relocation support for the Ahmedabad position.
+
+Portfolio: https://muhamaadessam.github.io/
+
+Best regards,
+Muhammad Essam`,
+  },
+  {
+    company: "OptimHire",
+    role: "Flutter Developer",
+    to: "optimhire1234@gmail.com",
+    subject: "Flutter Developer Application — Muhammad Essam",
+    body: `Dear OptimHire Hiring Team,
+
+I am applying for the Flutter Developer position in Mumbai. I have more than three years of production experience with Flutter and Dart across Android, iOS, and Windows.
+
+My experience includes BLoC/Cubit, GetX, Clean Architecture, MVVM, REST APIs, Firebase, Hive, SQLite, unit testing, Git, performance optimization, and CI/CD. I have owned production features end to end, resolved live issues, and supported app-store releases through GitHub Actions and Fastlane.
+
+I am based in Egypt and would be glad to discuss relocation support or a remote arrangement.
+
+Portfolio: https://muhamaadessam.github.io/
+
+Best regards,
+Muhammad Essam`,
+  },
+  {
+    company: "SmartWorkz Technologies",
+    role: "Flutter & React Native Developer",
+    to: "hello@smartworkz.in",
+    subject: "Flutter Developer Application — Muhammad Essam",
+    body: `Dear SmartWorkz Technologies Hiring Team,
+
+I am applying for the Flutter-focused mobile developer opportunity. I have more than three years of production experience building applications for Android, iOS, and Windows using Flutter, Dart, BLoC/Cubit, GetX, Clean Architecture, REST APIs, Firebase, local storage, testing, Git, and CI/CD.
+
+I have shipped and maintained live Flutter applications, improved modular architecture, integrated backend services, fixed production issues, and automated releases with GitHub Actions and Fastlane.
+
+My professional focus is Flutter rather than React Native. I am based in Egypt and would be glad to discuss whether a Flutter-focused scope and relocation support are available.
 
 Portfolio: https://muhamaadessam.github.io/
 
@@ -345,81 +339,10 @@ Muhammad Essam`,
 
 const androidEmailApplications = [
   {
-    company: "Tawajood",
-    role: "Android Developer",
-    to: "info@tawajood.com",
-    subject: "Android Developer Application — Asmaa Atya",
-    body: androidJobs[0].coverLetter,
-  },
-  {
-    company: "SIGMA EMEA",
-    role: "Android Developer",
-    to: "jobs@sigma-emea.com",
-    subject: "Android Developer Application — Asmaa Atya",
-    body: `Dear SIGMA EMEA Hiring Team,
-
-I am applying for the Android Developer position in Sheikh Zayed. I have more than three years of production Android experience using Kotlin, Java, Jetpack Compose, Coroutines, MVVM, MVI, Clean Architecture, REST APIs, Firebase, Git, and unit testing.
-
-I have built and maintained applications across POS, payments, healthcare, and government services. My work includes scalable multi-module architecture, product flavors, secure API integrations, performance optimization, and Google Play releases.
-
-My background aligns closely with your requirements for modern Kotlin development, Jetpack Compose, testing, and maintainable Android architecture. I would welcome the opportunity to discuss the hybrid role.
-
-Best regards,
-Asmaa Atya`,
-  },
-  {
-    company: "S M Techno Consultants",
-    role: "Android Developer",
-    to: "corporate@smtechno.com",
-    subject: "Android Developer Application — Asmaa Atya",
-    body: `Dear S M Techno Consultants Hiring Team,
-
-I am applying for the Android Developer position. I have more than three years of professional Android experience using Kotlin, Java, Android SDK, Jetpack Compose, MVVM, Clean Architecture, REST APIs, Firebase, Room, Coroutines, Git, testing, and release management.
-
-I have delivered production applications in POS, payments, healthcare, and government services, including scalable multi-module codebases and applications serving large user bases.
-
-I would be glad to discuss the position, work location, and whether remote work is available.
-
-Best regards,
-Asmaa Atya`,
-  },
-  {
-    company: "Xautomations",
-    role: "Android Developer",
-    to: "careers@xautomations.com",
-    subject: "Android Developer Application — Asmaa Atya",
-    body: `Dear Xautomations Hiring Team,
-
-I am applying for the Android Developer position. I have more than three years of production experience building native Android applications using Kotlin, Java, Jetpack Compose, MVVM, MVI, Clean Architecture, REST APIs, Firebase, Git, and unit testing.
-
-My experience includes POS and payment applications, healthcare and government services, multi-module architecture, performance optimization, secure API integrations, and Google Play release management.
-
-I am based in Egypt and would be glad to discuss remote work or relocation support for the role.
-
-Best regards,
-Asmaa Atya`,
-  },
-  {
-    company: "Pearl Data Direct",
-    role: "Android Developer",
-    to: "jobs@pearldatadirect.com",
-    subject: "Android Developer Application — Asmaa Atya",
-    body: `Dear Pearl Data Direct Hiring Team,
-
-I am applying for the Android Developer position. I have more than three years of professional Android experience using Kotlin, Jetpack Compose, MVVM, MVI, Clean Architecture, Retrofit-style REST API integrations, Room, Coroutines, Flow, Firebase, Git, and unit testing.
-
-I have built and maintained production applications across POS, payments, healthcare, and government services, with a strong focus on scalable architecture, performance, secure data handling, and reliable releases.
-
-I am currently based in Egypt and would welcome the opportunity to discuss relocation support and the expected joining timeline.
-
-Best regards,
-Asmaa Atya`,
-  },
-  {
     company: "Infolexus Solutions",
-    role: "Mobile Application Developer — Android",
+    role: "Android Developer",
     to: "recruiter1@infolexus.com",
-    subject: "Mobile Application Developer (Android) — Asmaa Atya",
+    subject: "Android Developer Application — Asmaa Atya",
     body: `Dear Infolexus Solutions Hiring Team,
 
 I am applying for the Mobile Application Developer position with a focus on native Android. I have more than three years of production experience using Kotlin, Java, Android SDK, Jetpack Compose, MVVM, MVI, Clean Architecture, REST APIs, Firebase, SQLite, Git, testing, performance optimization, and Google Play release management.
@@ -427,6 +350,70 @@ I am applying for the Mobile Application Developer position with a focus on nati
 I have delivered applications across POS, payments, healthcare, and government services, including scalable multi-module codebases and an Egypt Ministry of Justice application serving more than one million users.
 
 I am based in Egypt. I would be glad to discuss whether remote work or relocation support is available for the Coimbatore role.
+
+Best regards,
+Asmaa Atya`,
+  },
+  {
+    company: "D Design Agency",
+    role: "Android Developer",
+    to: "career@ddesignagency.com",
+    subject: "Android Developer Application — Asmaa Atya",
+    body: `Dear D Design Agency Hiring Team,
+
+I am applying for the Android Developer position in Lahore. I have more than three years of production Android experience using Kotlin, Java, Jetpack Compose, XML, Coroutines, MVVM, MVI, Clean Architecture, dependency injection, REST APIs, Firebase, Git, and unit testing.
+
+I have built and maintained applications across POS, payments, healthcare, and government services. My work includes multi-module architecture, secure API integrations, performance optimization, JUnit and MockK testing, and Google Play releases.
+
+I am based in Egypt and would be glad to discuss relocation support and the employment arrangement.
+
+Best regards,
+Asmaa Atya`,
+  },
+  {
+    company: "Harjai Technologies",
+    role: "Android Developer",
+    to: "shanti.sharma@harjai.com",
+    subject: "Android Developer Application — Asmaa Atya",
+    body: `Dear Harjai Technologies Hiring Team,
+
+I am applying for the Android Developer position in Pune. I have more than three years of production experience using Kotlin, Java, Android SDK, Jetpack Compose, XML, MVVM, MVI, Clean Architecture, REST APIs, Firebase, Git, and unit testing.
+
+I have delivered production applications across POS, payments, healthcare, and government services, including secure integrations, performance optimization, and Google Play releases.
+
+I am based in Egypt. I would be glad to discuss relocation support and whether the immediate joining timeline can accommodate an international candidate.
+
+Best regards,
+Asmaa Atya`,
+  },
+  {
+    company: "RealWorld HR",
+    role: "Android Mobile App Developer",
+    to: "ankita.rathod@realworldhr.in",
+    subject: "Android Mobile App Developer Application — Asmaa Atya",
+    body: `Dear RealWorld HR Team,
+
+I am applying for the contractual Android Mobile App Developer position in Pune. I have more than three years of production native Android experience using Kotlin, Java, Jetpack Compose, XML, MVVM, MVI, Clean Architecture, REST APIs, Firebase, Git, testing, and release management.
+
+I have built and maintained production applications across POS, payments, healthcare, and government services, including scalable multi-module codebases, secure integrations, performance optimization, and Google Play releases.
+
+I am based in Egypt and would be glad to discuss relocation support, the contract duration, and the expected joining timeline.
+
+Best regards,
+Asmaa Atya`,
+  },
+  {
+    company: "Hampshire Heights Global Company",
+    role: "Android Developer",
+    to: "recruitment@hhgcl.com",
+    subject: "Android Developer Application — Asmaa Atya",
+    body: `Dear Hampshire Heights Global Company Hiring Team,
+
+I am applying for the Android Developer position. I have more than three years of production Android experience using Kotlin, Java, Android SDK, Jetpack Compose, XML, MVVM, MVI, Clean Architecture, REST APIs, Firebase, Git, testing, performance optimization, and release management.
+
+My background includes POS, invoices, payment integrations, healthcare, government services, secure data handling, multi-module architecture, and Google Play releases.
+
+I am based in Egypt and would be glad to discuss the role's location, work model, responsibilities, and compensation.
 
 Best regards,
 Asmaa Atya`,
@@ -763,12 +750,122 @@ const androidLinkedInPosts = [
   },
 ] as const;
 
-const flutterDirectPosts = flutterLinkedInPosts.filter(
-  (post) => post.contact.includes("@") || post.contact.toLowerCase().includes("whatsapp"),
-);
-const androidDirectPosts = androidLinkedInPosts.filter(
-  (post) => post.contact.includes("@") || post.contact.toLowerCase().includes("whatsapp"),
-);
+const flutterDirectPosts = [
+  {
+    ...flutterLinkedInPosts[2],
+    age: "منذ يوم",
+  },
+  {
+    company: "TravDigi OPC India",
+    role: "Flutter Developer",
+    poster: "Dax Soni",
+    posterRole: "HR · TravDigi",
+    age: "منذ ساعة",
+    location: "Ahmedabad · On-site",
+    match: "فرصة ممكنة",
+    matchClass: "stretch",
+    summary: "Flutter/Dart وBLoC/GetX وREST وFirebase وGit وتحسين الأداء والنشر كلها مطابقة لخبرة محمد.",
+    contact: "hr@travdigi.com",
+    note: "الإعلان يبدأ من سنة خبرة لكن الشغل من المكتب في الهند؛ تأكد من دعم الانتقال قبل الاستمرار.",
+    href: "https://www.linkedin.com/in/dax-soni-142160218/recent-activity/all/",
+  },
+  {
+    company: "OptimHire",
+    role: "Flutter Developer",
+    poster: "B Kumar",
+    posterRole: "Recruitment Consultant · OptimHire",
+    age: "منذ ساعتين",
+    location: "Mumbai · Full-time On-site",
+    match: "فرصة ممكنة",
+    matchClass: "stretch",
+    summary: "المستوى 2–5 سنوات، مع Flutter/Dart وBLoC/Provider وClean Architecture وFirebase والتخزين والاختبارات؛ تطابق تقني مباشر.",
+    contact: "optimhire1234@gmail.com",
+    note: "المكان Mumbai والراتب 7–9 LPA؛ تأكد من دعم الانتقال وصافي التعويض قبل أي مقابلات طويلة.",
+    href: "https://www.linkedin.com/in/b-kumar-72a28b380/recent-activity/all/",
+  },
+  {
+    company: "SmartWorkz Technologies",
+    role: "Flutter & React Native Developer",
+    poster: "SmartWorkz",
+    posterRole: "Company page",
+    age: "منذ ساعتين",
+    location: "India · Work from office",
+    match: "فرصة ممكنة",
+    matchClass: "stretch",
+    summary: "المستوى 2–5 سنوات وFlutter ضمن الدور، وخبرة محمد الإنتاجية مناسبة للجزء الخاص بـFlutter.",
+    contact: "hello@smartworkz.in · WhatsApp: +91 94446 64030",
+    whatsapp: "919444664030",
+    note: "الدور يجمع Flutter وReact Native؛ اسأل هل يقبلون Flutter specialist وعن موقع المكتب ودعم الانتقال.",
+    href: "https://www.linkedin.com/company/smartworkzin/posts/",
+  },
+  {
+    ...flutterLinkedInPosts[0],
+    age: "منذ يوم",
+  },
+] as const;
+
+const androidDirectPosts = [
+  {
+    ...androidLinkedInPosts[0],
+    age: "منذ يوم",
+  },
+  {
+    company: "D Design Agency",
+    role: "Android Developer",
+    poster: "D Design Agency",
+    posterRole: "Company page",
+    age: "منذ 9 ساعات",
+    location: "Lahore · Full-time / Contract · On-site",
+    match: "فرصة ممكنة",
+    matchClass: "stretch",
+    summary: "Kotlin/Java وCompose/XML وCoroutines وMVVM/Clean Architecture وDI وFirebase وJUnit/MockK والنشر تطابق قوي جدًا.",
+    contact: "career@ddesignagency.com",
+    note: "الدور من المكتب في Lahore؛ تأكدي من دعم الانتقال ونوع التعاقد والراتب قبل الاستمرار.",
+    href: "https://www.linkedin.com/company/ddesignagency/posts/",
+  },
+  {
+    company: "Harjai Technologies",
+    role: "Android Developer",
+    poster: "Shanti S.",
+    posterRole: "HR · Harjai Technologies",
+    age: "منذ 8 ساعات",
+    location: "Pune · On-site · مقابلة حضورية",
+    match: "فرصة ممكنة",
+    matchClass: "stretch",
+    summary: "الإعلان يطلب 2+ سنوات Android مع Java وKotlin وAPI integration، وهي ضمن خبرة أسماء المؤكدة.",
+    contact: "shanti.sharma@harjai.com",
+    note: "Immediate joiner ومقابلة حضورية في Pune؛ اسألي أولًا عن قبول مرشحة من مصر ودعم الانتقال.",
+    href: "https://www.linkedin.com/in/shantisharma160302/recent-activity/all/",
+  },
+  {
+    company: "RealWorld HR — عميل مباشر",
+    role: "Android Mobile App Developer",
+    poster: "Ankita Rathod",
+    posterRole: "Founder · RealWorld HR",
+    age: "منذ 6 ساعات",
+    location: "Pune · Contract · On-site",
+    match: "فرصة ممكنة",
+    matchClass: "stretch",
+    summary: "الدور Native Android وProduction Apps ومطلوب 3+ سنوات؛ ده يطابق مستوى أسماء وخبرتها في تطبيقات الإنتاج.",
+    contact: "ankita.rathod@realworldhr.in",
+    note: "اسم العميل ومدة العقد والراتب غير مذكورين؛ تحققي منهم ومن دعم الانتقال قبل مشاركة مستندات إضافية.",
+    href: "https://www.linkedin.com/in/ankita-rathod-3227a833/recent-activity/all/",
+  },
+  {
+    company: "Hampshire Heights Global Company",
+    role: "Android Developer",
+    poster: "IT & Tech Jobs",
+    posterRole: "Tech jobs page",
+    age: "منذ ساعة",
+    location: "الموقع ونظام العمل غير مذكورين",
+    match: "فرصة ممكنة",
+    matchClass: "stretch",
+    summary: "المنشور يعلن Android Developer صراحة مع إيميل تقديم مباشر، لكن تفاصيل التقنيات والمستوى غير منشورة.",
+    contact: "recruitment@hhgcl.com",
+    note: "اسألي عن الشركة القانونية والموقع والراتب والـAndroid stack قبل إرسال أي بيانات غير الـCV.",
+    href: "https://www.linkedin.com/company/ardentuniverse/posts/",
+  },
+] as const;
 
 export default function Home() {
   return (
@@ -776,7 +873,7 @@ export default function Home() {
       <header className="hero">
         <nav aria-label="رأس التقرير">
           <span className="brand">فرص محمد وأسماء</span>
-          <span className="date">تقرير 28 يوليو 2026</span>
+          <span className="date">تقرير 29 يوليو 2026</span>
         </nav>
         <div className="heroCopy">
           <p className="eyebrow">Flutter وAndroid Native في مكان واحد</p>
@@ -862,7 +959,7 @@ export default function Home() {
                     <div className="postActions">
                       <a href={post.href} target="_blank" rel="noreferrer">افتح منشورات صاحب الإعلان <span aria-hidden="true">↗</span></a>
                       {"whatsapp" in post && (
-                        <a className="whatsappButton" href={`https://wa.me/${post.whatsapp}?text=${encodeURIComponent("Hello, I’m Muhammad Essam, a Flutter developer with 3+ years of production experience. I’m interested in the Mobile Application Developer role. Portfolio: https://muhamaadessam.github.io/")}`} target="_blank" rel="noreferrer">افتح WhatsApp <span aria-hidden="true">↗</span></a>
+                        <a className="whatsappButton" href={`https://wa.me/${post.whatsapp}?text=${encodeURIComponent("Hello, I’m Muhammad Essam, a Flutter developer with 3+ years of production experience. I’m interested in your Flutter opportunity. Portfolio: https://muhamaadessam.github.io/")}`} target="_blank" rel="noreferrer">افتح WhatsApp <span aria-hidden="true">↗</span></a>
                       )}
                     </div>
                   </article>
@@ -880,8 +977,8 @@ export default function Home() {
 
           <section className="tabPanel androidPanel" aria-labelledby="android-tab">
             <div className="sectionHead">
-              <div><p className="eyebrow">Android Native · Asmaa Atya</p><h2>٤ قوية و٠ ممكنة</h2></div>
-              <p>Tawajood وExpert Apps وVertex وYassir كلهم مفتوحين ومسارات التقديم واضحة، ومتطلباتهم الأساسية متوافقة مع خبرة أسماء المؤكدة.</p>
+              <div><p className="eyebrow">Android Native · Asmaa Atya</p><h2>٣ قوية و١ ممكنة</h2></div>
+              <p>Expert Apps وVertex وYassir فرص قوية ومفتوحة. Geidea فرصة ممكنة لأن الدور مناسب جدًا للمدفوعات والـAndroid، لكن KMM خبرة مطلوبة وغير مؤكدة.</p>
             </div>
 
             <div className="jobGrid">
@@ -927,7 +1024,7 @@ export default function Home() {
                     <div className="postActions">
                       <a href={post.href} target="_blank" rel="noreferrer">افتح منشورات صاحب الإعلان <span aria-hidden="true">↗</span></a>
                       {"whatsapp" in post && (
-                        <a className="whatsappButton" href={`https://wa.me/${post.whatsapp}?text=${encodeURIComponent("Hello, I’m Asmaa Atya, an Android Developer with 3+ years of production experience using Kotlin, Java, and Jetpack Compose. I’m interested in the Mobile Application Developer role.")}`} target="_blank" rel="noreferrer">افتح WhatsApp <span aria-hidden="true">↗</span></a>
+                        <a className="whatsappButton" href={`https://wa.me/${post.whatsapp}?text=${encodeURIComponent("Hello, I’m Asmaa Atya, an Android Developer with 3+ years of production experience using Kotlin, Java, and Jetpack Compose. I’m interested in your Android opportunity.")}`} target="_blank" rel="noreferrer">افتح WhatsApp <span aria-hidden="true">↗</span></a>
                       )}
                     </div>
                   </article>
@@ -947,7 +1044,7 @@ export default function Home() {
 
       <footer>
         <p>الترتيب مبني على قوة التطابق وحداثة الإعلان ووضوح الراتب ومسار التقديم.</p>
-        <p>آخر تحديث: 28 يوليو 2026 · القاهرة</p>
+        <p>آخر تحديث: 29 يوليو 2026 · القاهرة</p>
       </footer>
     </main>
   );

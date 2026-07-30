@@ -53,7 +53,7 @@ Muhammad Essam`,
     role: "Flutter Developer",
     location: "سنابس / المنامة، البحرين",
     mode: "دوام كامل · On-site",
-    age: "صاحب العمل نشط خلال آخر ساعات والتقديم مفتوح",
+    age: "Easy Apply مفتوح وصاحب العمل نشط خلال آخر 7 ساعات",
     salary: "400–900 دينار بحريني / شهر",
     match: "تطابق قوي",
     matchClass: "strong",
@@ -76,7 +76,7 @@ Muhammad Essam`,
     role: "Senior Flutter Developer offshore",
     location: "القاهرة، مصر",
     mode: "دوام كامل · On-site",
-    age: "منشورة من يومين والتقديم Easy Apply مفتوح",
+    age: "منشورة من 3 أيام والتقديم مفتوح",
     salary: "مخفي",
     match: "فرصة ممكنة",
     matchClass: "stretch",
@@ -148,7 +148,7 @@ Asmaa Atya`,
     role: "Mid-level Android Developer",
     location: "المعادي، القاهرة",
     mode: "دوام كامل · Hybrid",
-    age: "منشورة من 6 أيام والتقديم مفتوح على Wuzzuf",
+    age: "منشورة من 5 أيام والتقديم مفتوح على Wuzzuf",
     salary: "مخفي",
     match: "تطابق قوي",
     matchClass: "strong",
@@ -193,7 +193,7 @@ Asmaa Atya`,
     company: "Yassir",
     role: "Senior Mobile Android Engineer",
     location: "القاهرة، مصر",
-    mode: "دوام كامل · Remote / Office",
+    mode: "دوام كامل · Hybrid",
     age: "التقديم مفتوح على LinkedIn",
     salary: "مخفي",
     match: "تطابق قوي",
@@ -242,6 +242,8 @@ const androidRejected = [
   "الإعلان السري في الإسكندرية: طالب Android وiOS وFlutter معًا وصاحب العمل غير معلن، فمقره العربي غير قابل للتحقق.",
   "Mondia Media: طالبة 8+ سنوات Mobile وKotlin Multiplatform، أعلى بوضوح من خبرة أسماء الحالية.",
   "Henkel وCore Code وiBrokerage: جهات غير عربية المقر، فمستبعدين حسب الفلتر.",
+  "SIGMA EMEA: المنشور الأصلي بقى عمره 4 أيام، فخرج من نافذة LinkedIn Posts الإلزامية.",
+  "Hampshire Heights: الإعلان الحالي يشترط إن المتقدم يكون مقيمًا في لاجوس، فمش مناسب لأسماء.",
 ] as const;
 
 const flutterEmailApplications = [
@@ -403,17 +405,17 @@ Best regards,
 Asmaa Atya`,
   },
   {
-    company: "Hampshire Heights Global Company",
-    role: "Android Developer",
-    to: "recruitment@hhgcl.com",
-    subject: "Android Developer Application — Asmaa Atya",
-    body: `Dear Hampshire Heights Global Company Hiring Team,
+    company: "AVOWS Global IT Solutions",
+    role: "Middle Android Developer",
+    to: "rizka.a@avowstech.com",
+    subject: "Mobile Developer – Android",
+    body: `Dear AVOWS Global IT Solutions Hiring Team,
 
-I am applying for the Android Developer position. I have more than three years of production Android experience using Kotlin, Java, Android SDK, Jetpack Compose, XML, MVVM, MVI, Clean Architecture, REST APIs, Firebase, Git, testing, performance optimization, and release management.
+I am applying for the Middle Android Developer opportunity in Jakarta. I have more than three years of production Android experience using Kotlin, Java, Android SDK, Jetpack Compose, XML, MVVM, MVI, Clean Architecture, REST APIs, Firebase, Git, testing, performance optimization, and release management.
 
-My background includes POS, invoices, payment integrations, healthcare, government services, secure data handling, multi-module architecture, and Google Play releases.
+I have built and maintained applications across POS, payments, healthcare, and government services. My work includes scalable multi-module architecture, secure integrations, product flavors, JUnit and MockK testing, and Google Play releases.
 
-I am based in Egypt and would be glad to discuss the role's location, work model, responsibilities, and compensation.
+I am based in Egypt and would be glad to discuss relocation support, the extendable contract, expected salary, and availability.
 
 Best regards,
 Asmaa Atya`,
@@ -753,14 +755,14 @@ const androidLinkedInPosts = [
 const flutterDirectPosts = [
   {
     ...flutterLinkedInPosts[2],
-    age: "منذ يوم",
+    age: "منذ يومين",
   },
   {
     company: "TravDigi OPC India",
     role: "Flutter Developer",
     poster: "Dax Soni",
     posterRole: "HR · TravDigi",
-    age: "منذ ساعة",
+    age: "منذ يوم",
     location: "Ahmedabad · On-site",
     match: "فرصة ممكنة",
     matchClass: "stretch",
@@ -774,7 +776,7 @@ const flutterDirectPosts = [
     role: "Flutter Developer",
     poster: "B Kumar",
     posterRole: "Recruitment Consultant · OptimHire",
-    age: "منذ ساعتين",
+    age: "منذ يوم",
     location: "Mumbai · Full-time On-site",
     match: "فرصة ممكنة",
     matchClass: "stretch",
@@ -788,7 +790,7 @@ const flutterDirectPosts = [
     role: "Flutter & React Native Developer",
     poster: "SmartWorkz",
     posterRole: "Company page",
-    age: "منذ ساعتين",
+    age: "منذ يوم",
     location: "India · Work from office",
     match: "فرصة ممكنة",
     matchClass: "stretch",
@@ -800,21 +802,21 @@ const flutterDirectPosts = [
   },
   {
     ...flutterLinkedInPosts[0],
-    age: "منذ يوم",
+    age: "منذ يومين",
   },
 ] as const;
 
 const androidDirectPosts = [
   {
     ...androidLinkedInPosts[0],
-    age: "منذ يوم",
+    age: "منذ يومين",
   },
   {
     company: "D Design Agency",
     role: "Android Developer",
     poster: "D Design Agency",
     posterRole: "Company page",
-    age: "منذ 9 ساعات",
+    age: "منذ يوم",
     location: "Lahore · Full-time / Contract · On-site",
     match: "فرصة ممكنة",
     matchClass: "stretch",
@@ -828,7 +830,7 @@ const androidDirectPosts = [
     role: "Android Developer",
     poster: "Shanti S.",
     posterRole: "HR · Harjai Technologies",
-    age: "منذ 8 ساعات",
+    age: "منذ يوم",
     location: "Pune · On-site · مقابلة حضورية",
     match: "فرصة ممكنة",
     matchClass: "stretch",
@@ -842,7 +844,7 @@ const androidDirectPosts = [
     role: "Android Mobile App Developer",
     poster: "Ankita Rathod",
     posterRole: "Founder · RealWorld HR",
-    age: "منذ 6 ساعات",
+    age: "منذ 4 ساعات",
     location: "Pune · Contract · On-site",
     match: "فرصة ممكنة",
     matchClass: "stretch",
@@ -852,18 +854,18 @@ const androidDirectPosts = [
     href: "https://www.linkedin.com/in/ankita-rathod-3227a833/recent-activity/all/",
   },
   {
-    company: "Hampshire Heights Global Company",
-    role: "Android Developer",
-    poster: "IT & Tech Jobs",
-    posterRole: "Tech jobs page",
-    age: "منذ ساعة",
-    location: "الموقع ونظام العمل غير مذكورين",
+    company: "AVOWS Global IT Solutions",
+    role: "Middle Android Developer",
+    poster: "Rizka Astria Syanindita",
+    posterRole: "Tech Recruiter · AVOWS",
+    age: "منذ 3 ساعات",
+    location: "Jakarta · Contract قابل للتمديد · On-site",
     match: "فرصة ممكنة",
     matchClass: "stretch",
-    summary: "المنشور يعلن Android Developer صراحة مع إيميل تقديم مباشر، لكن تفاصيل التقنيات والمستوى غير منشورة.",
-    contact: "recruitment@hhgcl.com",
-    note: "اسألي عن الشركة القانونية والموقع والراتب والـAndroid stack قبل إرسال أي بيانات غير الـCV.",
-    href: "https://www.linkedin.com/company/ardentuniverse/posts/",
+    summary: "مستوى Middle يطلب 3+ سنوات وKotlin وAndroid SDK وREST APIs وGit؛ تطابق مباشر مع خبرة أسماء.",
+    contact: "rizka.a@avowstech.com",
+    note: "الشغل من المكتب في Jakarta؛ اسألي عن دعم الانتقال والراتب ومدة العقد قبل الاستمرار.",
+    href: "https://www.linkedin.com/in/rizka-astria-syanindita-40113620a/recent-activity/all/",
   },
 ] as const;
 
@@ -873,7 +875,7 @@ export default function Home() {
       <header className="hero">
         <nav aria-label="رأس التقرير">
           <span className="brand">فرص محمد وأسماء</span>
-          <span className="date">تقرير 29 يوليو 2026</span>
+          <span className="date">تقرير 30 يوليو 2026</span>
         </nav>
         <div className="heroCopy">
           <p className="eyebrow">Flutter وAndroid Native في مكان واحد</p>
@@ -1044,7 +1046,7 @@ export default function Home() {
 
       <footer>
         <p>الترتيب مبني على قوة التطابق وحداثة الإعلان ووضوح الراتب ومسار التقديم.</p>
-        <p>آخر تحديث: 29 يوليو 2026 · القاهرة</p>
+        <p>آخر تحديث: 30 يوليو 2026 · القاهرة</p>
       </footer>
     </main>
   );

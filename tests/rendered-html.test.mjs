@@ -18,7 +18,7 @@ test("renders separate jobs, direct posts, and email actions for both candidates
   assert.equal(response.status, 200);
 
   const html = await response.text();
-  assert.match(html, /تقرير 29 يوليو 2026/);
+  assert.match(html, /تقرير 30 يوليو 2026/);
   assert.match(html, /Diverge AI/);
   assert.match(html, /Medad Holding/);
   assert.match(html, /Script for Information Technology/);
@@ -37,7 +37,7 @@ test("renders separate jobs, direct posts, and email actions for both candidates
   assert.match(html, /hr@travdigi.com/);
   assert.match(html, /hello@smartworkz.in/);
   assert.match(html, /career@ddesignagency.com/);
-  assert.match(html, /recruitment@hhgcl.com/);
+  assert.match(html, /rizka.a@avowstech.com/);
   assert.match(html, /Al‑Tadamun Microfinance Association: Wuzzuf شال زر التقديم/);
   assert.match(html, /NEOM Associate Flutter/);
   assert.equal((html.match(/type="radio"/g) ?? []).length, 2);
@@ -46,4 +46,5 @@ test("renders separate jobs, direct posts, and email actions for both candidates
   assert.equal((html.match(/فتح الرسالة في Gmail/g) ?? []).length >= 2, true);
   assert.equal((html.match(/افتح WhatsApp/g) ?? []).length >= 3, true);
   assert.equal((html.match(/Asmaa Atya/g) ?? []).length >= 5, true);
+  assert.doesNotMatch(html, /recruitment@hhgcl.com/);
 });

@@ -32,7 +32,7 @@ test("renders separate jobs, direct posts, and email actions for both candidates
   assert.match(html, /Vertex Technologies/);
   assert.match(html, /Yassir/);
   assert.match(html, /Halian/);
-  assert.match(html, /٤ قوية و١ ممكنة/);
+  assert.match(html, /٣ قوية و٢ ممكنة/);
   assert.match(html, /٢ قوية و٣ ممكنة/);
   assert.match(html, /job@enseyab\.net/);
   assert.match(html, /robin@randallrecruitment\.com/);

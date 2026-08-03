@@ -59,12 +59,12 @@ Muhammad Essam`,
     role: "Flutter Developer",
     location: "سنابس / المنامة، البحرين",
     mode: "دوام كامل · On-site",
-    age: "Easy Apply مفتوح · صاحب العمل نشط خلال 7 ساعات",
+    age: "Easy Apply مفتوح · صاحب العمل نشط منذ 17 ساعة · تحققت 3 أغسطس",
     salary: "400–900 دينار بحريني / شهر",
-    match: "تطابق قوي",
-    matchClass: "strong",
+    match: "فرصة ممكنة",
+    matchClass: "stretch",
     why: "شركة بحرينية مسجلة ومقرها المنامة، والإعلان يطلب 2–4 سنوات مع Flutter/Dart وREST APIs وBloc/Provider/Riverpod وFirebase وGit وCI/CD ونشر التطبيقات؛ كل ده داخل خبرتك.",
-    note: "النطاق المعلن فوق الحد المطلوب، لكن الشغل من البحرين. اسأل قبل أي التزام عن التأشيرة، السكن، وصافي الراتب بعد أي استقطاعات.",
+    note: "نسخة Naukrigulf تعرض 2–4 سنوات، بينما نسخة Qureos تذكر 5+؛ اعتبرها Stretch واسأل عن شرط الخبرة والتأشيرة والراتب.",
     href: "https://www.naukrigulf.com/flutter-developer-jobs-in-bahrain-in-script-for-information-technology-co.-w.l.l-2-to-4-years-n-cd-332265-jid-230726000339",
     coverLetter: `Dear Script IT Hiring Team,
 
@@ -615,8 +615,8 @@ export default function Home() {
 
           <section className="tabPanel flutterPanel" aria-labelledby="flutter-tab">
             <div className="sectionHead">
-              <div><p className="eyebrow">Flutter · Muhammad Essam</p><h2>٤ قوية و١ ممكنة</h2></div>
-              <p>Diverge وMedad وScript وUnipal فرص قوية ومفتوحة. PSdigital ما زالت متاحة لكن أقدم وراتبها مخفي.</p>
+              <div><p className="eyebrow">Flutter · Muhammad Essam</p><h2>٣ قوية و٢ ممكنة</h2></div>
+              <p>Diverge وMedad وUnipal فرص قوية ومفتوحة. Script فيها اختلاف بين مصادر الخبرة، وPSdigital أقدم وراتبها مخفي.</p>
             </div>
 
             <div className="jobGrid">

@@ -1,5 +1,11 @@
 import CopyButton from "./CopyButton";
 import EmailComposer from "./EmailComposer";
+import {
+  freshAndroidDirectPosts,
+  freshAndroidEmailApplications,
+  freshFlutterDirectPosts,
+  freshFlutterEmailApplications,
+} from "./fresh-data";
 
 const jobs = [
   {
@@ -30,7 +36,7 @@ Muhammad Essam`,
     role: "Flutter Mobile Application Developer",
     location: "دبي، الإمارات",
     mode: "دوام كامل دائم · On-site",
-    age: "منشورة من 28 يوم · Easy Apply مفتوح",
+    age: "Easy Apply مفتوح · صاحب العمل نشط منذ 17 ساعة · تحققت 3 أغسطس",
     salary: "12,000–15,000 درهم إماراتي / شهر",
     match: "تطابق قوي",
     matchClass: "strong",
@@ -76,7 +82,7 @@ Muhammad Essam`,
     role: "Software Engineer — Flutter Developer",
     location: "المنامة، البحرين",
     mode: "دوام كامل · On-site",
-    age: "صفحة الشركة مفتوحة والتقديم متاح · تحققت اليوم",
+    age: "صفحة الشركة الرسمية مفتوحة والتقديم متاح · تحققت 3 أغسطس",
     salary: "مخفي",
     match: "تطابق قوي",
     matchClass: "strong",
@@ -101,7 +107,7 @@ Muhammad Essam`,
     role: "Flutter Developer",
     location: "دبي، الإمارات",
     mode: "دوام كامل · On-site",
-    age: "الإعلان ما زال مفتوحًا لكنه أقدم من 30 يوم",
+    age: "Apply on employer site مفتوح · تحققت 3 أغسطس",
     salary: "مخفي",
     match: "فرصة ممكنة",
     matchClass: "stretch",
@@ -127,7 +133,7 @@ const androidJobs = [
     role: "Mid-level Android Developer",
     location: "القاهرة، مصر",
     mode: "دوام كامل",
-    age: "منشورة من 3 أسابيع · Easy Apply مفتوح",
+    age: "منشورة منذ أسبوعين · التقديم مفتوح · تحققت 3 أغسطس",
     salary: "مخفي",
     match: "فرصة ممكنة",
     matchClass: "stretch",
@@ -150,7 +156,7 @@ Asmaa Atya`,
     role: "Android Engineer",
     location: "القاهرة، مصر",
     mode: "دوام كامل · Hybrid",
-    age: "صفحة الشركة الرسمية مفتوحة · تحققت اليوم",
+    age: "صفحة الشركة الرسمية مفتوحة · تحققت 3 أغسطس",
     salary: "مخفي",
     match: "فرصة ممكنة",
     matchClass: "stretch",
@@ -196,12 +202,12 @@ Asmaa Atya`,
     role: "Senior Mobile Android Engineer",
     location: "القاهرة، مصر",
     mode: "دوام كامل · Hybrid",
-    age: "منشورة من شهر · التقديم الخارجي مفتوح",
+    age: "Lever مفتوح · 4+ سنوات وKMM · تحققت 3 أغسطس",
     salary: "مخفي",
-    match: "تطابق قوي",
-    matchClass: "strong",
+    match: "فرصة ممكنة",
+    matchClass: "stretch",
     why: "الإعلان يقبل من سنتين Android/Kotlin، ويطلب REST APIs وGit وFirebase وDI وArchitecture Components والاختبارات والأمان وتحسين الأداء وإدارة الإصدارات؛ كلها ضمن خبرة أسماء.",
-    note: "المسمى Senior رغم شرط السنتين، والراتب مخفي؛ قدّمي بمستوى خبرتك الحقيقي واسألي مبكرًا عن نطاق الراتب وهيكل الفريق.",
+    note: "الإعلان يطلب 4+ سنوات وKMM، بينما خبرة أسماء 3+ سنوات وKMM غير مؤكدة؛ قدّمي كـStretch واسألي عن المستوى.",
     href: "https://eg.linkedin.com/jobs/view/senior-mobile-android-engineer-at-yassir-4428884792",
     coverLetter: `Dear Yassir Hiring Team,
 
@@ -219,7 +225,7 @@ Asmaa Atya`,
     role: "Android Engineer",
     location: "دبي، الإمارات",
     mode: "عقد 12 شهر · Remote",
-    age: "صفحة التوظيف مفتوحة وبها Apply now · تحققت اليوم",
+    age: "صفحة Halian مفتوحة وApply now ظاهر · تحققت 3 أغسطس",
     salary: "مخفي",
     match: "تطابق قوي",
     matchClass: "strong",
@@ -570,7 +576,7 @@ export default function Home() {
       <header className="hero">
         <nav aria-label="رأس التقرير">
           <span className="brand">فرص محمد وأسماء</span>
-          <span className="date">تقرير 2 أغسطس 2026</span>
+          <span className="date">تقرير 3 أغسطس 2026</span>
         </nav>
         <div className="heroCopy">
           <p className="eyebrow">Flutter وAndroid Native في مكان واحد</p>
@@ -637,10 +643,10 @@ export default function Home() {
             <section className="linkedInSection" aria-label="منشورات توظيف Flutter على LinkedIn">
               <div className="sectionHead">
                 <div><p className="eyebrow">LinkedIn Posts · Email أو WhatsApp فقط</p><h2>تقديم مباشر لمحمد</h2></div>
-                <p>لقيت ٥ منشورات صالحة خلال آخر 72 ساعة بعد البحث الموسع. كلها تنشر Email أو WhatsApp صريح؛ منشورات DM وOpenToWork والتدريب ما دخلتش.</p>
+                <p>لقيت ٤ منشورات صالحة خلال آخر 72 ساعة بعد البحث الموسع. كلها تنشر Email صريح؛ ماكمّلتش العدد بمنشورات DM أو OpenToWork أو تدريب.</p>
               </div>
               <div className="postGrid">
-                {flutterDirectPosts.map((post) => (
+                {freshFlutterDirectPosts.map((post) => (
                   <article className="postCard" key={`${post.company}-${post.poster}`}>
                     <div className="cardTop">
                       <span className="postSource">LinkedIn Post</span>
@@ -664,7 +670,7 @@ export default function Home() {
               </div>
             </section>
 
-            <EmailComposer candidate="Muhammad Essam" applications={flutterEmailApplications} />
+            <EmailComposer candidate="Muhammad Essam" applications={freshFlutterEmailApplications} />
 
             <div className="rejected" aria-label="فرص Flutter مستبعدة">
               <p className="eyebrow">فلترة Flutter</p><h2>ليه فرص تانية ما دخلتش التقرير؟</h2>
@@ -674,8 +680,8 @@ export default function Home() {
 
           <section className="tabPanel androidPanel" aria-labelledby="android-tab">
             <div className="sectionHead">
-              <div><p className="eyebrow">Android Native · Asmaa Atya</p><h2>٣ قوية و٢ ممكنة</h2></div>
-              <p>Vertex وYassir وHalian فرص قوية ومفتوحة. Geidea وHenkel فرص ممكنة بسبب KMM وReact Native غير المؤكدتين في الخبرة.</p>
+              <div><p className="eyebrow">Android Native · Asmaa Atya</p><h2>٢ قوية و٣ ممكنة</h2></div>
+              <p>Vertex وHalian فرص قوية ومفتوحة. Geidea وHenkel وYassir فرص ممكنة بسبب KMM أو React Native أو شرط 4+ سنوات.</p>
             </div>
 
             <div className="jobGrid">
@@ -705,7 +711,7 @@ export default function Home() {
                 <p>لقيت ٥ منشورات صالحة خلال آخر 72 ساعة بعد البحث الموسع. كلها تنشر Email أو WhatsApp صريح؛ ماكمّلتش العدد بتدريب أو OpenToWork أو نسخ مكررة.</p>
               </div>
               <div className="postGrid">
-                {androidDirectPosts.map((post) => (
+                {freshAndroidDirectPosts.map((post) => (
                   <article className="postCard" key={`${post.company}-${post.poster}`}>
                     <div className="cardTop">
                       <span className="postSource">LinkedIn Post</span>
@@ -729,7 +735,7 @@ export default function Home() {
               </div>
             </section>
 
-            <EmailComposer candidate="Asmaa Atya" applications={androidEmailApplications} />
+            <EmailComposer candidate="Asmaa Atya" applications={freshAndroidEmailApplications} />
 
             <div className="rejected" aria-label="فرص Android مستبعدة">
               <p className="eyebrow">فلترة Android Native</p><h2>ليه فرص تانية ما دخلتش التقرير؟</h2>
@@ -741,7 +747,7 @@ export default function Home() {
 
       <footer>
         <p>الترتيب مبني على قوة التطابق وحداثة الإعلان ووضوح الراتب ومسار التقديم.</p>
-        <p>آخر تحديث: 2 أغسطس 2026 · القاهرة</p>
+        <p>آخر تحديث: 3 أغسطس 2026 · القاهرة</p>
       </footer>
     </main>
   );

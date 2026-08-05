@@ -19,8 +19,19 @@ export default function EmailComposer({
   applications: readonly Application[];
 }) {
   const [selected, setSelected] = useState(0);
-  const application = applications[selected];
-  const [draft, setDraft] = useState<Application>(application);
+  const [draft, setDraft] = useState<Application>(applications[0] ?? { company: "", role: "", to: "", subject: "", body: "" });
+
+  if (!applications.length) {
+    return (
+      <section className="emailComposer" aria-label={`إرسال إيميل باسم ${candidate}`}>
+        <div className="emailIntro">
+          <p className="eyebrow">إرسال الإيميلات</p>
+          <h2>لا توجد مسودة Gmail مؤكدة لـ {candidate}</h2>
+          <p>لم يظهر منشور LinkedIn صالح بإيميل تقديم خلال آخر ٧٢ ساعة بعد تطبيق فلترة مصر والملاءمة؛ لذلك لم أضع عنوانًا غير مؤكد.</p>
+        </div>
+      </section>
+    );
+  }
 
   function select(index: number) {
     setSelected(index);

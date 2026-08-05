@@ -34,24 +34,45 @@ Best regards,
 Muhammad Essam`,
   },
   {
-    company: "Dsquares",
-    role: "Senior Mobile Developer — Flutter",
-    location: "6 أكتوبر، الجيزة، مصر",
-    mode: "دوام كامل · Hybrid",
-    age: "Apply مفتوح على LinkedIn/Workable · تحققت 4 أغسطس",
+    company: "Adree",
+    role: "Flutter Developer",
+    location: "مصر · Remote",
+    mode: "دوام كامل · Remote من مصر",
+    age: "Apply مفتوح على Bayt · تحققت 5 أغسطس",
+    salary: "مخفي",
+    match: "تطابق قوي",
+    matchClass: "strong",
+    why: "الدور في مصر ويطلب 3–6 سنوات Flutter وDart وstate management وFirebase وREST وCI/CD؛ تطابق قوي مع خبرة محمد الإنتاجية.",
+    note: "الراتب غير معلن والعمل Remote؛ أكّد أن العمل من مصر مقبول ونطاق الراتب قبل التقديم.",
+    href: "https://www.bayt.com/en/egypt/jobs/flutter-developer-74875062/",
+    coverLetter: `Dear Adree Hiring Team,
+
+I am applying for the Flutter Developer position. I have more than three years of production experience building and maintaining Flutter applications for Android, iOS, and Windows with Dart, BLoC/Cubit, GetX, Clean Architecture, REST APIs, Firebase, local storage, testing, GitHub Actions, and Fastlane.
+
+My work includes production feature ownership, modular architecture, API and third-party integrations, local persistence, performance improvements, debugging, and automated releases. I am based in Egypt and would welcome the opportunity to contribute to Adree’s mobile products.
+
+Portfolio: https://muhamaadessam.github.io/
+
+Best regards,
+Muhammad Essam`,
+  },
+  {
+    company: "TAWANTECH",
+    role: "Senior Flutter Developer offshore",
+    location: "القاهرة، مصر",
+    mode: "دوام كامل · On-site",
+    age: "Apply مفتوح على Bayt · تحققت 5 أغسطس",
     salary: "مخفي",
     match: "فرصة ممكنة",
     matchClass: "stretch",
-    why: "الإعلان يطلب 2+ سنة Flutter وDart وBLoC/Cubit وREST وget_it وHive/SharedPreferences وClean Architecture؛ التطابق التقني قوي لكن مسمى Senior يستحق تأكيد المستوى.",
-    note: "اسأل عن مستوى الدور الفعلي، نطاق الراتب، وجدول الـHybrid قبل المراحل الطويلة.",
-    href: "https://jobs.workable.com/view/cJRsTpmcpmrfxN8ZLz1rsj/hybrid-senior-mobile-developer---flutter-in-6th-of-october-city-at-dsquares",
-    coverLetter: `Dear Dsquares Hiring Team,
+    why: "الدور موجود في القاهرة ويطلب 3+ سنوات Flutter وDart وstate management وREST؛ مناسب تقنيًا، لكن مسمى Senior وشرط 5+ سنوات إجماليًا يجعلاه Stretch.",
+    note: "الوظيفة On-site في القاهرة والراتب غير معلن؛ اسأل عن المستوى الفعلي والراتب قبل استثمار وقت كبير.",
+    href: "https://www.bayt.com/en/egypt/jobs/senior-flutter-developer-offshore-74938573/",
+    coverLetter: `Dear TAWANTECH Hiring Team,
 
-I am applying for the Senior Mobile Developer — Flutter position in 6th of October. I have more than three years of production experience building Flutter applications for Android, iOS, and Windows with Dart, BLoC/Cubit, GetX, Clean Architecture, REST APIs, Firebase, Hive, SQLite, testing, GitHub Actions, and Fastlane.
+I am applying for the Senior Flutter Developer opportunity in Cairo. I have more than three years of production experience building Flutter applications for Android, iOS, and Windows using Dart, BLoC/Cubit, GetX, Clean Architecture, REST APIs, Firebase, local storage, testing, GitHub Actions, and Fastlane.
 
-My work includes production feature ownership, modular architecture, API and third-party integrations, local persistence, performance improvements, debugging, and automated releases. I have hands-on experience with BLoC/Cubit, get_it-style dependency injection, and maintainable layered codebases.
-
-I am based in Egypt and would be glad to discuss the role level, hybrid arrangement, and how I can contribute to Dsquares’ mobile products.
+My experience includes production feature ownership, modular architecture, API integrations, performance improvements, debugging, and automated releases. I am based in Egypt and would welcome a discussion about the role level, Cairo work model, and the team’s Flutter delivery needs.
 
 Portfolio: https://muhamaadessam.github.io/
 
@@ -108,24 +129,24 @@ Best regards,
 Asmaa Atya`,
   },
   {
-    company: "Henkel",
-    role: "Mobile Developer — Sr Android Engineer",
-    location: "القاهرة، مصر",
+    company: "Expert Apps",
+    role: "Mid-level Android Developer",
+    location: "المعادي، القاهرة، مصر",
     mode: "دوام كامل · Hybrid",
-    age: "صفحة Henkel الرسمية مفتوحة · تحققت 4 أغسطس",
+    age: "Apply مفتوح على Wuzzuf · تحققت 5 أغسطس",
     salary: "مخفي",
-    match: "فرصة ممكنة",
-    matchClass: "stretch",
-    why: "الدور الرسمي يركز على Kotlin وAndroid SDK وJetpack/Compose وClean Architecture وREST والأمان والأداء، وكلها ضمن خبرة أسماء الإنتاجية.",
-    note: "المسمى Senior ولا يوجد شرط سنوات واضح؛ قدّمي كـStretch واسألي عن المستوى الفعلي ونطاق الراتب.",
-    href: "https://www.henkel-northamerica.com/careers/jobs-and-application/2150510-2150510",
-    coverLetter: `Dear Henkel Hiring Team,
+    match: "تطابق قوي",
+    matchClass: "strong",
+    why: "الدور Hybrid في المعادي ويطلب 3 سنوات Android Native مع APIs وoffline storage وREST؛ مناسب جدًا لخبرة أسماء في Kotlin والـarchitecture والإطلاقات.",
+    note: "التفاصيل الكاملة ظاهرة على Wuzzuf، لكن الراتب غير معلن؛ أكّدي نطاقه قبل المراحل الطويلة.",
+    href: "https://wuzzuf.net/jobs/p/kn9e55lijxeh-mid-level-android-developer-expert-apps-cairo-egypt",
+    coverLetter: `Dear Expert Apps Hiring Team,
 
-I am applying for the Mobile Developer — Sr Android Engineer position in Cairo. I have more than three years of production Android experience using Kotlin, Java, Android SDK, Jetpack Compose, XML, MVVM, MVI, Clean Architecture, REST APIs, Firebase, Git, JUnit, and MockK.
+I am applying for the Mid-level Android Developer position in Maadi, Cairo. I have more than three years of production Android experience using Kotlin, Java, Android SDK, Jetpack Compose, XML, MVVM, MVI, Clean Architecture, Coroutines, dependency injection, REST APIs, Firebase, Git, and testing.
 
-I have built and maintained applications across POS, payments, healthcare, and government services. My work includes secure data handling, performance optimization, scalable multi-module architecture, third-party integrations, and Google Play releases. I also contributed to an Egypt Ministry of Justice application serving more than one million users.
+My background includes POS, invoices, payment integrations, healthcare, government services, secure data handling, performance optimization, multi-module architecture, and Google Play releases. I also contributed to an Egypt Ministry of Justice application serving more than one million users.
 
-My confirmed professional focus is native Android, and I would welcome a discussion about the role level and Cairo work model.
+I am based in Egypt and would welcome the opportunity to discuss the Android scope and hybrid work model.
 
 Best regards,
 Asmaa Atya`,
@@ -157,14 +178,14 @@ Asmaa Atya`,
 
 const rejected = [
   "Diverge وMedad وScript وUnipal وPSdigital: خارج مصر أو انتقال فقط؛ اتشالوا بعد تطبيق شرط مصر الإلزامي.",
-  "Nawy: صفحة LinkedIn الحالية تقول إن التقديم لم يعد يستقبل طلبات.",
-  "Envision وSSC وLoynova وWatan: متطلبات 5–8+ سنوات أو التقديم مغلق.",
+  "Nawy: رابط التقديم المباشر لم يُتحقق منه حيًا في هذه الجولة، ففضلت عدم عرضه.",
+  "Dsquares: رابط Workable لم يعرض محتوى تحقق حي، فتمت إزالته بدل اعتباره مفتوحًا.",
   "منشورات النماذج العامة وOpenToWork وDM-only والتدريب والمنشورات الأقدم من 72 ساعة اتشالت.",
 ] as const;
 
 const androidRejected = [
   "Yassir: الإعلان ظاهر قديمًا جدًا، فتمت إزالته بدل حمله كفرصة حية.",
-  "Halian: خارج مصر وRemote من مصر غير مؤكد، فمرفوض حسب القاعدة الجديدة.",
+  "Henkel: LinkedIn يذكر أن التقديم لم يعد يستقبل طلبات، فتمت إزالته.",
   "الأدوار Junior/Internship وFlutter-only وReact Native-only وiOS-only اتشالت.",
   "منشورات OpenToWork أو DM/comment فقط أو خارج مصر أو أقدم من 72 ساعة لم تدخل.",
 ] as const;
@@ -188,9 +209,9 @@ export default function Home() {
   return (
     <main>
       <header className="hero">
-        <nav aria-label="رأس التقرير"><span className="brand">فرص محمد وأسماء</span><span className="date">تقرير 4 أغسطس 2026</span></nav>
+        <nav aria-label="رأس التقرير"><span className="brand">فرص محمد وأسماء</span><span className="date">تقرير 5 أغسطس 2026</span></nav>
         <div className="heroCopy"><p className="eyebrow">Flutter وAndroid Native في مصر فقط</p><h1>اختار التخصص وشوف الفرص المناسبة لكل شخص.</h1><p className="intro">وظائف مصرية أو مؤكدة القبول من مصر، مع Cover Letters وقسم إرسال Gmail منفصل لكل مرشح.</p></div>
-        <div className="stats" aria-label="ملخص التقرير"><div><strong>2</strong><span>مسار وظيفي</span></div><div><strong>2</strong><span>فرص Flutter</span></div><div><strong>4</strong><span>فرص Android</span></div></div>
+        <div className="stats" aria-label="ملخص التقرير"><div><strong>2</strong><span>مسار وظيفي</span></div><div><strong>{jobs.length}</strong><span>فرص Flutter</span></div><div><strong>{androidJobs.length}</strong><span>فرص Android</span></div></div>
       </header>
 
       <section className="criteria" aria-label="معايير البحث"><span>مصر فقط أو قبول مصر مؤكد</span><span>لا وظائف انتقال فقط</span><span>تقديم مفتوح ومسار واضح</span><span>Mid أو Senior كفرصة Stretch</span></section>
@@ -200,23 +221,23 @@ export default function Home() {
         <input className="tabInput" type="radio" name="candidate" id="android-tab" /><label className="tabLabel" htmlFor="android-tab"><span>Android Native — Asmaa Atya</span><small>أسماء Atya</small></label>
 
         <section className="tabPanel flutterPanel" aria-labelledby="flutter-tab">
-          <div className="sectionHead"><div><p className="eyebrow">Flutter · Muhammad Essam</p><h2>١ قوية و١ ممكنة</h2></div><p>اتحافظت على فرصتين مصريتين مفتوحتين فقط بعد حذف وظائف الإمارات والبحرين ودبي والوظائف المغلقة.</p></div>
+          <div className="sectionHead"><div><p className="eyebrow">Flutter · Muhammad Essam</p><h2>٢ قوية و١ ممكنة</h2></div><p>ثلاث فرص مصرية أو مصر-eligible مفتوحة: AppFactory وAdree كتطابق قوي، وTAWANTECH كفرصة Stretch.</p></div>
           <div className="jobGrid">{jobs.map((job, index) => <JobCard key={`${job.company}-${job.role}`} job={job} index={index} />)}</div>
-          <section className="linkedInSection" aria-label="منشورات توظيف Flutter على LinkedIn"><div className="sectionHead"><div><p className="eyebrow">LinkedIn Posts · Email أو WhatsApp فقط</p><h2>تقديم مباشر لمحمد · ١</h2></div><p>منشور واحد صالح خلال آخر 72 ساعة: مصر مؤكدة وإيميل تقديم ظاهر. العدد الحقيقي أقل من ٥؛ لم أضف OpenToWork أو DM أو نماذج عامة.</p></div><div className="postGrid">{freshFlutterDirectPosts.map((post) => <article className="postCard" key={`${post.company}-${post.poster}`}><div className="cardTop"><span className="postSource">LinkedIn Post</span><span className={`match ${post.matchClass}`}>{post.match}</span></div><p className="company">{post.company}</p><h3>{post.role}</h3><div className="meta"><span>{post.location}</span><span>{post.age}</span></div><p className="poster"><b>صاحب المنشور:</b> {post.poster} · {post.posterRole}</p><p className="why"><b>ليه مناسبة:</b> {post.summary}</p><p className="postContact"><b>التواصل:</b> {post.contact}</p><p className="note"><b>خد بالك:</b> {post.note}</p><div className="postActions"><a href={post.href} target="_blank" rel="noreferrer">افتح نشاط صاحب الإعلان <span aria-hidden="true">↗</span></a></div></article>)}</div></section>
+          <section className="linkedInSection" aria-label="منشورات توظيف Flutter على LinkedIn"><div className="sectionHead"><div><p className="eyebrow">LinkedIn Posts · Email أو WhatsApp فقط</p><h2>تقديم مباشر لمحمد · {freshFlutterDirectPosts.length}</h2></div><p>منشوران صالحان خلال آخر 72 ساعة ومصر مؤكدة؛ واحد بإيميل وواحد بواتساب. العدد الحقيقي أقل من ٥؛ لم أضف OpenToWork أو DM أو نماذج عامة.</p></div><div className="postGrid">{freshFlutterDirectPosts.map((post) => <article className="postCard" key={`${post.company}-${post.poster}`}><div className="cardTop"><span className="postSource">LinkedIn Post</span><span className={`match ${post.matchClass}`}>{post.match}</span></div><p className="company">{post.company}</p><h3>{post.role}</h3><div className="meta"><span>{post.location}</span><span>{post.age}</span></div><p className="poster"><b>صاحب المنشور:</b> {post.poster} · {post.posterRole}</p><p className="why"><b>ليه مناسبة:</b> {post.summary}</p><p className="postContact"><b>التواصل:</b> {post.contact}</p><p className="note"><b>خد بالك:</b> {post.note}</p><div className="postActions"><a href={post.href} target="_blank" rel="noreferrer">افتح نشاط صاحب الإعلان <span aria-hidden="true">↗</span></a>{"whatsapp" in post && <a href={`https://wa.me/${post.whatsapp}?text=${encodeURIComponent(post.whatsappMessage)}`} target="_blank" rel="noreferrer">افتح WhatsApp <span aria-hidden="true">↗</span></a>}</div></article>)}</div></section>
           <EmailComposer candidate="Muhammad Essam" applications={freshFlutterEmailApplications} />
           <div className="rejected" aria-label="فرص Flutter مستبعدة"><p className="eyebrow">فلترة Flutter</p><h2>ليه فرص تانية ما دخلتش التقرير؟</h2><ul>{rejected.map((item) => <li key={item}>{item}</li>)}</ul></div>
         </section>
 
         <section className="tabPanel androidPanel" aria-labelledby="android-tab">
-          <div className="sectionHead"><div><p className="eyebrow">Android Native · Asmaa Atya</p><h2>١ قوية و٣ ممكنة</h2></div><p>Vertex هو التطابق الأقوى. geidea وHenkel وArcsen فرص Stretch بسبب KMM أو المستوى أو شرط 5+ سنوات.</p></div>
+          <div className="sectionHead"><div><p className="eyebrow">Android Native · Asmaa Atya</p><h2>٢ قوية و٢ ممكنة</h2></div><p>Vertex وExpert Apps هما الأقوى. geidea وArcsen فرص Stretch بسبب KMM أو شرط 5+ سنوات.</p></div>
           <div className="jobGrid">{androidJobs.map((job, index) => <JobCard key={`${job.company}-${job.role}`} job={job} index={index} android />)}</div>
-          <section className="linkedInSection" aria-label="منشورات توظيف Android على LinkedIn"><div className="sectionHead"><div><p className="eyebrow">LinkedIn Posts · Email أو WhatsApp فقط</p><h2>تقديم مباشر لأسماء · ١</h2></div><p>منشور واحد صالح خلال آخر 72 ساعة: القاهرة مؤكدة وإيميل تقديم ظاهر. العدد الحقيقي أقل من ٥؛ لم أضف منشورات قديمة أو DM-only أو وظائف غير Native Android.</p></div><div className="postGrid">{freshAndroidDirectPosts.map((post) => <article className="postCard" key={`${post.company}-${post.poster}`}><div className="cardTop"><span className="postSource">LinkedIn Post</span><span className={`match ${post.matchClass}`}>{post.match}</span></div><p className="company">{post.company}</p><h3>{post.role}</h3><div className="meta"><span>{post.location}</span><span>{post.age}</span></div><p className="poster"><b>صاحب المنشور:</b> {post.poster} · {post.posterRole}</p><p className="why"><b>ليه مناسبة:</b> {post.summary}</p><p className="postContact"><b>التواصل:</b> {post.contact}</p><p className="note"><b>خد بالك:</b> {post.note}</p><div className="postActions"><a href={post.href} target="_blank" rel="noreferrer">افتح نشاط صاحب الإعلان <span aria-hidden="true">↗</span></a></div></article>)}</div></section>
+          <section className="linkedInSection" aria-label="منشورات توظيف Android على LinkedIn"><div className="sectionHead"><div><p className="eyebrow">LinkedIn Posts · Email أو WhatsApp فقط</p><h2>تقديم مباشر لأسماء · {freshAndroidDirectPosts.length}</h2></div><p>بعد البحث بترتيب Latest لم يظهر منشور Android Native صالح خلال آخر ٧٢ ساعة يجمع مصر مع إيميل أو WhatsApp وملاءمة ٢–٤ سنوات؛ العدد الحقيقي ٠ وأقل من ٥، من غير حشو.</p></div><div className="postGrid">{freshAndroidDirectPosts.map((post) => <article className="postCard" key={`${post.company}-${post.poster}`}><div className="cardTop"><span className="postSource">LinkedIn Post</span><span className={`match ${post.matchClass}`}>{post.match}</span></div><p className="company">{post.company}</p><h3>{post.role}</h3><div className="meta"><span>{post.location}</span><span>{post.age}</span></div><p className="poster"><b>صاحب المنشور:</b> {post.poster} · {post.posterRole}</p><p className="why"><b>ليه مناسبة:</b> {post.summary}</p><p className="postContact"><b>التواصل:</b> {post.contact}</p><p className="note"><b>خد بالك:</b> {post.note}</p><div className="postActions"><a href={post.href} target="_blank" rel="noreferrer">افتح نشاط صاحب الإعلان <span aria-hidden="true">↗</span></a>{"whatsapp" in post && <a href={`https://wa.me/${post.whatsapp}?text=${encodeURIComponent(post.whatsappMessage)}`} target="_blank" rel="noreferrer">افتح WhatsApp <span aria-hidden="true">↗</span></a>}</div></article>)}</div></section>
           <EmailComposer candidate="Asmaa Atya" applications={freshAndroidEmailApplications} />
           <div className="rejected" aria-label="فرص Android مستبعدة"><p className="eyebrow">فلترة Android Native</p><h2>ليه فرص تانية ما دخلتش التقرير؟</h2><ul>{androidRejected.map((item) => <li key={item}>{item}</li>)}</ul></div>
         </section>
       </fieldset></section>
 
-      <footer><p>الترتيب مبني على قوة التطابق وحداثة الإعلان ووضوح الراتب ومسار التقديم.</p><p>آخر تحديث: 4 أغسطس 2026 · القاهرة</p></footer>
+      <footer><p>الترتيب مبني على قوة التطابق وحداثة الإعلان ووضوح الراتب ومسار التقديم.</p><p>آخر تحديث: 5 أغسطس 2026 · القاهرة</p></footer>
     </main>
   );
 }

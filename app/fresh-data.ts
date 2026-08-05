@@ -1,14 +1,14 @@
 export const freshFlutterEmailApplications = [
   {
-    company: "Arab Financial Services (AFS)",
-    role: "Senior Mobile Developer (Flutter)",
-    to: "careers.egypt@afs.com.bh",
-    subject: "Senior Mobile Developer (Flutter) Application — Muhammad Essam",
-    body: `Dear AFS Hiring Team,
+    company: "Evyx",
+    role: "Flutter Developer",
+    to: "hr@evyx.net",
+    subject: "Flutter Developer Application — Muhammad Essam",
+    body: `Dear Evyx Hiring Team,
 
-I am applying for the Senior Mobile Developer (Flutter) opportunity in New Cairo. I have more than three years of production experience building and maintaining Flutter applications for Android, iOS, and Windows using Dart, BLoC/Cubit, GetX, Clean Architecture, REST APIs, Firebase, testing, GitHub Actions, and Fastlane.
+I am applying for the Flutter Developer opportunity in Nasr City, Cairo. I have more than three years of production experience building Flutter applications for Android, iOS, and Windows using Dart, BLoC/Cubit, GetX, Clean Architecture, REST APIs, Firebase, local storage, testing, GitHub Actions, and Fastlane.
 
-I have owned production features from architecture through release, integrated APIs and payment-related services, improved modular codebases, resolved live issues, and supported CI/CD and store releases. I am based in Egypt and would welcome a discussion about the fintech requirements, seniority level, and Cairo work model.
+My experience includes production feature ownership, state management, real-time and API integrations, offline data handling, performance improvements, and automated releases. I am based in Egypt and available for the on-site Cairo role.
 
 Portfolio: https://muhamaadessam.github.io/
 
@@ -17,53 +17,39 @@ Muhammad Essam`,
   },
 ] as const;
 
-export const freshAndroidEmailApplications = [
-  {
-    company: "Flairstech",
-    role: "Senior Android Developer",
-    to: "digitalsolutions.hr@flairstech.com",
-    subject: "Senior Android Developer Application — Asmaa Atya",
-    body: `Dear Flairstech Hiring Team,
-
-I am applying for the Senior Android Developer opportunity in Maadi, Cairo. I have more than three years of production Android experience using Kotlin, Java, Android SDK, Jetpack Compose, XML, MVVM, MVI, Clean Architecture, Coroutines, dependency injection, REST APIs, Firebase, testing, and Git.
-
-My background includes POS, invoices, payment integrations, healthcare, secure data handling, performance optimization, multi-module architecture, Google Play releases, and an Egypt Ministry of Justice application serving more than one million users. I would welcome the opportunity to discuss the Android scope, seniority expectations, and hybrid work model.
-
-Best regards,
-Asmaa Atya`,
-  },
-] as const;
+export const freshAndroidEmailApplications = [] as const;
 
 export const freshFlutterDirectPosts = [
   {
-    company: "Arab Financial Services (AFS)",
-    role: "Senior Mobile Developer (Flutter)",
-    poster: "Dina Adham",
-    posterRole: "Senior Talent Acquisition Specialist",
-    age: "منذ 5 ساعات",
-    location: "New Cairo، مصر · نموذج العمل غير مذكور",
-    match: "فرصة ممكنة",
-    matchClass: "stretch",
-    summary: "AFS توسّع Technology Hub في القاهرة لدور Flutter مدفوعات؛ الخبرة التقنية مناسبة، لكن الإعلان يطلب 4–6 سنوات وfintech صراحة.",
-    contact: "careers.egypt@afs.com.bh",
-    note: "الدور Senior وشرط fintech أساسي؛ اسأل عن المستوى الفعلي والراتب قبل التقديم.",
-    href: "https://www.linkedin.com/in/dina-adham-640365280/recent-activity/all/",
+    company: "Evyx",
+    role: "Flutter Developer",
+    poster: "Mennatallah Abdellah",
+    posterRole: "HR Generalist",
+    age: "منذ 4 ساعات",
+    location: "مدينة نصر، القاهرة، مصر · On-site",
+    match: "تطابق قوي",
+    matchClass: "strong",
+    summary: "الدور يطلب 3+ سنوات Flutter/Dart وBloc أو GetX وClean Architecture وREST وPusher/Firebase؛ تطابق مباشر مع خبرة محمد، مع تقديم واضح على إيميل HR.",
+    contact: "hr@evyx.net",
+    note: "الحضور On-site من مدينة نصر؛ أرسل الـCV والPortfolio واذكر مشروعًا في Domain جديد كما طلب الإعلان.",
+    href: "https://www.linkedin.com/in/mennatallah-abdellah/recent-activity/all/",
+  },
+  {
+    company: "شركة برمجيات في مصر",
+    role: "Mid-Level Flutter Developer",
+    poster: "Muhammad Abbas",
+    posterRole: "HR Section Head · HR Supervisor",
+    age: "منذ يومين",
+    location: "مصر · On-site · دوام كامل",
+    match: "تطابق قوي",
+    matchClass: "strong",
+    summary: "الإعلان يطلب 4+ سنوات Flutter/Dart وstate management وREST APIs، ويقبل التقديم عبر WhatsApp مباشرة؛ المجال والدور مناسبين لمحمد.",
+    contact: "WhatsApp: 01277470862",
+    note: "اسم الشركة غير ظاهر بوضوح في المنشور؛ اسأل عنه وعن العنوان والراتب قبل مشاركة أي بيانات إضافية.",
+    whatsapp: "201277470862",
+    whatsappMessage: "مرحبًا، أنا محمد عصام Flutter Developer بخبرة أكثر من 3 سنوات في إنتاج تطبيقات Android وiOS وWindows. أتقدم على وظيفة Mid-Level Flutter Developer، وده رابط الـPortfolio: https://muhamaadessam.github.io/",
+    href: "https://www.linkedin.com/in/muhammad-abbas-88a11b128/recent-activity/all/",
   },
 ] as const;
 
-export const freshAndroidDirectPosts = [
-  {
-    company: "Flairstech",
-    role: "Senior Android Developer",
-    poster: "Mirna Emad",
-    posterRole: "HRBP · Senior Talent Partner",
-    age: "منذ يومين",
-    location: "المعادي، القاهرة، مصر · Hybrid",
-    match: "فرصة ممكنة",
-    matchClass: "stretch",
-    summary: "Flairstech أعلنت عن Senior Android Developer ضمن فريقها في القاهرة؛ Kotlin/Compose والخبرة الإنتاجية مناسبان، لكن مستوى Senior يحتاج تأكيد.",
-    contact: "digitalsolutions.hr@flairstech.com",
-    note: "الإعلان لا يذكر عدد سنوات Android؛ قدّمي كـStretch واسألي عن المستوى الفعلي ونطاق الراتب.",
-    href: "https://www.linkedin.com/in/mirna-emad-02805bb3/recent-activity/all/",
-  },
-] as const;
+export const freshAndroidDirectPosts = [] as const;

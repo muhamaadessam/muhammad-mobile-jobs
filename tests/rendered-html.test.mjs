@@ -18,7 +18,8 @@ test("renders separate Egypt-only jobs, direct posts, and email actions", async 
   assert.equal(response.status, 200);
 
   const html = await response.text();
-  assert.match(html, /تقرير 5 أغسطس 2026/);
+  assert.match(html, /تقرير 6 أغسطس 2026/);
+  assert.match(html, /Axis/);
   assert.match(html, /AppFactory/);
   assert.match(html, /Adree/);
   assert.match(html, /TAWANTECH/);
@@ -31,10 +32,10 @@ test("renders separate Egypt-only jobs, direct posts, and email actions", async 
   assert.match(html, /Arcsen/);
   assert.match(html, /Evyx/);
   assert.match(html, /hr@evyx\.net/);
-  assert.match(html, /01277470862/);
+  assert.doesNotMatch(html, /01277470862/);
   assert.equal((html.match(/type="radio"/g) ?? []).length, 2);
-  assert.equal((html.match(/نسخ Cover Letter/g) ?? []).length, 7);
-  assert.equal((html.match(/class="postCard"/g) ?? []).length, 2);
+  assert.equal((html.match(/نسخ Cover Letter/g) ?? []).length, 8);
+  assert.equal((html.match(/class="postCard"/g) ?? []).length, 1);
   assert.equal((html.match(/فتح الرسالة في Gmail/g) ?? []).length, 1);
   assert.equal((html.match(/Asmaa Atya/g) ?? []).length >= 5, true);
 });

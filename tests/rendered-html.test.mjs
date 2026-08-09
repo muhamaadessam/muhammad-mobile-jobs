@@ -18,10 +18,10 @@ test("renders separate Egypt-only jobs, direct posts, and email actions", async 
   assert.equal(response.status, 200);
 
   const html = await response.text();
-  assert.match(html, /تقرير 8 أغسطس 2026/);
-  assert.match(html, /Axis/);
+  assert.match(html, /تقرير 9 أغسطس 2026/);
   assert.match(html, /AppFactory/);
   assert.match(html, /Adree/);
+  assert.match(html, /Div Systems/);
   assert.match(html, /TAWANTECH/);
   assert.match(html, /Muhammad Essam/);
   assert.match(html, /Asmaa Atya/);
@@ -30,12 +30,14 @@ test("renders separate Egypt-only jobs, direct posts, and email actions", async 
   assert.match(html, /Expert Apps/);
   assert.match(html, /Vertex Technologies/);
   assert.match(html, /Arcsen/);
+  assert.match(html, /Procore Technologies/);
   assert.doesNotMatch(html, /Evyx/);
   assert.doesNotMatch(html, /hr@evyx\.net/);
-  assert.match(html, /asmaa\.gamal761996@gmail\.com/);
+  assert.match(html, /hiring@objects\.ws/);
+  assert.doesNotMatch(html, /asmaa\.gamal761996@gmail\.com/);
   assert.doesNotMatch(html, /01277470862/);
   assert.equal((html.match(/type="radio"/g) ?? []).length, 2);
-  assert.equal((html.match(/نسخ Cover Letter/g) ?? []).length, 8);
+  assert.equal((html.match(/نسخ Cover Letter/g) ?? []).length, 9);
   assert.equal((html.match(/class="postCard"/g) ?? []).length, 1);
   assert.equal((html.match(/فتح الرسالة في Gmail/g) ?? []).length, 1);
   assert.equal((html.match(/Asmaa Atya/g) ?? []).length >= 5, true);

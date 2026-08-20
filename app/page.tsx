@@ -13,7 +13,7 @@ const jobs = [
     role: "Flutter Mobile Engineer",
     location: "القاهرة، مصر",
     mode: "دوام كامل · Hybrid",
-    age: "التقديم مفتوح على LinkedIn · تحققت 19 أغسطس",
+    age: "التقديم مفتوح على LinkedIn · تحققت 20 أغسطس",
     salary: "مخفي · Competitive",
     match: "تطابق قوي",
     matchClass: "strong",
@@ -38,7 +38,7 @@ Muhammad Essam`,
     role: "Flutter Developer",
     location: "القاهرة الجديدة، مصر",
     mode: "دوام كامل · On-site",
-    age: "صفحة الشركة الرسمية مفتوحة · تحققت 19 أغسطس",
+    age: "صفحة الشركة الرسمية مفتوحة · تحققت 20 أغسطس",
     salary: "مخفي · Competitive",
     match: "تطابق قوي",
     matchClass: "strong",
@@ -63,7 +63,7 @@ Muhammad Essam`,
     role: "Flutter Developer",
     location: "القاهرة، مصر",
     mode: "دوام كامل · نموذج العمل يحتاج تأكيد",
-    age: "Apply مفتوح على LinkedIn · تحققت 19 أغسطس",
+    age: "Apply مفتوح على LinkedIn · تحققت 20 أغسطس",
     salary: "مخفي",
     match: "تطابق قوي",
     matchClass: "strong",
@@ -86,7 +86,7 @@ Muhammad Essam`,
     role: "Flutter Mobile Application Developer",
     location: "المقطم، القاهرة، مصر",
     mode: "دوام كامل · On-site",
-    age: "صفحة الشركة الرسمية مفتوحة · تحققت 19 أغسطس",
+    age: "صفحة الشركة الرسمية مفتوحة · تحققت 20 أغسطس",
     salary: "مخفي",
     match: "تطابق قوي",
     matchClass: "strong",
@@ -111,7 +111,7 @@ Muhammad Essam`,
     role: "Flutter Mobile Developer",
     location: "الشيخ زايد، الجيزة، مصر",
     mode: "دوام كامل · Remote من مصر",
-    age: "Apply مفتوح على Wuzzuf · تحققت 19 أغسطس",
+    age: "Apply مفتوح على Wuzzuf · تحققت 20 أغسطس",
     salary: "مخفي",
     match: "تطابق قوي",
     matchClass: "strong",
@@ -139,7 +139,7 @@ const androidJobs = [
     role: "Middle Android Developer",
     location: "Smart Village، الجيزة، مصر",
     mode: "دوام كامل · On-site",
-    age: "صفحة الشركة الرسمية مفتوحة · تحققت 19 أغسطس",
+    age: "صفحة الشركة الرسمية مفتوحة · تحققت 20 أغسطس",
     salary: "مخفي · مدفوع بالدولار",
     match: "تطابق قوي",
     matchClass: "strong",
@@ -162,7 +162,7 @@ Asmaa Atya`,
     role: "Senior Android Developer",
     location: "القاهرة، مصر",
     mode: "دوام كامل · Work model غير معلن",
-    age: "صفحة التوظيف المفتوحة · تحققت 19 أغسطس",
+    age: "صفحة التوظيف المفتوحة · تحققت 20 أغسطس",
     salary: "مخفي",
     match: "فرصة ممكنة",
     matchClass: "stretch",
@@ -185,7 +185,7 @@ Asmaa Atya`,
     role: "Mid-level Android Developer",
     location: "المعادي، القاهرة، مصر",
     mode: "دوام كامل · Hybrid",
-    age: "Apply مفتوح على Wuzzuf · تحققت 19 أغسطس",
+    age: "Apply مفتوح على Wuzzuf · تحققت 20 أغسطس",
     salary: "مخفي",
     match: "تطابق قوي",
     matchClass: "strong",
@@ -208,7 +208,7 @@ Asmaa Atya`,
     role: "Android Engineer",
     location: "القاهرة، مصر",
     mode: "دوام كامل · Hybrid / Work from anywhere حتى 30 يومًا",
-    age: "صفحة Henkel الرسمية مفتوحة · تحققت 19 أغسطس",
+    age: "صفحة Henkel الرسمية مفتوحة · تحققت 20 أغسطس",
     salary: "مخفي",
     match: "تطابق قوي",
     matchClass: "strong",
@@ -227,24 +227,47 @@ Best regards,
 Asmaa Atya`,
   },
   {
-    company: "Procore Technologies",
-    role: "Senior Software Engineer, Android",
+    company: "Egyptian Banks Company",
+    role: "Senior Engineer, Mobile Software Development (Android)",
+    location: "القاهرة الجديدة، مصر",
+    mode: "دوام كامل · On-site · Easy Apply",
+    age: "التقديم مفتوح على LinkedIn · تحققت 20 أغسطس",
+    salary: "مخفي",
+    match: "تطابق قوي",
+    matchClass: "strong",
+    why: "الدور يطلب تقريبًا 3+ سنوات Android مع Kotlin/Java وMVVM/MVI وRetrofit وRoom وCoroutines/Flow وFirebase والاختبارات والأمان؛ تطابق مباشر مع خبرة أسماء.",
+    note: "الدور On-site في New Cairo والراتب غير معلن؛ اسألي عن صافي الراتب وساعات الحضور قبل التقديم.",
+    href: "https://www.linkedin.com/jobs/view/4454740534/",
+    coverLetter: `Dear Egyptian Banks Company Hiring Team,
+
+I am applying for the Senior Engineer, Mobile Software Development (Android) position in New Cairo. I have more than three years of production Android experience using Kotlin, Java, Android SDK, Jetpack Compose, XML, MVVM, MVI, Clean Architecture, Coroutines, dependency injection, REST APIs, Firebase, Git, JUnit, and MockK.
+
+My background includes POS, invoices, payment integrations, secure data handling, multi-module architecture, performance optimization, Google Play releases, and production testing. I also contributed to healthcare and government services, including an Egypt Ministry of Justice application serving more than one million users.
+
+The role’s focus on Kotlin/Java, MVVM or MVI, Retrofit, Room, Coroutines/Flow, Firebase Crashlytics, CI/CD, secure storage, and Android releases aligns closely with my experience. I am based in Egypt and would welcome the opportunity to discuss the on-site New Cairo arrangement.
+
+Best regards,
+Asmaa Atya`,
+  },
+  {
+    company: "geidea",
+    role: "Senior Android Developer",
     location: "القاهرة، مصر",
-    mode: "دوام كامل · On-site",
-    age: "التقديم مفتوح على LinkedIn · تحققت 19 أغسطس",
+    mode: "دوام كامل · On-site · Easy Apply",
+    age: "التقديم مفتوح على LinkedIn · تحققت 20 أغسطس",
     salary: "مخفي",
     match: "فرصة ممكنة",
     matchClass: "stretch",
-    why: "الدور في مكتب Procore بالقاهرة ويطلب Kotlin/Java وJetpack/Compose وMVVM وRoom والأداء؛ خبرة أسماء مناسبة تقنيًا، لكن شرط 5+ سنوات إجماليًا ومسمى Senior يجعلانها Stretch.",
-    note: "التقديم مفتوح والدور On-site في القاهرة، لكن شرط الخبرة الكلي أعلى من الملف المؤكد؛ قدّمي فقط إذا كان المستوى قابلًا للنقاش.",
-    href: "https://eg.linkedin.com/jobs/view/senior-software-engineer-android-at-procore-technologies-4442747363",
-    coverLetter: `Dear Procore Hiring Team,
+    why: "الدور في شركة مدفوعات مصرية ويطلب Kotlin وCompose وMVVM وKMM وHilt/Koin وCoroutines وFlow وRoom وFirebase والأمان؛ التطابق التقني قوي لكن شرط 4–5 سنوات وKMM غير مؤكدين بالكامل.",
+    note: "الوظيفة جديدة ومفتوحة، لكن شرط KMM و4–5 سنوات أعلى من الملف المؤكد؛ قدّميها كفرصة Stretch فقط.",
+    href: "https://www.linkedin.com/jobs/view/4456302158/",
+    coverLetter: `Dear geidea Hiring Team,
 
-I am applying for the Senior Software Engineer, Android position in Cairo. I have more than three years of production Android experience using Kotlin, Java, Android SDK, Jetpack Compose, XML, MVVM, MVI, Clean Architecture, Coroutines, dependency injection, REST APIs, Firebase, Git, and testing.
+I am applying for the Senior Android Developer position in Cairo. I have more than three years of production Android experience using Kotlin, Java, Android SDK, Jetpack Compose, XML, MVVM, MVI, Clean Architecture, Coroutines, dependency injection, REST APIs, Firebase, Git, JUnit, and MockK.
 
-My background includes multi-module architecture, performance optimization, secure data handling, POS and payment integrations, Google Play release management, and government services including an Egypt Ministry of Justice application serving more than one million users. I enjoy owning production features and collaborating with product, backend, and QA teams.
+My background includes POS, invoices, payment integrations, secure data handling, multi-module architecture, performance optimization, Google Play release management, and production support. I also contributed to healthcare and government services, including an Egypt Ministry of Justice application serving more than one million users.
 
-I am based in Egypt and would welcome a discussion about the seniority expectations and Cairo work arrangement.
+geidea’s focus on secure fintech products and its requirements around Compose, MVVM, modular architecture, Coroutines/Flow, Room, Firebase monitoring, CI/CD, and mobile security align closely with my experience. I would welcome a discussion about the seniority expectations and the Cairo work arrangement.
 
 Best regards,
 Asmaa Atya`,
@@ -260,11 +283,11 @@ const rejected = [
 ] as const;
 
 const androidRejected = [
-  "geidea: صفحة LinkedIn أظهرت No longer accepting applications، فتمت إزالته.",
+  "Procore: صفحة LinkedIn أظهرت No longer accepting applications، فتم استبعاده.",
   "Yassir: الإعلان ظاهر قديمًا جدًا، فتمت إزالته بدل حمله كفرصة حية.",
   "Al Ahly Momkn: صفحة LinkedIn قديمة وغير مناسبة كمسار مفتوح مؤكد، فتم استبعاده.",
   "الأدوار Junior/Internship وFlutter-only وReact Native-only وiOS-only اتشالت.",
-  "منشورات LinkedIn: ظهر منشور Smartec صالح لأسماء فقط؛ لم أحتسب OpenToWork أو DM-only أو المنشورات القديمة، لذلك العدد الحقيقي لمحمد ٠ ولأسماء ١ وأقل من ٥.",
+  "منشورات LinkedIn: لم يظهر اليوم منشور مصر مؤهل يجمع دور Android/Flutter وتواصلًا مباشرًا معلنًا خلال ٧٢ ساعة؛ لذلك العدد الحقيقي لمحمد ٠ ولأسماء ٠ وأقل من ٥.",
 ] as const;
 
 function JobCard({ job, index, android = false }: { job: (typeof jobs)[number] | (typeof androidJobs)[number]; index: number; android?: boolean }) {
@@ -317,7 +340,7 @@ function DirectPostCards({ posts }: { posts: readonly DirectPost[] }) {
 export default function Home() {
   return <main>
     <header className="hero">
-      <nav aria-label="رأس التقرير"><span className="brand">فرص محمد وأسماء</span><span className="date">تقرير 19 أغسطس 2026</span></nav>
+      <nav aria-label="رأس التقرير"><span className="brand">فرص محمد وأسماء</span><span className="date">تقرير 20 أغسطس 2026</span></nav>
       <div className="heroCopy"><p className="eyebrow">Flutter وAndroid Native في مصر فقط</p><h1>اختار التخصص وشوف الفرص المناسبة لكل شخص.</h1><p className="intro">وظائف مصرية أو مؤكدة القبول من مصر، مع Cover Letters وقسم إرسال Gmail منفصل لكل مرشح.</p></div>
       <div className="stats" aria-label="ملخص التقرير"><div><strong>2</strong><span>مسار وظيفي</span></div><div><strong>{jobs.length}</strong><span>فرص Flutter</span></div><div><strong>{androidJobs.length}</strong><span>فرص Android</span></div></div>
     </header>
@@ -337,14 +360,14 @@ export default function Home() {
       </section>
 
       <section className="tabPanel androidPanel" aria-labelledby="android-tab">
-        <div className="sectionHead"><div><p className="eyebrow">Android Native · Asmaa Atya</p><h2>٣ قوية و٢ ممكنة</h2></div><p>٥ وظائف رسمية مفتوحة: ٣ قوية و٢ ممكنة. ظهر منشور LinkedIn واحد صالح خلال ٧٢ ساعة بإيميل HR معلن، والعدد الحقيقي ما زال أقل من ٥.</p></div>
+        <div className="sectionHead"><div><p className="eyebrow">Android Native · Asmaa Atya</p><h2>٤ قوية و٢ ممكنة</h2></div><p>٦ وظائف رسمية مفتوحة: ٤ قوية و٢ ممكنة. بحث LinkedIn Posts بترتيب Latest لم يجد اليوم منشور مصر مؤهلًا بإيميل أو WhatsApp خلال ٧٢ ساعة، لذلك العدد الحقيقي ٠ وأقل من ٥.</p></div>
         <div className="jobGrid">{androidJobs.map((job, index) => <JobCard key={`${job.company}-${job.role}`} job={job} index={index} android />)}</div>
-        <section className="linkedInSection" aria-label="منشورات توظيف Android على LinkedIn"><div className="sectionHead"><div><p className="eyebrow">LinkedIn Posts · Email أو WhatsApp فقط</p><h2>تقديم مباشر لأسماء · {freshAndroidDirectPosts.length}</h2></div><p>المنشور الظاهر من Smartec عمره 2d، في المعادي، ويذكر إيميل HR صراحة؛ أضفته مع تحذير Stretch لأن الدور يطلب 4+ سنوات.</p></div><DirectPostCards posts={freshAndroidDirectPosts} /></section>
+        <section className="linkedInSection" aria-label="منشورات توظيف Android على LinkedIn"><div className="sectionHead"><div><p className="eyebrow">LinkedIn Posts · Email أو WhatsApp فقط</p><h2>تقديم مباشر لأسماء · {freshAndroidDirectPosts.length}</h2></div><p>بحث Latest تم التحقق منه عبر كلمات Android وKotlin وJetpack Compose والعربية؛ لم يظهر خلال ٧٢ ساعة منشور مصر صالح بإيميل أو WhatsApp، لذلك العدد الحقيقي ٠ وأقل من ٥.</p></div><DirectPostCards posts={freshAndroidDirectPosts} /></section>
         <EmailComposer candidate="Asmaa Atya" applications={freshAndroidEmailApplications} />
         <div className="rejected" aria-label="فرص Android مستبعدة"><p className="eyebrow">فلترة Android Native</p><h2>ليه فرص تانية ما دخلتش التقرير؟</h2><ul>{androidRejected.map((item) => <li key={item}>{item}</li>)}</ul></div>
       </section>
     </fieldset></section>
 
-    <footer><p>الترتيب مبني على قوة التطابق وحداثة الإعلان ووضوح الراتب ومسار التقديم.</p><p>آخر تحديث: 19 أغسطس 2026 · القاهرة</p></footer>
+    <footer><p>الترتيب مبني على قوة التطابق وحداثة الإعلان ووضوح الراتب ومسار التقديم.</p><p>آخر تحديث: 20 أغسطس 2026 · القاهرة</p></footer>
   </main>;
 }

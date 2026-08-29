@@ -18,14 +18,14 @@ test("renders separate Egypt-only jobs, direct posts, and email actions", async 
   assert.equal(response.status, 200);
 
   const html = await response.text();
-  assert.match(html, /تقرير 26 أغسطس 2026/);
+  assert.match(html, /تقرير 29 أغسطس 2026/);
   assert.match(html, /Axis/);
   assert.match(html, /Reference Agency/);
   assert.match(html, /Adree/);
   assert.match(html, /Div Systems/);
   assert.match(html, /AppFactory/);
-  assert.match(html, /CoorB/);
-  assert.match(html, /BlueCloud Technologies/);
+  assert.match(html, /Nawy/);
+  assert.match(html, /BlueCloud Technologies Group/);
   assert.match(html, /Muhammad Essam/);
   assert.match(html, /Asmaa Atya/);
   assert.match(html, /Android Native/);
@@ -34,6 +34,7 @@ test("renders separate Egypt-only jobs, direct posts, and email actions", async 
   assert.match(html, /Khazna/);
   assert.match(html, /TrianglZ/);
   assert.match(html, /geidea/);
+  assert.doesNotMatch(html, /<p class="company">CoorB<\/p>/);
   assert.doesNotMatch(html, /Envision Employment Solutions/);
   assert.doesNotMatch(html, /Synechron/);
   assert.doesNotMatch(html, /hr@slm-energy\.com/);

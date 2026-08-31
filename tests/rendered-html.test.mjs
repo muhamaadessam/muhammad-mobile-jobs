@@ -18,8 +18,7 @@ test("renders separate Egypt-only jobs, direct posts, and email actions", async 
   assert.equal(response.status, 200);
 
   const html = await response.text();
-  assert.match(html, /تقرير 30 أغسطس 2026/);
-  assert.match(html, /Axis/);
+  assert.match(html, /تقرير 31 أغسطس 2026/);
   assert.match(html, /Reference Agency/);
   assert.match(html, /Adree/);
   assert.match(html, /Div Systems/);
@@ -36,6 +35,9 @@ test("renders separate Egypt-only jobs, direct posts, and email actions", async 
   assert.match(html, /geidea/);
   assert.match(html, /MBC GROUP/);
   assert.match(html, /Arab Financial Services/);
+  assert.match(html, /onebank/);
+  assert.match(html, /Luxoft/);
+  assert.doesNotMatch(html, /<p class="company">Axis<\/p>/);
   assert.doesNotMatch(html, /<p class="company">CoorB<\/p>/);
   assert.doesNotMatch(html, /Envision Employment Solutions/);
   assert.doesNotMatch(html, /Synechron/);
@@ -43,7 +45,7 @@ test("renders separate Egypt-only jobs, direct posts, and email actions", async 
   assert.doesNotMatch(html, /Procore Technologies/);
   assert.doesNotMatch(html, /Smartec for Digital Systems/);
   assert.equal((html.match(/type="radio"/g) ?? []).length, 2);
-  assert.equal((html.match(/نسخ Cover Letter/g) ?? []).length, 14);
+  assert.equal((html.match(/نسخ Cover Letter/g) ?? []).length, 15);
   assert.equal((html.match(/class="postCard"/g) ?? []).length, 0);
   assert.equal((html.match(/فتح الرسالة في Gmail/g) ?? []).length, 0);
   assert.match(html, /العدد الحقيقي أقل من 5 بعد الفلترة: 0 فقط/);

@@ -1,40 +1,8 @@
-export const freshFlutterEmailApplications = [
-  {
-    company: "شركة برمجيات سعودية (الاسم غير مذكور)",
-    role: "Mobile Application Developer (Flutter أو React Native)",
-    to: "hr@sitksa-eg.com",
-    subject: "Application — Mobile Application Developer (Flutter) — Muhammad Essam",
-    body: `Dear Hiring Team,
-
-I am applying for the Mobile Application Developer position in Heliopolis, Cairo. I have more than three years of production experience building Flutter applications for Android, iOS, and Windows using Dart, BLoC/Cubit, GetX, Clean Architecture, REST APIs, Firebase, Hive, SQLite, SharedPreferences, unit testing, GitHub Actions, and Fastlane.
-
-Your post highlights Flutter or React Native, mobile UI/UX, and API integration for a full-time on-site role in Cairo. My experience with production feature delivery, maintainable mobile architecture, API integrations, performance improvements, testing, and release workflows would allow me to contribute effectively to the team.
-
-I am based in Egypt and would be glad to discuss the role. Portfolio: https://muhamaadessam.github.io/
-
-Best regards,
-Muhammad Essam`,
-  },
-] as const;
+export const freshFlutterEmailApplications = [] as const;
 
 export const freshAndroidEmailApplications = [] as const;
 
-export const freshFlutterDirectPosts = [
-  {
-    company: "شركة برمجيات سعودية (الاسم غير مذكور)",
-    role: "Mobile Application Developer (Flutter أو React Native)",
-    location: "هليوبوليس، القاهرة، مصر · On-site",
-    age: "1d",
-    poster: "Ali Haider",
-    posterRole: "حساب شخصي؛ ليس واضحًا أنه مسؤول توظيف",
-    match: "فرصة ممكنة",
-    matchClass: "stretch",
-    summary: "المنشور يذكر Flutter، تكامل APIs وواجهات الموبايل لدور كامل في القاهرة؛ مناسب كفرصة ممكنة لأن الدور مختلط والخبرة المطلوبة غير محددة.",
-    contact: "إيميل معلن في المنشور: hr@sitksa-eg.com",
-    note: "اسم الشركة غير مذكور والحساب ليس حساب توظيف واضحًا؛ تحقّق من جهة العمل قبل إرسال الـCV.",
-    href: "https://www.linkedin.com/in/ali-haider-060202381/recent-activity/all/",
-  },
-] as const;
+export const freshFlutterDirectPosts = [] as const;
 
 export const freshAndroidDirectPosts = [
   {

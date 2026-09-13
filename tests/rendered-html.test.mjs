@@ -18,14 +18,13 @@ test("renders separate Egypt-only jobs, direct posts, and email actions", async 
   assert.equal(response.status, 200);
 
   const html = await response.text();
-  assert.match(html, /تقرير 11 سبتمبر 2026/);
+  assert.match(html, /تقرير 13 سبتمبر 2026/);
   assert.match(html, /Reference Agency/);
   assert.match(html, /Adree/);
   assert.match(html, /Div Systems/);
   assert.match(html, /AppFactory/);
   assert.match(html, /Al - Tadamun Microfinance Association/);
   assert.match(html, /MMB Logistics and Consulting Services/);
-  assert.match(html, /Devop Technologies/);
   assert.match(html, /Muhammad Essam/);
   assert.match(html, /Asmaa Atya/);
   assert.match(html, /Android Native/);
@@ -42,14 +41,15 @@ test("renders separate Egypt-only jobs, direct posts, and email actions", async 
   assert.doesNotMatch(html, /hr@slm-energy\.com/);
   assert.doesNotMatch(html, /Procore Technologies/);
   assert.doesNotMatch(html, /Smartec for Digital Systems/);
+  assert.doesNotMatch(html, /ABG Egypt/);
   assert.equal((html.match(/type="radio"/g) ?? []).length, 2);
-  assert.equal((html.match(/نسخ Cover Letter/g) ?? []).length, 13);
-  assert.equal((html.match(/class="postCard"/g) ?? []).length, 1);
+  assert.equal((html.match(/نسخ Cover Letter/g) ?? []).length, 12);
+  assert.equal((html.match(/class="postCard"/g) ?? []).length, 0);
   assert.equal((html.match(/فتح الرسالة في Gmail/g) ?? []).length, 0);
   assert.match(html, /العدد الحقيقي أقل من 5 بعد الفلترة: 0 فقط/);
-  assert.match(html, /العدد الحقيقي أقل من 5 بعد الفلترة: 1 فقط/);
+  assert.doesNotMatch(html, /العدد الحقيقي أقل من 5 بعد الفلترة: 1 فقط/);
   assert.doesNotMatch(html, /hr@sitksa-eg\.com/);
-  assert.match(html, /01126135207/);
-  assert.match(html, /افتح WhatsApp/);
+  assert.doesNotMatch(html, /01126135207/);
+  assert.doesNotMatch(html, /افتح WhatsApp/);
   assert.equal((html.match(/Asmaa Atya/g) ?? []).length >= 5, true);
 });

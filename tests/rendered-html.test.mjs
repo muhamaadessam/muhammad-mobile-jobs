@@ -20,6 +20,7 @@ test("renders separate Egypt-only jobs, direct posts, and email actions", async 
   const html = await response.text();
   assert.match(html, /تقرير 13 سبتمبر 2026/);
   assert.match(html, /Reference Agency/);
+  assert.match(html, /ArpuPlus \/ ARPU Telecommunications Services/);
   assert.match(html, /Adree/);
   assert.match(html, /Div Systems/);
   assert.match(html, /AppFactory/);
@@ -43,7 +44,7 @@ test("renders separate Egypt-only jobs, direct posts, and email actions", async 
   assert.doesNotMatch(html, /Smartec for Digital Systems/);
   assert.doesNotMatch(html, /ABG Egypt/);
   assert.equal((html.match(/type="radio"/g) ?? []).length, 2);
-  assert.equal((html.match(/نسخ Cover Letter/g) ?? []).length, 12);
+  assert.equal((html.match(/نسخ Cover Letter/g) ?? []).length, 13);
   assert.equal((html.match(/class="postCard"/g) ?? []).length, 0);
   assert.equal((html.match(/فتح الرسالة في Gmail/g) ?? []).length, 0);
   assert.match(html, /العدد الحقيقي أقل من 5 بعد الفلترة: 0 فقط/);

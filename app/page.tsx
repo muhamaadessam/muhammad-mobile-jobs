@@ -29,7 +29,11 @@ const androidJobs = [
 ] as const;
 
 const activeFlutterJobs = flutterJobs.filter((job) => !["Jawda", "Fulltek | فولتك"].includes(job.company));
-const activeAndroidJobs = androidJobs.filter((job) => !["Egyptian Banks Company", "Erada Finance", "Boutiqaat"].includes(job.company));
+const activeAndroidJobs = androidJobs.filter((job) => ![
+  "https://www.linkedin.com/jobs/view/4454740534/",
+  "https://wuzzuf.net/jobs/p/2w8VM8xYq1Th-Senior-Mobile-Engineer-Erada-Cairo-Egypt",
+  "https://eg.trabajo.org/job-4112-a77ce95326ca0049b7db5eb69684d990",
+].includes(job.href));
 
 const rejected = [
   "أُزيلت Jawda لأن صفحة Wuzzuf الحالية لا تعرض مسار Apply واضحًا، وأُزيلت Fulltek القديمة لأن الصفحة الحالية مختلفة ولا تثبت مستوى 3+ سنوات.",

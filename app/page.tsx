@@ -34,38 +34,88 @@ const freshFlutterJobs = [
   { company: "Beyond Menu", role: "Senior Flutter Developer", location: "القاهرة، مصر", mode: "دوام كامل · Remote مع يوم حضور كل أسبوعين", age: "LinkedIn يعرض Apply · منشور منذ أسبوع · تحققت 12 أكتوبر", salary: "مخفي", match: "فرصة ممكنة", matchClass: "stretch", why: "3+ سنوات Flutter، Dart، Clean Architecture، DI، الاختبارات وFastlane؛ الدور في القاهرة/Remote ويطابق جوهر خبرة محمد، لكنه يطلب 5+ سنوات ومهارات native/observability متقدمة.", note: "Stretch صريح بسبب شرط 5+ سنوات وخبرة Sentry/Datadog وnative iOS/Android؛ الخطاب لا يدّعي هذه الخبرات.", href: "https://eg.linkedin.com/jobs/view/senior-flutter-developer-at-beyond-menu-4467657514", coverLetter: `Dear Beyond Menu Hiring Team,\n\nI am applying for the Senior Flutter Developer position in Cairo. I have more than three years of production experience building Flutter applications for Android, iOS, and Windows using Dart, BLoC/Cubit, GetX, Clean Architecture, REST APIs, Firebase, Hive, SQLite, testing, GitHub Actions, and Fastlane.\n\nMy confirmed experience with Flutter architecture, dependency injection, API integrations, local persistence, testing, CI/CD, and production releases aligns with the core mobile-delivery needs of this role. I understand that the position asks for 5+ years of mobile experience and deeper observability/native-platform experience, so I am applying as an honest stretch candidate without claiming those unconfirmed requirements.\n\nPortfolio: https://muhamaadessam.github.io/\n\nBest regards,\nMuhammad Essam` },
 ] as const;
 
-const freshAndroidJobs = [
-  { company: "iSpace Technology", role: "Senior Android Engineer", location: "الشيراتون، القاهرة، مصر", mode: "دوام كامل · Hybrid", age: "LinkedIn يعرض Apply · 3+ سنوات · تحققت 10 أكتوبر", salary: "مخفي", match: "فرصة ممكنة", matchClass: "stretch", why: "3+ سنوات Kotlin/Android SDK، Jetpack architecture، Coroutines، DI، REST، Firebase، Play Store، CI/CD، security وperformance؛ تطابق تقني قوي مع خبرة أسماء.", note: "Stretch بسبب Senior وmentoring؛ الإعلان يطلب 3+ سنوات ويؤكد Hybrid في القاهرة، لكن القيادة غير مؤكدة.", href: "https://eg.linkedin.com/jobs/view/senior-android-engineer-at-ispace-technology-4471414590", coverLetter: `Dear iSpace Technology Hiring Team,\n\nI am applying for the Senior Android Engineer position in Sheraton, Cairo. I have more than three years of production Android experience using Kotlin, Java, Android SDK, Jetpack Compose, XML/View Binding, MVVM, MVI, Clean Architecture, Coroutines, dependency injection, REST APIs, Firebase, Git, JUnit, and MockK.\n\nMy confirmed experience with production Android delivery, modular architecture, APIs, performance optimization, secure data handling, Google Play releases, and testing aligns closely with the role’s requirements. I understand the Senior title and mentoring scope, so I am applying as an honest stretch candidate without claiming unconfirmed leadership experience.\n\nBest regards,\nAsmaa Atya` },
-] as const;
+const activeFlutterJobs = [
+  ...flutterJobs.filter((job) => job.company === "AppFactory"),
+  ...freshFlutterJobs.filter((job) => ["Beyond Menu", "Kn-it"].includes(job.company)).map((job) => job.company === "Beyond Menu" ? ({ ...job, href: "https://alion.io/job/beyond-menu-senior-flutter-developer" }) : job),
+];
 
-const activeFlutterJobs = [...flutterJobs.filter((job) => !["Delta Retail Solution", "Jawda", "Fulltek | فولتك"].includes(job.company)), ...freshFlutterJobs];
-const activeAndroidJobs = [...androidJobs.filter((job) => ![
-  "https://eg.linkedin.com/jobs/view/kotlin-android-developer-at-delta-retail-solution-4473557188",
-  "https://www.linkedin.com/jobs/view/4454740534/",
-  "https://www.linkedin.com/jobs/view/4457896506/",
-  "https://eg.linkedin.com/jobs/view/senior-android-developer-at-khazna-4440455368",
-  "https://wuzzuf.net/jobs/p/2w8VM8xYq1Th-Senior-Mobile-Engineer-Erada-Cairo-Egypt",
-  "https://eg.trabajo.org/job-4112-a77ce95326ca0049b7db5eb69684d990",
-  "https://eg.linkedin.com/jobs/view/android-developer-at-galaxi-consulting-group-4477128857",
-  "https://eg.linkedin.com/jobs/view/senior-android-developer-at-boutiqaat-4449570048",
-].includes(job.href)), ...freshAndroidJobs];
+const refreshedAndroidJobs = [
+  ...androidJobs.filter((job) => ["VerteX Technologies", "Nile Bits, LLC."].includes(job.company)).map((job) => job.company === "Nile Bits, LLC." ? ({ ...job, href: "https://www.bayt.com/en/egypt/jobs/android-developer-75287836/", match: "تطابق قوي", matchClass: "strong", note: "الدور يطلب 3 سنوات Native Android/Kotlin ويؤكد Cairo/Remote؛ خبرة SDK/reusable-library مفضلة وليست مدعاة في الخطاب." }) : job),
+  {
+    company: "Property Finder",
+    role: "Android Engineer",
+    location: "القاهرة، مصر",
+    mode: "دوام كامل · Egypt team",
+    age: "LinkedIn يعرض Apply · نُشر منذ 23 ساعة · تحققت 17 أكتوبر",
+    salary: "مخفي",
+    match: "تطابق قوي",
+    matchClass: "strong",
+    why: "3+ سنوات Android production، Kotlin، Jetpack Compose، Coroutines/Flow، Hilt، Retrofit، JUnit/MockK وPlay Store؛ تطابق مباشر مع ملف أسماء.",
+    note: "الدور في فريق القاهرة ويطلب Compose و3+ سنوات؛ خبرة backend-driven UI وA/B testing ليست مدعاة في الخطاب.",
+    href: "https://eg.linkedin.com/jobs/view/android-engineer-at-property-finder-4475568096",
+    coverLetter: `Dear Property Finder Hiring Team,\n\nI am applying for the Android Engineer position in Cairo. I have more than three years of production Android experience using Kotlin, Java, Android SDK, Jetpack Compose, XML/View Binding, MVVM, MVI, Clean Architecture, Coroutines, dependency injection, REST APIs, Firebase, Git, JUnit, and MockK.\n\nMy confirmed experience with modular Android delivery, Compose and XML interfaces, REST integrations, testing, performance optimization, secure data handling, and Google Play release management aligns with the role’s Android, Compose, architecture, API, testing, and release requirements.\n\nBest regards,\nAsmaa Atya`,
+  },
+  {
+    company: "Khazna",
+    role: "Senior Android Developer",
+    location: "القاهرة، مصر",
+    mode: "دوام كامل · Egypt team",
+    age: "LinkedIn يعرض Apply · 3+ سنوات · تحققت 17 أكتوبر",
+    salary: "مخفي",
+    match: "فرصة ممكنة",
+    matchClass: "stretch",
+    why: "3+ سنوات Native Android/Kotlin، Hilt/Dagger، MVVM/MVI/Clean Architecture، CI/CD، الاختبارات وواجهات الدفع؛ تطابق قوي تقنيًا.",
+    note: "Stretch لأن المسمى Senior؛ الشركة تؤكد توسع فريقها في مصر، والخطاب لا يدّعي قيادة أو أقدمية غير مؤكدة.",
+    href: "https://eg.linkedin.com/jobs/view/senior-android-developer-at-khazna-4455071741",
+    coverLetter: `Dear Khazna Hiring Team,\n\nI am applying for the Senior Android Developer position in Cairo. I have more than three years of production Android experience using Kotlin, Java, Android SDK, Jetpack Compose, XML/View Binding, MVVM, MVI, Clean Architecture, Coroutines, dependency injection, REST APIs, Firebase, Git, JUnit, and MockK.\n\nMy confirmed domain experience includes POS, invoices, payment integrations, secure data handling, performance optimization, and Google Play release management. These strengths align with Khazna’s Android, Kotlin, architecture, API, testing, and financial-services work.\n\nI understand the Senior title, so I am applying as an honest stretch candidate without claiming unconfirmed leadership experience.\n\nBest regards,\nAsmaa Atya`,
+  },
+  {
+    company: "BlackStone eIT",
+    role: "Senior Android Developer",
+    location: "القاهرة، مصر",
+    mode: "دوام كامل · Egypt team",
+    age: "LinkedIn يعرض Apply · نُشر منذ أسبوع · تحققت 17 أكتوبر",
+    salary: "مخفي",
+    match: "فرصة ممكنة",
+    matchClass: "stretch",
+    why: "Android SDK، Java/Kotlin، REST، offline storage، threading، performance، Git وCI؛ أساس تقني جيد لخبرة أسماء.",
+    note: "Stretch بسبب Senior والميل إلى Java؛ صفحة LinkedIn الحالية ما زالت تعرض Apply في القاهرة.",
+    href: "https://www.linkedin.com/jobs/view/4463372520/",
+    coverLetter: `Dear BlackStone eIT Hiring Team,\n\nI am applying for the Senior Android Developer position in Cairo. I have more than three years of production Android experience using Kotlin, Java, Android SDK, Jetpack Compose, XML/View Binding, MVVM, MVI, Clean Architecture, Coroutines, dependency injection, REST APIs, Firebase, Git, JUnit, and MockK.\n\nMy experience with API integration, local data handling, performance optimization, secure data handling, testing, and release workflows aligns with the role’s Android SDK, REST, storage, threading, Git, and CI requirements. I understand the Senior title, so I am applying as an honest stretch candidate without claiming unconfirmed leadership experience.\n\nBest regards,\nAsmaa Atya`,
+  },
+  {
+    company: "Henkel",
+    role: "Android Engineer",
+    location: "القاهرة، مصر",
+    mode: "دوام كامل · Hybrid / work-from-anywhere policy",
+    age: "LinkedIn يعرض Apply · 3+ سنوات · تحققت 17 أكتوبر",
+    salary: "مخفي",
+    match: "فرصة ممكنة",
+    matchClass: "stretch",
+    why: "Kotlin، Android SDK، Compose، Clean Architecture، APIs، security، performance، CI/CD وreleases؛ مطابق للجزء الأصلي من الدور.",
+    note: "Stretch لأن React Native وخبرة cross-platform مطلوبة أيضًا؛ التقديم ما زال ظاهرًا وموقع الدور القاهرة.",
+    href: "https://www.linkedin.com/jobs/view/4443930921/",
+    coverLetter: `Dear Henkel Hiring Team,\n\nI am applying for the Android Engineer position in Cairo. I have more than three years of production Android experience using Kotlin, Java, Android SDK, Jetpack Compose, XML/View Binding, MVVM, MVI, Clean Architecture, Coroutines, dependency injection, REST APIs, Firebase, Git, JUnit, and MockK.\n\nMy confirmed background in Android architecture, APIs, secure data handling, performance optimization, testing, CI/CD, and Google Play release management aligns with the native Android portion of this role. I understand that React Native and cross-platform experience are also requested, so I am applying as an honest stretch candidate without claiming that experience.\n\nBest regards,\nAsmaa Atya`,
+  },
+];
+const activeAndroidJobs = refreshedAndroidJobs;
 
 const rejected = [
-  "أُزيلت Jawda لأن صفحة Wuzzuf الحالية لا تعرض مسار Apply واضحًا، وأُزيلت Fulltek القديمة لأن الصفحة الحالية مختلفة وموسومة Entry level ولا تثبت مستوى 3+ سنوات؛ أضيفت Beyond Menu كـStretch بعد التحقق من أن صفحة القاهرة ما زالت مفتوحة.",
+  "أُزيلت Axis لأن LinkedIn يقول إن التقديم لم يعد مقبولًا، وأُزيلت Sinmar Soft لأنها تطلب 5–7 سنوات؛ أُبقيت AppFactory وKn-it، وأُضيفت Beyond Menu كـStretch بعد التحقق من صفحة القاهرة المفتوحة.",
   "استُبعدت Junior/Internship وReact Native-only وiOS-only والأدوار خارج مصر، كما لم أعتبر generic remote دليلًا على قبول العمل من مصر.",
-  "بحثت LinkedIn Posts/content منفصلًا بترتيب Latest بالعربي والإنجليزي؛ Cloudura هو المنشور الوحيد المؤهل اليوم (2d، القاهرة، وإيميل معلن). استُبعدت DM/form-only وOpenToWork والمنشورات الأقدم أو junior؛ الحصيلة الحقيقية لمحمد 1 فقط.",
+  "بحثت LinkedIn Posts/content منفصلًا بترتيب Latest بالعربي والإنجليزي؛ لم يثبت أي منشور مصري خلال 72 ساعة مع إيميل أو WhatsApp معلن. استُبعدت Cloudura لأنها صارت أقدم من 72 ساعة، وكذلك DM/form-only وOpenToWork والمنشورات الأقدم أو junior؛ الحصيلة الحقيقية لمحمد 0.",
 ] as const;
 
 const androidRejected = [
-  "أُزيلت Delta لأنها موسومة Entry level، وEgyptian Banks وKhazna وGalaxi وBoutiqaat لأن صفحات LinkedIn الحالية مغلقة أو لم تعد تقبل الطلبات، وأُزيلت Erada لأن صفحة Wuzzuf الحالية لا تعرض مسار Apply واضحًا؛ بقيت الوظائف ذات المسار المفتوح فقط.",
-  "استُبعدت Junior/Internship وFlutter-only وReact Native-only وiOS-only، والأدوار التي تحتاج 5+ سنوات أو قيادة إلا كـStretch واضح، وأي KMM/SDK شرط لم تؤكده خبرة أسماء.",
-  "بحثت LinkedIn Posts/content منفصلًا بترتيب Latest وبمصطلحات Android وKotlin وCompose وWhatsApp؛ لم أجد منشورًا مؤهلًا بعمر ظاهر خلال 72 ساعة مع إيميل أو WhatsApp مباشر، فالحصيلة الحقيقية لأسماء 0.",
+  "أُزيلت iSpace وEgyptian Banks وBoutiqaat وReference Agency لأن صفحاتها الحالية مغلقة أو لم تعد تقبل الطلبات، وأُزيلت Delta لأنها موسومة Entry level؛ بقيت المسارات التي تعرض Apply أو صفحة شركة مفتوحة.",
+  "استُبعدت Junior/Internship وFlutter-only وiOS-only، والأدوار التي تحتاج 5+ سنوات أو قيادة إلا كـStretch واضح. أُدرج Henkel كـStretch لأن React Native مطلوب بجانب Android، وليس كدور React Native-only.",
+  "بحثت LinkedIn Posts/content منفصلًا بترتيب Latest وبمصطلحات Android وKotlin وCompose وWhatsApp؛ لم أجد منشورًا مصريًا مؤهلًا بعمر ظاهر خلال 72 ساعة مع إيميل أو WhatsApp مباشر، فالحصيلة الحقيقية لأسماء 0.",
 ] as const;
 
 type Job = { company: string; role: string; location: string; mode: string; age: string; salary: string; match: string; matchClass: string; why: string; note: string; href: string; coverLetter: string };
 
 function JobCard({ job, index, android = false }: { job: Job; index: number; android?: boolean }) {
-  const verification = job.age.replace("8 أكتوبر", "12 أكتوبر").replace("9 أكتوبر", "12 أكتوبر").replace("10 أكتوبر", "12 أكتوبر").replace("11 أكتوبر", "12 أكتوبر");
+  const verification = job.age.replace(/(?:8|9|10|11|12|14) أكتوبر/g, "17 أكتوبر");
   return <article className="jobCard"><div className="cardTop"><span className="rank">{String(index + 1).padStart(2, "0")}</span><span className={`match ${job.matchClass}`}>{job.match}</span></div><p className="company">{job.company}</p><h3>{job.role}</h3><div className="meta"><span>{job.location}</span><span>{job.mode}</span><span>{verification}</span></div><div className="salary"><span>الراتب</span><strong>{job.salary}</strong></div><p className="why"><b>ليه مناسبة:</b> {job.why}</p><p className="note"><b>خد بالك:</b> {job.note}</p><div className="actions"><CopyButton text={job.coverLetter} /><a href={job.href} target="_blank" rel="noreferrer">{android ? "افتح التقديم" : "افتح الوظيفة"} <span aria-hidden="true">↗</span></a></div></article>;
 }
 
@@ -82,4 +132,4 @@ function ReportTab({ android = false }: { android?: boolean }) {
   return <section className={`tabPanel ${android ? "androidPanel" : "flutterPanel"}`} aria-labelledby={android ? "android-tab" : "flutter-tab"}><div className="sectionHead"><div><p className="eyebrow">{android ? "Android Native · Asmaa Atya" : "Flutter · Muhammad Essam"}</p><h2>{strong} قوية{jobs.length - strong ? ` و${jobs.length - strong} ممكنة` : ""}</h2></div><p>{jobs.length} وظائف رسمية مفتوحة ومتحقق منها داخل مصر. LinkedIn Posts بترتيب Latest خلال آخر 72 ساعة: {posts.length} صالح؛ {posts.length < 5 ? `العدد الحقيقي أقل من 5 بعد الفلترة: ${posts.length} فقط.` : ""}</p></div><div className="jobGrid">{jobs.map((job, index) => <JobCard key={`${job.company}-${job.role}`} job={job} index={index} android={android} />)}</div><section className="linkedInSection" aria-label={`منشورات توظيف ${android ? "Android" : "Flutter"} على LinkedIn`}><div className="sectionHead"><div><p className="eyebrow">LinkedIn Posts · Email أو WhatsApp فقط</p><h2>تقديم مباشر لـ{ name } · {posts.length}</h2></div><p>الفلترة مصر فقط، والعمر الظاهر حتى 72 ساعة فقط. أي منشور بلا إيميل أو WhatsApp معلن لا يظهر هنا.</p></div><DirectPostCards posts={posts} /></section><EmailComposer candidate={name} applications={applications} /><div className="rejected" aria-label="الفرص المستبعدة"><p className="eyebrow">فلترة اليوم</p><h2>ليه فرص تانية ما دخلتش التقرير؟</h2><ul>{rejectedItems.map((item) => <li key={item}>{item}</li>)}</ul></div></section>;
 }
 
-export default function Home() { return <main><header className="hero"><nav aria-label="رأس التقرير"><span className="brand">فرص محمد وأسماء</span><span className="date">تقرير 12 أكتوبر 2026</span></nav><div className="heroCopy"><p className="eyebrow">Flutter وAndroid Native في مصر فقط</p><h1>اختار التخصص وشوف الفرص المناسبة لكل شخص.</h1><p className="intro">وظائف مصرية أو مؤكدة القبول من مصر، مع Cover Letters وقسم إرسال Gmail منفصل لكل مرشح.</p></div><div className="stats" aria-label="ملخص التقرير"><div><strong>2</strong><span>مسار وظيفي</span></div><div><strong>{activeFlutterJobs.length}</strong><span>فرص Flutter</span></div><div><strong>{activeAndroidJobs.length}</strong><span>فرص Android</span></div></div></header><section className="criteria" aria-label="معايير البحث"><span>مصر فقط أو Remote من مصر</span><span>لا وظائف انتقال فقط</span><span>تقديم مفتوح ومسار واضح</span><span>Mid أو Senior كفرصة Stretch</span></section><section className="content"><fieldset className="candidateTabs"><legend className="srOnly">اختار تقرير الوظائف</legend><input className="tabInput" type="radio" name="candidate" id="flutter-tab" defaultChecked /><label className="tabLabel" htmlFor="flutter-tab"><span>Flutter — Muhammad Essam</span><small>محمد Essam</small></label><input className="tabInput" type="radio" name="candidate" id="android-tab" /><label className="tabLabel" htmlFor="android-tab"><span>Android Native — Asmaa Atya</span><small>أسماء Atya</small></label><ReportTab /><ReportTab android /></fieldset></section><footer><p>الترتيب مبني على قوة التطابق وحداثة الإعلان ووضوح الراتب ومسار التقديم.</p><p>آخر تحديث: 12 أكتوبر 2026 · القاهرة</p></footer></main>; }
+export default function Home() { return <main><header className="hero"><nav aria-label="رأس التقرير"><span className="brand">فرص محمد وأسماء</span><span className="date">تقرير 17 أكتوبر 2026</span></nav><div className="heroCopy"><p className="eyebrow">Flutter وAndroid Native في مصر فقط</p><h1>اختار التخصص وشوف الفرص المناسبة لكل شخص.</h1><p className="intro">وظائف مصرية أو مؤكدة القبول من مصر، مع Cover Letters وقسم إرسال Gmail منفصل لكل مرشح.</p></div><div className="stats" aria-label="ملخص التقرير"><div><strong>2</strong><span>مسار وظيفي</span></div><div><strong>{activeFlutterJobs.length}</strong><span>فرص Flutter</span></div><div><strong>{activeAndroidJobs.length}</strong><span>فرص Android</span></div></div></header><section className="criteria" aria-label="معايير البحث"><span>مصر فقط أو Remote من مصر</span><span>لا وظائف انتقال فقط</span><span>تقديم مفتوح ومسار واضح</span><span>Mid أو Senior كفرصة Stretch</span></section><section className="content"><fieldset className="candidateTabs"><legend className="srOnly">اختار تقرير الوظائف</legend><input className="tabInput" type="radio" name="candidate" id="flutter-tab" defaultChecked /><label className="tabLabel" htmlFor="flutter-tab"><span>Flutter — Muhammad Essam</span><small>محمد Essam</small></label><input className="tabInput" type="radio" name="candidate" id="android-tab" /><label className="tabLabel" htmlFor="android-tab"><span>Android Native — Asmaa Atya</span><small>أسماء Atya</small></label><ReportTab /><ReportTab android /></fieldset></section><footer><p>الترتيب مبني على قوة التطابق وحداثة الإعلان ووضوح الراتب ومسار التقديم.</p><p>آخر تحديث: 17 أكتوبر 2026 · القاهرة</p></footer></main>; }
